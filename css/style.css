@@ -5,9 +5,9 @@
 */
 
 .logo{
-	font-family: Bad Script;
-	font-size: 42px;
-	padding: 23px;
+	font-family: Courier;
+	font-size: 38px;
+	padding: 13px;
 	float: left;
 	margin: 7px 7px 10px;
 	
@@ -20,12 +20,25 @@ h1 a{
 	             1px 1px 1px rgb(2,110,150);
 }
 
+.logo1{
+	font-family: Courier;
+	font-size: 38px;
+	padding: 23px;
+	float: left;
+	margin: 7px 7px 10px;
+	text-decoration: none;
+	color: black;
+	text-shadow: 5px 10px 10px black,	
+	             1px 1px 1px rgb(2,110,150);
+
+}
+
 
 
 .main h2{
 	margin-top: 20px;
 	margin-bottom: 13px;
-	font-family: Waiting for the Sunrise;	
+	font-family: Monospace;	
 	font-size: 44px;
 	
 	letter-spacing: 0px;
@@ -34,7 +47,7 @@ h1 a{
 }
 
 .main p{
-	font-family: Bad Script;
+	font-family: Cambria;
 	font-size: 22px;
 	padding-right: 14px;
 
@@ -43,7 +56,7 @@ li a, li p{
 	text-decoration: none;
 	background-color: rgba(233,232,237,0.5);
 	color: rgb(110,110,110);
-	font-family: Advent Pro;
+	font-family: Monospace;
 	font-size: 18px;
 
 }
@@ -80,7 +93,7 @@ nav li{
 	color: grey;
 	background: rgba(0,0,0,0.5);
 	font-size: 19px;
-	font-family: Alex Brush;
+	font-family: Monospace;
 	margin-top: 170px;
 
 }
@@ -98,7 +111,7 @@ li a:hover, .selected{
 }
 footer p{
 	font-size: 11px;
-	font-family: Bruno Ace;	
+	font-family: Courier New;	
 
 	position: relative;
 	margin: auto;
@@ -148,7 +161,7 @@ footer p{
 
 .banner #p1, .banner #p2{
 	background: rgba(0,0,0,0.5);
-	font-family: Amatic SC;
+	font-family: Courier New;
 	color: white;
 	font-size: 30px;
 
@@ -164,7 +177,7 @@ footer p{
 
 	background: rgba(0,0,0,0.75);
 	color: white;
-	font-family: Advent Pro;
+	font-family: Monospace;
 	font-size: 16px;
 	max-width: 77px;
 	margin: auto;
@@ -196,7 +209,7 @@ footer p{
 	content: '"';
 	font-size:40px;
 	color: #bfbfbf;
-	font-family: arial;
+	font-family: Monospace;
 	font-style: italic;
 	max-width: 5px;
 	padding: 0;
@@ -209,7 +222,7 @@ footer p{
 }
 
 .quote p{
-	font-family: Cedarville Cursive;
+	font-family: Georgia;
 	color: rgb(80,80,80);
 	word-spacing: 1px;
 	font-size: 35px;
