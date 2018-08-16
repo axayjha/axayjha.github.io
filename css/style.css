@@ -56,10 +56,10 @@ header{
 
 body{
 	margin: auto;
-	background: url(../img/bg1.jpg) ;
+	background: url(https://github.com/axayjha/axayjha.github.io/raw/master/img/bg1.JPG) ;
 }
 .banner{
-	background: url(../img/bg2.jpg) no-repeat;
+	background: url(https://github.com/axayjha/axayjha.github.io/raw/master/img/bg2.JPG) no-repeat;
 	width: 300px;
 	height: 200px;
 
@@ -71,7 +71,7 @@ nav li{
 }
 
 .blank{
-	background: url(../img/bg3.jpg) center;
+	background: url(https://github.com/axayjha/axayjha.github.io/raw/master/img/bg3.JPG) center;
 	height: 200px;
 	
 }
