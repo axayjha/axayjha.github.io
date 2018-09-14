@@ -75,14 +75,15 @@ www.akshayjha.co.nr
 
 	    <article class="articlecolumn">
             <h2>Getting started with MASM 8086 assembly</h2>
-            <p style="font-family: Courier New; font-size: 15px">
+            <p style="font-family: Helvetica; font-size: 15px">
 
-                    Why suddenly 8086 assembly using MASM? Well, partly because I love  <br/>
-                    exploring random legacy system programming and partly because I stumbled<br/>
-                     upon this book called “C using Assembly Language” by Steven Holzner (1989). <br/>
-                     Author has used Quick C and Microsoft Micro Assembler to demonstrate use cases. <br/>
-                     So here I am, experimenting with stuffs.<br/><br/>
+                    <b>Why suddenly 8086 assembly using MASM? </b><br/>
+                    Well, partly because I love exploring random legacy system programming <br/>
+                    and partly because I stumbled upon this book called “C using Assembly Language” <br/>
+                    by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler<br/>
+                    to demonstrate use cases. So here I am, experimenting with stuffs.<br/><br/>
 
+                    <b>Setup</b><br/>
                     To get started with MASM, we need to have DOSBOX (an IBM PC compatible DOS emulator)<br/>
                      and MASM 8086 assembler files to go along with it. <br/><br/>
                     
@@ -99,7 +100,10 @@ www.akshayjha.co.nr
                     
                     Now start DOSBOX. You should see the prompt to be z:\><br/>
                     Type “mount c ~/dosbox/8086”<br/>
-                    Then type “c:” to change drive.<br/><br/>
+                    <code> Z:\> mount c ~/dosbox/8086</code> <br/>
+                    Then type “c:” to change drive.<br/>
+                    <code>Z:\> C:</code><br/>
+                    <code>C:\></code><br/><br/>
                     
                     Now you are ready to go. You can use “edit” utility to create and edit new asm files.<br/>
                     For example: “edit hello.asm”<br/>
@@ -112,6 +116,8 @@ www.akshayjha.co.nr
                     (Again press Enter a couple of times)<br/>
                     Then type “hello.exe” and press Enter to execute the program.<br/><br/>
                     
+                    <img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/screenshots/masm.png" style="width:576px;height:400px;"><br/><br/>
+
                     <b>Now coming to the assembly code.</b><br/><br/>
                     
                     MASM programs usually contains two segments: CODE and DATA.<br/>
@@ -141,7 +147,12 @@ www.akshayjha.co.nr
                      function code 4Ch in AH. In line 20 we are directly moving 4C00h into AX, signifying normal exit.<br/><br/>
             </p>
             <br/><br/>
-			<script src="https://gist.github.com/axayjha/c592499d033ba4a70014311c67ebe9ec.js"></script>
+            <script src="https://gist.github.com/axayjha/c592499d033ba4a70014311c67ebe9ec.js"></script> <br/><br/>
+            <h2>Resources</h2>
+            <a href="http://www.shsu.edu/~csc_tjm/fall2002/cs272/intro_to_asm.html">http://www.shsu.edu/~csc_tjm/fall2002/cs272/intro_to_asm.html</a><br/>
+            <a href="https://www.csc.depauw.edu/~bhoward/asmtut/asmtut12.html#topic11">https://www.csc.depauw.edu/~bhoward/asmtut/asmtut12.html#topic11</a><br/>
+            <a href="http://alpbyrs.blogspot.com/2015/06/assembly-language-programming.html">http://alpbyrs.blogspot.com/2015/06/assembly-language-programming.html</a><br/>
+
 		</article>
 		
 	</div>
