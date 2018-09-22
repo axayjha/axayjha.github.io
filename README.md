@@ -1,10 +1,9 @@
-Source for:
+Source for my portfolio page:
 
-www.akshayjha.co.nr
-
-akshayjha.github.io
+https://axayjha.github.io
 
 
 
 Author:
-Akshay Jha
+Akshay Anand
+akshayjha@live.in
