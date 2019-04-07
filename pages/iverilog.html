@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<!--
+
+Author: Akshay
+akshayjha@live.in
+GitHub.com/AxayJha
+www.akshayjha.co.nr
+
+-->
+
+<html>
+
+<head>
+
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">    
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/960_24_col.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/fonts.css">
+
+    <title>my low level life - Verilog on nix</title>
+
+</head>
+
+<body>
+
+
+<div class="block container_24">
+	<header>
+
+		<h1 class="logo"><a href="../index.html">Welcome to my low level life;</a></h1>
+
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="about.html">About</a></li>
+					<li><a href="archives.html">Archives</a></li>
+					<li><a href="../index.html">Home</a></li>			
+				</ul>
+			</nav>
+		</div>
+
+			
+	</header>
+
+
+	<div class="container_24"> 
+
+		<div class="banner grid_18">
+
+			<div class="container_24"> <!--Grid for The text in transparent box-->
+
+				<div class="grid_16">
+						<p id="p1">Welcome to my low level life</p>
+						<p id="p2">I am <a href="about.html" style="text-decoration: none; color:antiquewhite">Akshay Anand</a></p>
+					</div>
+
+				<div class="grid_8">
+				</div>
+				
+			</div><!--Transparent boxed text ends here-->
+			
+		</div>
+		
+		<div class="blank grid_6">
+		</div>
+
+	</div>
+
+
+	<div class="main">
+
+	    <article class="articlecolumn">
+            <h2>Running Verilog code on Linux/Mac</h2>
+            <p style="font-family: Helvetica; font-size: 15px">
+                <h1>Install</h1>
+                Note: The steps below have been tested on Ubuntu 16.04 and MacOS 10.14 </br></br>
+                
+                
+                <b>1. Compile from source on Linux/Mac or in Cygwin on Windows</b></br>
+                You will need <code>make, autoconf, gcc, g++, flex, bison</code> to compile (and maybe more depending on your system). </br></br>
+
+                Clone the git repo. </br>
+                <code>$ git clone https://github.com/steveicarus/iverilog.git</code></br>
+
+                </br>
+                cd into the directory </br>
+                <code>$ cd iverilog</code></br> </br>
+                Build configuration files </br>
+                <code>$ sh autoconf.sh</code> </br> </br>
+                If this gives <code>autoconf.sh: line 10: autoconf: command not found</code> </br>
+                then do this on MacOS:</br>
+                <code>$ brew install autoconf automake libtool</code> &nbsp &nbsp to install the needed packages </br>
+                and on Ubuntu do:</br>
+                <code>$ sudo apt-get install autoconf </code>
+
+                </br></br>
+                Successful run should be like: </br>
+                <code>
+                Autoconf in root...</br>
+                Precompiling lexor_keyword.gperf</br>
+                Precompiling vhdlpp/lexor_keyword.gperf</code></br></br>
+
+                Configure <br/>
+                <code>$ ./configure   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp# for default settings - installs to /usr/local/bin</code>  </br>
+                <code>$ ./configure --prefix=&ltyour directory&gt  &nbsp&nbsp#installs to specific directory provided</code>
+
+                </br></br>
+                Compile the source </br>
+                <code>$ make</code> </br>
+                This command will require gcc, g++, bison and flex. </br>
+                You can install them using Homebrew or apt-get on Mac and Ubuntu respectively.</br>
+                </br>
+                Get into superuser mode and install</br>
+                <code>$ sudo su</code></br>
+                <code>$ make install</code></br>
+                </br>
+                
+
+                <b>2. Install on MacOS using Homebrew</b></br></br>
+                <code>$ brew install icarus-verilog</code></br></br>
+                (Optional) Install iverilog waveform dumpfile viewer - <code>gtkwave</code></br>
+                <code>$ sudo port -v install gtkwave </code></br></br>
+
+                <b>3. Install on Ubuntu using aptitude</b></br></br>
+                <code>$ sudo add-apt-repository ppa:team-electronics/ppa</code></br>
+                <code>$ sudo apt-get update</code></br>
+                <code>$ sudo apt-get install verilog</code></br>
+                <code>$ sudo apt-get install gtkwave</code> &nbsp &nbsp (Optional) </br>
+                </br>
+
+                Note: Windows binaries are avialable at <a href="http://bleyer.org/icarus/">http://bleyer.org/icarus/</a> </br>
+                For more details on installation, visit <a href="https://iverilog.fandom.com/wiki/Installation_Guide">https://iverilog.fandom.com/wiki/Installation_Guide</a></br></br>
+
+                <h1>Run</h1>
+
+                <b>Example 1</b></br>
+                Save this verilog code as hello.v <br>
+                <script src="https://gist.github.com/axayjha/53ae51dd5f4199b5cecab5f2445fe8bb.js"></script>
+                </br> 
+                Compile using </br>
+                <code>$ iverilog -o hello hello.v </code>
+                </br></br>Run the compiled executable</br>
+                <code>$ vvp hello</code></br>
+                <code>Hello World!</code> </br></br>
+
+                <b>Example 2</b> </br>
+                Save the code below as alu.v </br>
+                <script src="https://gist.github.com/axayjha/f82d99b905303e1ede13b03f672fb5cb.js"></script></br>
+                Save the code below as alu_tb.v </br>
+                <script src="https://gist.github.com/axayjha/4e3fdba295c860bc7018267371eb421a.js"></script>
+                </br></br>
+                Compile using </br>
+                <code>$ iverilog -o alu alu_tb.v alu.v </code></br>
+                <code>$ vvp alu +a=3 +b=2 +s=0 </code></br>
+                <code>y= 5</code></br></br>
+                Here s=0 selects addition operation which is performed over a=3 and b=2. </br>
+                So the output y is 3+2=5.</br>
+        
+
+                
+
+
+
+             
+	    </article>
+		
+	</div>
+	
+</div>
+
+
+
+</body>
+
+<footer>
+		<p>Copyright (C) AKSHAY</p> 
+</footer>
+</html>
