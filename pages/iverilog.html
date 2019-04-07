@@ -123,6 +123,8 @@ www.akshayjha.co.nr
                 <code>$ brew install icarus-verilog</code></br></br>
                 (Optional) Install iverilog waveform dumpfile viewer - <code>gtkwave</code></br>
                 <code>$ sudo port -v install gtkwave </code></br></br>
+                If gtkwave installation gives <code>Error: Failed to configure gtk-osx-application-common-gtk2: gtk2 +quartz not installed.</code> Do:</br> 
+                <code>$ sudo port install gtk2 +quartz</code></br></br>
 
                 <b>3. Install on Ubuntu using aptitude</b></br></br>
                 <code>$ sudo add-apt-repository ppa:team-electronics/ppa</code></br>
@@ -158,6 +160,28 @@ www.akshayjha.co.nr
                 <code>y= 5</code></br></br>
                 Here s=0 selects addition operation which is performed over a=3 and b=2. </br>
                 So the output y is 3+2=5.</br>
+
+                <h1>Show waveform using gtkwave</h1>(Optional)</br>
+
+                Save this code as counter.v</br>
+                <script src="https://gist.github.com/axayjha/a244054cb3081749802763ba7afc6780.js"></script></br>
+                Save this code as counter_tb.v</br>
+                <script src="https://gist.github.com/axayjha/2152ac7d8fad2729a3f9b97798dd65ee.js"></script></br>
+
+                </br>
+                Compile using</br>
+                <code>$ iverilog -o counter counter_tb.v counter.v</code></br></br>
+                Run the executable</br>
+                <code>$ vvp counter</code></br></br>
+                Show the waveform</br>
+                <code>$ gtkwave test.vcd &<code></br></br>
+                Expand 'test' in the left sidebar and click on 'c1'. Then drag and drop 'out' reg on the waveform viewing area.</br>
+                </br><b>Output</b></br>
+                <img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/screenshots/gtkwave.png" style="width:700px;height:400px;"><br/><br/>
+
+
+
+                
         
 
                 
