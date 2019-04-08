@@ -75,28 +75,28 @@ www.akshayjha.co.nr
 
 	    <article class="articlecolumn">
             <h2>Getting started with MASM 8086 assembly</h2>
-            <p style="font-family: Helvetica; font-size: 15px">
+            <p style="font-family: Helvetica; font-size: 18px; text-align:justify">
 
                     <b>Why suddenly 8086 assembly using MASM? </b><br/>
-                    Well, partly because I love exploring random legacy system programming <br/>
-                    and partly because I stumbled upon this book called “C using Assembly Language” <br/>
-                    by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler<br/>
+                    Well, partly because I love exploring random legacy system programming
+                    and partly because I stumbled upon this book called “C using Assembly Language” 
+                    by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler
                     to demonstrate use cases. So here I am, experimenting with stuffs.<br/><br/>
 
                     <b>Setup</b><br/>
-                    To get started with MASM, we need to have DOSBOX (an IBM PC compatible DOS emulator)<br/>
+                    To get started with MASM, we need to have DOSBOX (an IBM PC compatible DOS emulator)
                      and MASM 8086 assembler files to go along with it. <br/><br/>
                     
-                    I use a Mac, so my instructions will be for MacOS. However, these steps<br/>
-                     are same for the most part for other platforms too, as our tool of choice, <br/>
+                    I use a Mac, so my instructions will be for MacOS. However, these steps
+                     are same for the most part for other platforms too, as our tool of choice, 
                      DOSBOX, is available for other OSes too.<br/><br/>
                     
                     Download DOSBOX from <a href="http://www.dosbox.com">here</a>.<br/>
                     Download 8086 assembler from <a href="http://www.mediafire.com/file/mm7cjztce9efj4w/8086.zip">here</a>.<br/><br/>
                     
                     Copy DOSBOX to Applications from the disk image file.<br/>
-                     Then make a folder named “dosbox” in your home directory. <br/>
-                     Extract 8086.zip files to ~/dosbox. <br/><br/>
+                    Then make a folder named “dosbox” in your home directory. <br/>
+                    Extract 8086.zip files to ~/dosbox. <br/><br/>
                     
                     Now start DOSBOX. You should see the prompt to be z:\><br/>
                     Type “mount c ~/dosbox/8086”<br/>
@@ -107,7 +107,7 @@ www.akshayjha.co.nr
                     
                     Now you are ready to go. You can use “edit” utility to create and edit new asm files.<br/>
                     For example: “edit hello.asm”<br/>
-                    Once you are done writing the code (You can try the code snippet from below),<br/>
+                    Once you are done writing the code (You can try the code snippet from below),
                      you need to assemble and link before executing.<br/><br/>
                     
                     Type “masm hello.asm”<br/>
@@ -123,27 +123,28 @@ www.akshayjha.co.nr
                     MASM programs usually contains two segments: CODE and DATA.<br/>
                     CODE segment contains the opcodes. DATA segment contains the variables.<br/><br/>
                     
-                    In this code, we are going to define a variable named MSG which will store <br/>
-                    the string to be printed. DB (Define Byte) is a directive that is used to <br/>
-                    reserve byte(s) of memory locations in available memory. “$” at the end of <br/>
+                    In this code, we are going to define a variable named MSG which will store 
+                    the string to be printed. DB (Define Byte) is a directive that is used to 
+                    reserve byte(s) of memory locations in available memory. “$” at the end of
                     the variable declaration is used to signify termination of the string.<br/><br/>
                     
                     In the code segment, the following two statements (line12, 13) are used to initialise DATA segment:<br/><br/>
-                    
+                    <code>
                     MOV AX, DATA<br/>
                     MOV DS, AX<br/><br/>
+                    </code>
                     
                     These two statements must be used in all the MASM codes.<br/><br/>
                     
                     Lines 15 to 17 are used to print the string.<br/>
-                    To output a string in 8086 assembly, we load the address of a '$'-terminated string<br/>
-                     into DX and then call the interrupt with function code 09h in AH. MS-DOS provides<br/>
-                      many interrupt services through INT 21H. Function code 09h is just one of them<br/>
+                    To output a string in 8086 assembly, we load the address of a '$'-terminated string
+                     into DX and then call the interrupt with function code 09h in AH. MS-DOS provides
+                      many interrupt services through INT 21H. Function code 09h is just one of them
                        (i.e., to output a string).<br/><br/>
                     
                     
-                    Lines 20, 21 are used to exit the program. In MS-DOS on 8086, we save the return <br/>
-                    code for a program in AL register. Then we call the interrupt with<br/>
+                    Lines 20, 21 are used to exit the program. In MS-DOS on 8086, we save the return 
+                    code for a program in AL register. Then we call the interrupt with
                      function code 4Ch in AH. In line 20 we are directly moving 4C00h into AX, signifying normal exit.<br/><br/>
             </p>
             <br/><br/>

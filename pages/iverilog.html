@@ -74,8 +74,9 @@ www.akshayjha.co.nr
 
 	    <article class="articlecolumn">
             <h2>Running Verilog code on Linux/Mac</h2>
+            <h1>Install</h1>
             <p style="font-family: Helvetica; font-size: 15px">
-                <h1>Install</h1>
+                
                 Note: The steps below have been tested on Ubuntu 16.04 and MacOS 10.14 </br></br>
                 
                 
@@ -135,13 +136,14 @@ www.akshayjha.co.nr
 
                 Note: Windows binaries are avialable at <a href="http://bleyer.org/icarus/">http://bleyer.org/icarus/</a> </br>
                 For more details on installation, visit <a href="https://iverilog.fandom.com/wiki/Installation_Guide">https://iverilog.fandom.com/wiki/Installation_Guide</a></br></br>
-
+                </p>
                 <h1>Run</h1>
+                 <p style="font-family: Helvetica; font-size: 15px">
 
                 <b>Example 1</b></br>
                 Save this verilog code as hello.v <br>
                 <script src="https://gist.github.com/axayjha/53ae51dd5f4199b5cecab5f2445fe8bb.js"></script>
-                </br> 
+                </br>  <p style="font-family: Helvetica; font-size: 15px">
                 Compile using </br>
                 <code>$ iverilog -o hello hello.v </code>
                 </br></br>Run the compiled executable</br>
@@ -149,37 +151,36 @@ www.akshayjha.co.nr
                 <code>Hello World!</code> </br></br>
 
                 <b>Example 2</b> </br>
-                Save the code below as alu.v </br>
+                Save the code below as alu.v </br> </p>
                 <script src="https://gist.github.com/axayjha/f82d99b905303e1ede13b03f672fb5cb.js"></script></br>
                 Save the code below as alu_tb.v </br>
                 <script src="https://gist.github.com/axayjha/4e3fdba295c860bc7018267371eb421a.js"></script>
                 </br></br>
+                 <p style="font-family: Helvetica; font-size: 15px">
                 Compile using </br>
                 <code>$ iverilog -o alu alu_tb.v alu.v </code></br>
                 <code>$ vvp alu +a=3 +b=2 +s=0 </code></br>
                 <code>y= 5</code></br></br>
                 Here s=0 selects addition operation which is performed over a=3 and b=2. </br>
                 So the output y is 3+2=5.</br>
-
-                <h1>Show waveform using gtkwave (Optional)</h1></br>
-
+                </p>
+                <h1>Show timing diagram using gtkwave (Optional)</h1></br>
                 Save this code as counter.v</br>
                 <script src="https://gist.github.com/axayjha/a244054cb3081749802763ba7afc6780.js"></script></br>
                 Save this code as counter_tb.v</br>
                 <script src="https://gist.github.com/axayjha/2152ac7d8fad2729a3f9b97798dd65ee.js"></script></br>
 
-                </br>
+                </br>  <p style="font-family: Helvetica; font-size: 15px">
                 Compile using</br>
                 <code>$ iverilog -o counter counter_tb.v counter.v</code></br></br>
                 Run the executable</br>
                 <code>$ vvp counter</code></br></br>
-                Show the waveform</br>
+                Show the timing diagram</br>
                 <code>$ gtkwave test.vcd &<code></br></br>
-                Expand 'test' in the left sidebar and click on 'c1'. Then drag and drop 'out' reg on the waveform viewing area.</br>
-                </br><b>Output</b></br>
+                Expand 'test' in the left sidebar and click on 'c1'. Then drag and drop 'out' reg on the signal viewing area.</br>
+                </br><b>Output</b></br> </p>
                 <img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/screenshots/gtkwave.png" style="width:700px;height:400px;"><br/><br/>
-
-
+               
 
                 
         
