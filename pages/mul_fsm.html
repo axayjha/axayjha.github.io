@@ -73,7 +73,7 @@ www.akshayjha.co.nr
 	<div class="main">
 
 	    <article class="articlecolumn">
-            <h2>Implementing an algorithm by modelling a FSM in an HDL </h2>
+            <h2>Implementing an algorithm by modelling an FSM in an HDL </h2>
             
                 <h1>Required tools</h1>
                 <p style="font-family: Helvetica; font-size: 18px; text-align:justify">
@@ -83,7 +83,57 @@ www.akshayjha.co.nr
                 They are free to use, easy to learn and much more light-weight than other full-fledged options. </br></br>
 
                 Steps to install, setup and use these two tools (iverilog and gtkwave) are explained in another of my 
-                <a href="iverilog.html">article</a>.
+		<a href="iverilog.html">article</a>.
+                </p>
+		<h1>Concepts</h1>
+		<p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+		
+		In a complex digital system, the hardware is typically partitioned into two parts:</br></p>
+
+		<p style="font-family: Helvetica; font-size: 18px; text-align:justify; padding-left:40px"> a) <b>Data Path</b>, which consists of the functional units where all 
+				computations are carried out. Typically consists of registers, multiplexers,
+				 bus, adders, multipliers, counters and other functional blocks.</p></br>
+
+		<p style="font-family: Helvetica; font-size: 18px; text-align:justify; padding-left:40px">  b) <b>Control Path</b>, which implements a finite-state machine and provides 
+				 control signals to the data path in proper sequence. In response to the 
+				 control signals, various operations are carried out by the data path. Also, 
+				 it takes inputs from the data path regarding various status information.</p>
+				</br></br>		 
+		<p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+		The state transition is controlled by control path or control unit or controller. 
+		The control unit (CU) send all the signals necessary to trigger any operation in data path. 
+		The data path consists of elements that process data and addresses. Usually there’s also a clock 
+		signal and a data bus that go to both data path and control path. By specifying a particular sequence of 
+		operations, the control unit can implement a given algorithm.<br/></br>
+		
+		The following block diagram shows the idea of separating a system into a data path and a control path:</br><br/></p>
+                <img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/dig_system.png" style="width:500px;height:300px; padding-left: 20%;"><br/><br/>
+		</br></br>
+
+		<p style="font-family: Helvetica; font-size: 18px;"><b>Multiplication by repeated addition</b></p></br>
+		<p style="font-family: Helvetica; font-size: 18px; text-align:justify; padding-left: 20% ">
+		
+		<code>
+				Algorithm: Multiply (a, b)</br>
+				<b>Step 1.</b>&nbsp; Get the values for a and b.</br>
+				<b>Step 2.</b>&nbsp; If (either a = 0  or b = 0) then</br>
+				<b>Step 3.</b>&nbsp;&nbsp;&nbsp;&nbsp;Set the value of the product to be 0</br>
+				<b>Step 4.</b>&nbsp;  Else</br>
+				<b>Step 5.</b>&nbsp;&nbsp;&nbsp;&nbsp;Set the value of product to 0</br>
+				<b>Step 6.</b>&nbsp;&nbsp;&nbsp;&nbsp;While (b > 0)</br>
+				<b>Step 7.</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set the value of product to (product + a)</br>
+				<b>Step 8.</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set the value of b to (b - 1)</br>
+				<b>Step 9.</b>&nbsp; &nbsp;&nbsp;&nbsp;End while loop</br>
+				<b>Step 10.</b>&nbsp; End if</br>
+				<b>Step 11.</b>&nbsp; Print the value of product</br>
+				<b>Step 12.</b>&nbsp; Stop </br>
+				
+		</code></p>
+		</br><b>Flowchart</b></br></br>
+		<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/mul_flowchart.png" style="width:250px;height:500px; padding-left: 20%;"><br/><br/>
+
+
+
 
 
                 
