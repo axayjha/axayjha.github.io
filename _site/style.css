@@ -334,6 +334,11 @@ footer {
   text-align: justify;
 }
 
+.round-border {
+  border: solid #4183C4 1px !important;
+  border-radius: 10px;
+}
+
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
