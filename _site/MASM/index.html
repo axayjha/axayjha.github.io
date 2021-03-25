@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MASM – Akshay Anand – Full Stack Developer</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Getting started with MASM 8086 assembly
+Why suddenly 8086 assembly using MASM? 
+Well, partly because I love exploring random legacy system programming
+and partly because I stumbled upon this book called “C using Assembly Language” 
+by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler
+to demonstrate use cases. So here I am, experimenting with stuffs.
+" />
+    <meta property="og:description" content="Getting started with MASM 8086 assembly
+Why suddenly 8086 assembly using MASM? 
+Well, partly because I love exploring random legacy system programming
+and partly because I stumbled upon this book called “C using Assembly Language” 
+by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler
+to demonstrate use cases. So here I am, experimenting with stuffs.
+" />
+    
+    <meta name="author" content="Akshay Anand" />
+
+    
+    <meta property="og:title" content="MASM" />
+    <meta property="twitter:title" content="MASM" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/960_24_col.css" />
+    <link rel="alternate" type="application/rss+xml" title="Akshay Anand - Full Stack Developer" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/dp.jpeg" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Akshay Anand</a></h1>
+            <p class="site-description">Full Stack Developer</p>
+          </div>
+
+          <nav>
+            <a href="/"> Home </a>
+            <a href="/blogs"> Blogs </a>
+            <a href="/archives"> Archives </a>
+            <a href="/projects"> Projects </a>
+            <a href="/Contact"><span style="border: solid #4183C4 1px !important; border-radius: 10px;">&nbsp;Contact&nbsp;</span></a>
+            
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>MASM</h1>
+
+  <div class="entry">
+    <h4>Getting started with MASM 8086 assembly</h4>
+<p><b>Why suddenly 8086 assembly using MASM? </b><br />
+Well, partly because I love exploring random legacy system programming
+and partly because I stumbled upon this book called “C using Assembly Language” 
+by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler
+to demonstrate use cases. So here I am, experimenting with stuffs.<br /><br /></p>
+
+<div class="main">
+
+<article class="articlecolumn">
+
+<p class="article">
+
+
+<b>Setup</b><br />
+To get started with MASM, we need to have DOSBOX (an IBM PC compatible DOS emulator)
+    and MASM 8086 assembler files to go along with it. <br /><br />
+
+I use a Mac, so my instructions will be for MacOS. However, these steps
+    are same for the most part for other platforms too, as our tool of choice, 
+    DOSBOX, is available for other OSes too.<br /><br />
+
+Download DOSBOX from <a href="http://www.dosbox.com">here</a>.<br />
+Download 8086 assembler from <a href="http://www.mediafire.com/file/mm7cjztce9efj4w/8086.zip">here</a>.<br /><br />
+
+Copy DOSBOX to Applications from the disk image file.<br />
+Then make a folder named “dosbox” in your home directory. <br />
+Extract 8086.zip files to ~/dosbox. <br /><br />
+
+Now start DOSBOX. You should see the prompt to be z:\&gt;<br />
+Type “mount c ~/dosbox/8086”<br />
+<code> Z:\&gt; mount c ~/dosbox/8086</code> <br />
+Then type “c:” to change drive.<br />
+<code>Z:\&gt; C:</code><br />
+<code>C:\&gt;</code><br /><br />
+
+Now you are ready to go. You can use “edit” utility to create and edit new asm files.<br />
+For example: “edit hello.asm”<br />
+Once you are done writing the code (You can try the code snippet from below),
+    you need to assemble and link before executing.<br /><br />
+
+Type “masm hello.asm”<br />
+(Keep pressing Enter to bypass the prompts and to use default values for other filenames)<br />
+Then “link hello”<br />
+(Again press Enter a couple of times)<br />
+Then type “hello.exe” and press Enter to execute the program.<br /><br />
+
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/screenshots/masm.png" style="width:576px;height:400px;" /><br /><br />
+
+<b>Now coming to the assembly code.</b><br /><br />
+
+MASM programs usually contains two segments: CODE and DATA.<br />
+CODE segment contains the opcodes. DATA segment contains the variables.<br /><br />
+
+In this code, we are going to define a variable named MSG which will store 
+the string to be printed. DB (Define Byte) is a directive that is used to 
+reserve byte(s) of memory locations in available memory. “$” at the end of
+the variable declaration is used to signify termination of the string.<br /><br />
+
+In the code segment, the following two statements (line12, 13) are used to initialise DATA segment:<br /><br />
+<code>
+MOV AX, DATA<br />
+MOV DS, AX<br /><br />
+</code>
+
+These two statements must be used in all the MASM codes.<br /><br />
+
+Lines 15 to 17 are used to print the string.<br />
+To output a string in 8086 assembly, we load the address of a '$'-terminated string
+    into DX and then call the interrupt with function code 09h in AH. MS-DOS provides
+    many interrupt services through INT 21H. Function code 09h is just one of them
+    (i.e., to output a string).<br /><br />
+
+
+Lines 20, 21 are used to exit the program. In MS-DOS on 8086, we save the return 
+code for a program in AL register. Then we call the interrupt with
+    function code 4Ch in AH. In line 20 we are directly moving 4C00h into AX, signifying normal exit.<br /><br />
+</p>
+<br /><br />
+<script src="https://gist.github.com/axayjha/c592499d033ba4a70014311c67ebe9ec.js"></script> <br /><br />
+<h2>Resources</h2>
+<a href="http://www.shsu.edu/~csc_tjm/fall2002/cs272/intro_to_asm.html">http://www.shsu.edu/~csc_tjm/fall2002/cs272/intro_to_asm.html</a><br />
+<a href="https://www.csc.depauw.edu/~bhoward/asmtut/asmtut12.html#topic11">https://www.csc.depauw.edu/~bhoward/asmtut/asmtut12.html#topic11</a><br />
+<a href="http://alpbyrs.blogspot.com/2015/06/assembly-language-programming.html">http://alpbyrs.blogspot.com/2015/06/assembly-language-programming.html</a><br />
+
+</article>
+
+</div>
+<p><br /></p>
+
+
+  </div>
+
+  <div class="date">
+    Written on April  3, 2019
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:akshayjha@live.in"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/axayjha"><i class="svg-icon github"></i></a>
+<a href="https://instagram.com/axayjha"><i class="svg-icon instagram"></i></a>
+<a href="https://www.linkedin.com/in/axayjha"><i class="svg-icon linkedin"></i></a>
+
+
+
+
+
+
+<a href="https://leetcode.com/axayjha"><i class="svg-icon leetcode"></i></a>
+<a href="https://hackerrank.com/axayjha"><i class="svg-icon hackerrank"></i></a>
+
+          <hr>
+          <span>@axayjha</span>&nbsp;<span style="font-size: 10px; font-style: italic;">everywhere</span>
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>

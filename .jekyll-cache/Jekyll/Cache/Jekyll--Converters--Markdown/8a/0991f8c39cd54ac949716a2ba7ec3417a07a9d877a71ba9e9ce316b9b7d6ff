@@ -1,0 +1,7 @@
+I"�<h4>Getting started with MASM 8086 assembly</h4>
+<p><b>Why suddenly 8086 assembly using MASM? </b><br />
+Well, partly because I love exploring random legacy system programming
+and partly because I stumbled upon this book called “C using Assembly Language” 
+by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler
+to demonstrate use cases. So here I am, experimenting with stuffs.<br /><br /></p>
+:ET

@@ -1,214 +1,76 @@
-<!DOCTYPE html>
+---
+layout: default
+---
 
-<!--
+<!-- <div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-Author: Akshay
-akshayjha@live.in
-GitHub.com/AxayJha
-www.akshayjha.co.nr
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
--->
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-<html>
-
-<head>
-
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css">    
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/960_24_col.css">
-    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
-
-    <title>my low level life</title>
-
-</head>
-
-<body>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div> -->
+<h3 align='center'> Hello 👋 | नमस्ते 🙏 | Привет 🤚 | Hola 🤝 | Bonjour 🤙 | 你好 🤘 | নমস্কার 🤗 | வணக்கம் 🙌 | 🤲 السلام عليكم </h3>
+<hr>
+<h2 align='center'> I'm Akshay 👨🏻‍💻</h2>
+<div align='center'><img src="https://github.com/axayjha/axayjha/raw/master/dev.gif" width="450px"></div><br>
 
 
-<div class="block container_24">
+<div class="container_24">
+  <p class="article grid_12">
+    I love learning new stuffs, developing software, taking pictures of cosmos, 
+    reading books, playing cricket, doing sketches, and sometimes writing. I have taught myself to speak
+     in different languages, to code computer programs, to edit videos, and to draw stuffs.
+    
+  </p>
+  <p class="article grid_6">
+    <img style="border-radius: 10px;" src="https://github.com/axayjha/axayjha.github.io/raw/master/img/orion.png" width="500px"/>
+  </p>
 
-	<header>
-
-		<h1 class="logo"><a href="index.html">; my low level life</a></h1>
-
-		<div class="menu">
-			<nav>
-				<ul>
-					<li><a href="pages/about.html">About Me</a></li>	
-					<li><a href="pages/archives.html">Archives</a></li>
-					<li><p class="selected">Home</p></li>			
-				</ul>
-			</nav>
-		</div>
-
-			
-	</header>
-
-
-	<div class="container_24"> 
-
-		<div class="banner grid_18">
-
-			<div class="container_24"> <!--Grid for The text in transparent box-->
-
-				<div class="grid_16">
-					<p id="p1">Welcome to my low level life</p>
-					<p id="p2">I am <a href="pages/about.html" style="text-decoration: none; color:antiquewhite">Akshay Anand</a></p>
-				</div>
-
-				<div class="grid_8">
-				</div>
-				
-			</div><!--Transparent boxed text ends here-->
-			
-		</div>
-		
-		<div class="blank grid_6">
-		</div>
-
-	</div>
-
-
-	<div class="main">
-
-	    <article class="articlecolumn">
-
-			<div class="grid_9">
-				<h2 style="font-size:36px">
-				Good quality stuffs
-			  	</h2>
-				<br/>
-
-				<p>
-					Articles/Blog Posts
-				</p>
-
-				<br/>
-
-				<p id="article1" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size:18px">
-					<a href="pages/mul_fsm.html">FSM in HDL</a> <br/>
-					<a href="pages/iverilog.html">Verilog on Linux/Mac</a> <br/>
-					<a href="pages/masm.html">8086 - MASM</a> <br/>
-					<a href="pages/you_have_graduated.html">You have graduated</a><br><br>
-					
-					
-					
-				</p>
-
-				<div class="button">
-					<p><a href="pages/story1.html">
-						Read More</a></p>
-				</div><br/><br/>
-				
-				<p>
-					Projects
-				</p><br/>
-				<p id="article10" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size:18px">
-					<a href="pages/pixelview.html">PixelView</a> <br/>
-					<a href="">Encrypto</a> <br/>
-					<a href="">SportsPlus</a> <br/>
-					<a href="">Home Automation</a><br/>
-					<a href="">Exam Portal</a><br/><br/>
-					
-					
-				</p>
-				<div class="button">
-					<p><a href="pages/projects.html">
-						See More</a></p>
-				</div><br/><br/>
-				
-				
-				<p>
-					Codes
-				</p><br/>
-				<p id="article11" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size:18px">
-					<a href="">Algorithms</a> <br/>
-					<a href="">Data Structures</a> <br/>
-					<a href="">8085</a> <br/>
-					<a href="">MIPS</a> <br/>
-					<a href="">OS</a> <br/>
-					<a href="">Data Science</a> <br/>
-					<a href="">Stanford - ML</a> <br/>
-					<a href="">Microsoft - Dev 204x</a> <br/><br/>
-					
-					
-				</p>
-				<div class="button">
-					<p><a href="https://github.com/axayjha">
-						See More</a></p>
-				</div><br/><br/>
-			</div>
-
-			<div class="grid_9">
-
-				<h2 style="font-size:36px">
-				AFK stuffs
-				</h2>
-				
-				<br/>
-				<p>
-						Darjeeling Vlog - July, 2018					
-						</p><br/>
-					  <iframe width="320" height="210" src="https://www.youtube.com/embed/DAvbUUD9iG0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-		
-		
-						<br/><br/>
-			  <p>New sketch</p>
-			  <a href="https://raw.githubusercontent.com/axayjha/axayjha.github.io/master/img/sketches/sketch%2016.jpg"><img src="https://raw.githubusercontent.com/axayjha/axayjha.github.io/master/img/sketches/sketch%2016.jpg" width="320" height="210" alt=""></a>
-				<div class="button">
-					<p><a href="pages/archives.html">
-						See More</a></p>
-				</div><br/><br/>
-				
-				<!-- <p>New photograph</p>
-				<a href="https://github.com/axayjha/axayjha.github.io/raw/master/img/photographs/IMG_7873.jpg"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/photographs/IMG_7873.jpg" width="400" height="302" alt=""></a>
-				<div class="button">
-					<p><a href="pages/archives.html">
-						See More</a></p>
-				</div><br/><br/>
-				<br/> -->
-				
-
-				<p id="article2">
-				
-			  </p>
-				
-
-				<!-- <div class="button">
-					<p><a href="pages/archives.html">
-						See More</a></p>
-				</div> -->
-
-			</div>
-
-			<div class="quote grid_6">
-				
-				<blockquote>
-					<p>
-
-						<p>Nothing in this world can take the place of persistence. Talent will not &semi;  nothing is more common than unsuccessful men with talent. Genius will not &semi;  unrewarded genius is almost a proverb. Education will not &semi;  the world is full of educated derelicts. Persistence and determination alone are omnipotent. The slogan “press on” has solved and will always solve the problems of the human race.</p>
-						
-					</p>
-				</blockquote>
-			<br/><br/><h4>- Calvin Coolidge</h4>
-				
-				
-			</div> 
-		
-
-		</article>
-		
-	</div>
-	
 </div>
 
 
+<div class="container_24">
+  <p class="article grid_6">
+    <img style="border-radius: 10px;" src="https://github.com/axayjha/axayjha.github.io/raw/master/img/andromeda.jpeg" width="500px"/>
+  </p>
 
-</body>
+  <p class="article grid_12">
+    To check out the photos and videos I have taken or the sketches I have drawn, hop over to the <a href="{{ site.baseurl }}/archive">archives</a> page.
+    
+  </p>
+  
+</div>
 
-<footer>
-		<p>Copyright (C) AKSHAY</p> 
-</footer>
-</html>
+ <hr>
+
+<!-- <div class="container_24"> -->
+  
+
+  <p class="article">
+    I have been teaching myself coding since 2014, and I have developed softwares in numerous languages and frameworks.
+    I have experience in the follow technologies:
+  </p>
+  <p class="article">
+    <img style="border-radius: 10px;" src="https://github.com/axayjha/axayjha.github.io/raw/master/img/techstack.png"/>
+  </p>
+<!-- </div> -->
+
+
+<!-- <div class="container_24 article" >
+  <div class="grid_4"></div>
+  <div class="grid_20">
+    <img src="https://grass-graph.moshimo.works/images/axayjha.png">
+
+  </div>
+
+
+</div> -->
+
+<img src="https://github.com/axayjha/axayjha/raw/master/wave.svg" />

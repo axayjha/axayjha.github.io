@@ -1,0 +1,176 @@
+I"�%<h4>Implementing an algorithm by modelling an FSM in an HDL </h4>
+<p>We are going to use Verilog for this project. So, any verilog compiler and simulator should do. 
+Xilinx and ModelSim are really good tools. But since I’m a *nix guy, I’m going to use 
+<b>Icarus Verilog</b> to compile code and <b>gtkwave</b> to view the signal timing diagrams.
+They are free to use, easy to learn and much more light-weight than other full-fledged options. <br /><br /></p>
+
+<div class="article">
+    
+<h1>Required tools</h1>
+<p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+
+Steps to install, setup and use these two tools (iverilog and gtkwave) are explained in another of my 
+<a href="iverilog.html">article</a>.
+        </p>
+<h1>Concepts</h1>
+<p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+
+In a complex digital system, the hardware is typically partitioned into two parts:<br /></p>
+
+<p style="font-family: Helvetica; font-size: 18px; text-align:justify; padding-left:40px"> a) <b>Data Path</b>, which consists of the functional units where all 
+        computations are carried out. Typically consists of registers, multiplexers,
+            bus, adders, multipliers, counters and other functional blocks.</p><br />
+
+<p style="font-family: Helvetica; font-size: 18px; text-align:justify; padding-left:40px">  b) <b>Control Path</b>, which implements a finite-state machine and provides 
+            control signals to the data path in proper sequence. In response to the 
+            control signals, various operations are carried out by the data path. Also, 
+            it takes inputs from the data path regarding various status information.</p>
+        <br /><br />		 
+<p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+The state transition is controlled by control path or control unit or controller. 
+The control unit (CU) send all the signals necessary to trigger any operation in data path. 
+The data path consists of elements that process data and addresses. Usually there’s also a clock 
+signal and a data bus that go to both data path and control path. By specifying a particular sequence of 
+operations, the control unit can implement a given algorithm.<br /><br />
+
+The following block diagram shows the idea of separating a system into a data path and a control path:<br /><br /></p>
+        <img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/dig_system.png" style="width:500px;height:300px; padding-left: 20%;" /><br /><br />
+<br /><br />
+<h1>The problem to model</h1><br />
+<p style="font-family: Helvetica; font-size: 18px;"><b>Multiplication by repeated addition</b></p><br />
+<p style="font-family: Helvetica; font-size: 18px; text-align:justify; padding-left: 20% ">
+
+<code>
+        Algorithm: Multiply (a, b)<br />
+        <b>Step 1.</b>&nbsp; Get the values for a and b.<br />
+        <b>Step 2.</b>&nbsp; If (either a = 0  or b = 0) then<br />
+        <b>Step 3.</b>&nbsp;&nbsp;&nbsp;&nbsp;Set the value of the product to be 0<br />
+        <b>Step 4.</b>&nbsp;  Else<br />
+        <b>Step 5.</b>&nbsp;&nbsp;&nbsp;&nbsp;Set the value of product to 0<br />
+        <b>Step 6.</b>&nbsp;&nbsp;&nbsp;&nbsp;While (b &gt; 0)<br />
+        <b>Step 7.</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set the value of product to (product + a)<br />
+        <b>Step 8.</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set the value of b to (b - 1)<br />
+        <b>Step 9.</b>&nbsp; &nbsp;&nbsp;&nbsp;End while loop<br />
+        <b>Step 10.</b>&nbsp; End if<br />
+        <b>Step 11.</b>&nbsp; Print the value of product<br />
+        <b>Step 12.</b>&nbsp; Stop <br />
+        
+</code></p>
+<br /><b>Flowchart</b><br /><br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/mul_flowchart.png" style="width:250px;height:500px; padding-left: 20%;" /><br /><br />
+<br /><h1>Data path and control path design </h1><br />
+
+
+
+
+        
+
+
+        <p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+Our data path consists of three registers: A, B and P, one adder unit and one comparator unit.
+    Moreover, these components are connected to data bus (through which input data comes) and different 
+    incoming signals (LdA, LdP, clrP, LdB, decB, clk) from control unit and clock frequency generator.
+    Also, there is an outgoing status signal eqz. Moreover there are 3 wires: wire x connecting 
+    register A to adder, wire y connecting register P to adder and wire z that puts the sum of A and P back into P. 
+
+</p><br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/data_path.png" style="width:550px;height:300px; padding-left: 20%;" /><br /><br />
+<br /><p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+
+If we see the overall system, 1 data line (data_in) and 2 signals (start and clk) are going in
+    and one status signal (done) is coming out. These 4 parameters are what we we will use in test 
+    bench also to test our design. Other than that, 5 control signals are going to data path unit 
+    from control unit apart from a clock signal. And data path is returning eqz (equal to zero) 
+    status signal from comparator to CU.
+    </p><br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/mul_system.png" style="width:550px;height:300px; padding-left: 20%;" /><br /><br />
+<br /><p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+The control unit and its signals help specify the transitions to different states for different 
+operations and conditions. The following diagram shows how the algorithm flow chart is mapped to finite state diagram:
+
+</p>
+<br />
+
+
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/control_path.png" style="width:550px;height:300px; padding-left: 20%;" /><br /><br />
+<br />
+<h1>Implementation in Verilog</h1><br />
+
+<p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+<b>Module for parallel in parallel out register A</b><br />
+This PIPO register saves 16-bit data till load signal (ld) is not set again. Once ld is set, 
+new data is loaded on the next positive clock edge. 
+</p>
+
+<br /><script src="https://gist.github.com/axayjha/1e3435275362bdc8b10da88358e73be3.js"></script>
+
+<br /><p style="font-family: Helvetica; font-size: 18px; text-align:justify">		
+<b>Module for parallel in parallel out register P</b><br />
+This PIPO register saves 16 bit data till load (ld) or clear (clr) signal is not set again.
+    Once ld is set, new data is loaded on the next positive clock edge. When clr signal is set, 
+    then all data is erased to 0.
+</p>
+
+<br /><script src="https://gist.github.com/axayjha/a58c7c5763052dde33997b992a382f08.js"></script>
+
+<br /><p style="font-family: Helvetica; font-size: 18px; text-align:justify">		
+
+<b> Module for adder unit</b><br />
+Takes two 16 bit data and adds and returns back 16 bit sum. Doesn’t care for overflow.
+</p>
+
+<br /><script src="https://gist.github.com/axayjha/a56e786962b486f1283a8043c71b9c91.js"></script>
+
+<br /><p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+        <b>Module for comparator unit</b><br />
+        Checks if the data is equal to 0 or not.
+        
+</p>
+
+<br /><script src="https://gist.github.com/axayjha/962bdbb2aa8f3d94c42ae06ba9c0aa5d.js"></script>
+
+<br /><p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+        <b>Module for PIPO register B and counter (to decrement register B value)</b><br />
+        PIPO register B loads new data if ld signal is on. It decrements the content of B by 1 if dec signal is on.
+        
+    </p>
+<br /><script src="https://gist.github.com/axayjha/fb5190638f59249d31c4bfc63043d90f.js"></script>
+
+<br /><p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+
+        <b>Module for data path</b><br />
+        It implements the data path design. 
+        
+    </p>
+<br /><script src="https://gist.github.com/axayjha/da8da00b1c8a3005c489daf530cfc92e.js"></script>	
+
+
+<br /><p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+        <b>Module for controller</b><br />
+        Implements the control path design as shown in figure 6. The data path
+            performs the actual processing on the input data, and the control path 
+            determines which operation should be performed by the data path using the 
+            signals LdA, LdB, LdP, clrP, decB and done. The CU also implements the FSM.
+        
+</p>
+<br /><script src="https://gist.github.com/axayjha/69165fc7078339131169dc7e24186911.js"></script>
+
+<br /><p style="font-family: Helvetica; font-size: 18px; text-align:justify">
+        <b>Test Bench</b><br />
+        Implements test bench to test the modules by multiplying 5 with 6 using 
+        repetitive addition. The waveform dump file is saved in mul.vcd which can be 
+        used to visualize the signal waveforms for each time instant. It will also print
+            each product value and done status signal value with their time instant value.
+            
+</p>
+<br /><script src="https://gist.github.com/axayjha/fb64b345c0ae81ebc2414b27d699675b.js"></script>
+<br /><br />
+<h1>Output</h1><br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/output.png" style="width:700px;height:450px; padding-left: 10%;" /><br /><br />
+<br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/gtkwave.png" style="width:900px;height:550px; padding-left: 4%;" /><br /><br />
+
+
+
+</div>
+:ET

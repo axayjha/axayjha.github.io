@@ -1,0 +1,6 @@
+I"�<h4>Implementing an algorithm by modelling an FSM in an HDL </h4>
+<p>We are going to use Verilog for this project. So, any verilog compiler and simulator should do. 
+Xilinx and ModelSim are really good tools. But since I’m a *nix guy, I’m going to use 
+<b>Icarus Verilog</b> to compile code and <b>gtkwave</b> to view the signal timing diagrams.
+They are free to use, easy to learn and much more light-weight than other full-fledged options. <br /><br /></p>
+:ET
