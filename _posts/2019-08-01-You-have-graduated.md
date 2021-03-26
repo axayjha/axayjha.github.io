@@ -6,8 +6,8 @@ permalink: /blogs/you-have-graduated
 ---
 
 
-<div class="article">
-<p style="font-family: Garamond; font-size: 18px; text-align:justify">
+<div>
+<p class="article" style="font-family: Garamond; font-size: 18px;">
 <span style="font-size: 40px; font-style: bold" >S</span>o, you have graduated. The results are out and you got the passing grades.
 It has been a tough journey, I know. Exhausting and dispiriting at times, I can
 relate.
