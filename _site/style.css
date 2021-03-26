@@ -339,6 +339,21 @@ footer {
   border-radius: 10px;
 }
 
+.btn {
+  background-color: #4183C4;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;

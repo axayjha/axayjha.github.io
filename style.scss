@@ -299,6 +299,21 @@ footer {
   border-radius: 10px;
 }
 
+.btn {
+  background-color: #4183C4;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
