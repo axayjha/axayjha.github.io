@@ -354,6 +354,29 @@ footer {
   background-color: RoyalBlue;
 }
 
+.centered {
+  text-align: center;
+  width: 100%;
+}
+
+.pretty-header {
+  font-family: Garamond;
+  font-size: 44px;
+  font-weight: lighter;
+}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.img-container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
