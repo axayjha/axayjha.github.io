@@ -7,7 +7,7 @@ permalink: /archives/
 
 
 <div class="centered">
-    <p>Welcome to the my gallery! Have a look around and check out the 'content' I have created over time.</p>
+    <p>Welcome to my gallery! Have a look around and check out the 'content' I have created over time.</p>
     <br>
     <hr>
 

@@ -1,0 +1,3 @@
+I"]<p>Encrypto is a little Python script which encrypts plain text into ciphers using a modified version of Vignere algorithm.
+The encryption algorithm used is a very simple extension to normal vignere encryption, where instead of 26 rows and columns in vignere table, we have 94X94 table which includes all characters from a standard US keyboard.</p>
+:ET

@@ -19,7 +19,9 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  // font: 18px/1.4 $helvetica;
+  font: 18px/1.4 garamond;
+
   color: $darkGray;
 }
 
@@ -31,7 +33,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  // font-family: $helveticaNeue;
+  font-family: garamond;
+  
   color: $darkerGray;
   font-weight: bold;
 
