@@ -6,7 +6,7 @@ permalink: /contact/
 
 
 <div class="container_24">
-    <div class="grid_10">
+    <div class="grid_9">
         I am a full stack developer with 2+ years professional work experience in developing and maintaining live
         business applications. I have working knowledge of developing web applications and restful web services using
         SpringBoot, JPA, Angular, Node and Python among other
@@ -22,8 +22,10 @@ permalink: /contact/
         <em>Write me at </em>📧 <a href="mailto:akshayjha@live.in">akshayjha@live.in</a>
 
     </div>
+    <div class="grid_1">&nbsp;&nbsp;</div>
     <div class="grid_12">
-        <img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/dp.jpeg" width="300px" />
+        <!-- <img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/dp.jpeg" width="300px" /> -->
+        <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="axayjha"><a class="LI-simple-link" href='https://in.linkedin.com/in/axayjha?trk=profile-badge'>Akshay Anand</a></div>
     </div>
 </div>
 
