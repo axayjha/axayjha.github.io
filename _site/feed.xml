@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-21T17:21:07+05:30</updated><id>/feed.xml</id><title type="html">Akshay Anand</title><subtitle>Full Stack Developer</subtitle><entry><title type="html">Featured Repositories</title><link href="/projects/featured" rel="alternate" type="text/html" title="Featured Repositories" /><published>2021-03-26T08:32:41+05:30</published><updated>2021-03-26T08:32:41+05:30</updated><id>/projects/Featured-Repos</id><content type="html" xml:base="/projects/featured">&lt;p&gt;Featured project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">Featured project</summary></entry><entry><title type="html">ToDo HandsOff App</title><link href="/projects/todo" rel="alternate" type="text/html" title="ToDo HandsOff App" /><published>2020-08-01T08:32:41+05:30</published><updated>2020-08-01T08:32:41+05:30</updated><id>/projects/ToDo</id><content type="html" xml:base="/projects/todo">&lt;p&gt;PixelView project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">PixelView project</summary></entry><entry><title type="html">CodeComm</title><link href="/projects/CodeComm" rel="alternate" type="text/html" title="CodeComm" /><published>2020-07-04T08:32:41+05:30</published><updated>2020-07-04T08:32:41+05:30</updated><id>/projects/CodeComm</id><content type="html" xml:base="/projects/CodeComm">&lt;p&gt;CodeComm project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">CodeComm project</summary></entry><entry><title type="html">iCast</title><link href="/projects/iCast" rel="alternate" type="text/html" title="iCast" /><published>2020-06-30T08:32:41+05:30</published><updated>2020-06-30T08:32:41+05:30</updated><id>/projects/iCast</id><content type="html" xml:base="/projects/iCast">&lt;p&gt;iCast Project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">iCast Project</summary></entry><entry><title type="html">Covid-19 Tracker</title><link href="/projects/covid-tracker" rel="alternate" type="text/html" title="Covid-19 Tracker" /><published>2020-06-30T08:32:41+05:30</published><updated>2020-06-30T08:32:41+05:30</updated><id>/projects/Covid-Tracker</id><content type="html" xml:base="/projects/covid-tracker">&lt;p&gt;Covid tracker Project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">Covid tracker Project</summary></entry><entry><title type="html">You Have Graduated</title><link href="/blogs/you-have-graduated" rel="alternate" type="text/html" title="You Have Graduated" /><published>2019-08-01T08:32:41+05:30</published><updated>2019-08-01T08:32:41+05:30</updated><id>/blogs/You-have-graduated</id><content type="html" xml:base="/blogs/you-have-graduated">&lt;div&gt;
+&lt;p class=&quot;article&quot; style=&quot;font-family: Garamond; font-size: 18px;&quot;&gt;
+&lt;span style=&quot;font-size: 40px; font-style: bold&quot;&gt;S&lt;/span&gt;o, you have graduated. The results are out and you got the passing grades.
+It has been a tough journey, I know. Exhausting and dispiriting at times, I can
+relate.
+The numerous and frequent exams, the lengthy and boring assignments, gruelling
+long lectures
+and compulsory attendance in 3/4 of them. &lt;br /&gt;&lt;br /&gt;
+
+But as if all of this wasn’t enough, we are laid down with another burden.
+The burden of &lt;span style=&quot;font-style: italic&quot;&gt;judgement&lt;/span&gt;. A grade is assigned to you; you are put into a
+category.
+Based on how much you could recall from the mugging of previous couple of days
+before exam,
+maybe on how perfect curves can you bring into your writing, and also possibly
+on the condition that your examiner had no fight with his wife on the morning of
+paper checking.&lt;br /&gt;&lt;br /&gt;
+
+Now once you are assigned a number, you’re all set to be judged. Not just
+academically, but for &lt;span style=&quot;font-style: italic&quot;&gt;all your self-worth&lt;/span&gt;. If your pets had some scores
+for
+their playfulness, you’d be compared to them too.&lt;br /&gt;&lt;br /&gt;
+
+A good category gives you the ability to grow unicorn horns! No, just kidding.
+But it does come with lots of perks. For instance, you get to have
+&lt;span style=&quot;font-style: italic&quot;&gt;reservation&lt;/span&gt; in elective subject lottery. You get to have your way when it
+comes
+to nominations for any volunteering work in the institution. Everyone loves and
+adores you. Professors would probably take you out for lunch (if they
+could).&lt;br /&gt;&lt;br /&gt;
+
+But if your stars turn out as playful as your pets and don’t agree to align, and
+you somehow fall into a less fortunate category, then all the best to you. It
+could be so that people forget that you even exist. You won’t make it to
+probably top 20 of considerations for even non-academic works. People would come
+to you though, &lt;span style=&quot;font-style: italic&quot;&gt;after&lt;/span&gt; the results, to take a measure of how good
+&lt;span style=&quot;font-style: italic&quot;&gt;they&lt;/span&gt; have done.&lt;br /&gt;&lt;br /&gt;
+
+I hold no grudges against the top-scorers, and have no particular love for the
+low-graders. All I have, in plenty, is a loathe for the system. A system where a
+decimal number represents your capability. The first relevant data on any resume
+after your name is most likely to be that number. This isn’t even the most
+troubling part. The more troubling fact is that this system can be hacked. 
+&lt;span style=&quot;font-style: italic&quot;&gt;Easily&lt;/span&gt;. Anyone can rig this grading scheme. All it takes is a strong will
+and
+directed dedication to score good on a particular set of questions.&lt;br /&gt;&lt;br /&gt;
+
+I am no one to judge anyone and I don’t intend to be guilty of a crime that I
+mean to outface. However, I have seen the most vacuous of heads with full grown
+unicorn horns. They dally with a certain ebullience, flaunting that horn of
+theirs. And everyone notices them, admires and idolises them.
+Again, I have no complaint against the admiration anyone gets. It just happens
+so that almost everyone is admired and known for wrong reasons in this system.
+It’s like a person who’s a great swordsman gets the certificate of being called
+the top-archer at the end. Or a person who knows nothing about conjuring magic
+gets to become the sorcerer supreme based on their rote knowledge of the
+spells.&lt;br /&gt;&lt;br /&gt;
+
+So, what is the solution to this unfairness? It’s simpler than you can imagine.
+Just don’t pay heed to it! Don’t believe in this flawed system. At the end of
+the day, no one actually does. In fact, in 3-tier colleges like ours, even
+recruiters take separate examinations to filter out some of those fake unicorn
+horns. So do post-grad universities everywhere. Then why should we fall for it?&lt;br /&gt;
+Have faith in yourself, believe in your self-worth. Don’t let your numbers and
+tags tell you otherwise. If you have been lagging behind till now, it means you
+have been in the wrong race all this while. Even a champion cyclist can’t beat
+an F1 racer in their track, doesn’t mean he/she is any less.&lt;br /&gt;
+I would also plead you to try and recognize the talent where it lies. Don’t make
+beef-witted people famous. The people who I admire the most in my circle are
+some of those who are hardly popular otherwise or are popular for all the
+wrong reasons.&lt;br /&gt;
+I know people who are great singers, dancers, poets, ones who can conjure magic
+with keyboards and guitars, those who bring sketches to life using pencil and
+paper, those who can paint what is hard to even imagine for others, those who are winning
+tournaments for their football and cricket teams, those who eat up books like
+cookies, those who write engrossing stories, and articles so clever they force
+you to think, and those who can actually make computers work at their will – &lt;span style=&quot;font-style: italic&quot;&gt;the
+real computer science engineers&lt;/span&gt;. And people hardly know these 7-point, 8-point
+something in their academic circle for what they are.&lt;br /&gt;
+Grades mean nothing. Grades take you nowhere. Your children won’t know you for
+your grades. Grades give you a false sense of judgment that will make no sense
+when the person without a horn outdoes you one day in life.
+&lt;br /&gt;&lt;br /&gt;
+
+Move on and appreciate people for what they are; &lt;span style=&quot;font-style: italic&quot;&gt;value yourself for what you are&lt;/span&gt;, for you are out of that
+corroded system now. &lt;br /&gt;&lt;b&gt;&lt;span style=&quot;font-style: italic&quot;&gt;You have graduated.&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">So, you have graduated. The results are out and you got the passing grades. It has been a tough journey, I know. Exhausting and dispiriting at times, I can relate. The numerous and frequent exams, the lengthy and boring assignments, gruelling long lectures and compulsory attendance in 3/4 of them.</summary></entry><entry><title type="html">Verilog</title><link href="/blogs/verilog" rel="alternate" type="text/html" title="Verilog" /><published>2019-05-20T08:32:41+05:30</published><updated>2019-05-20T08:32:41+05:30</updated><id>/blogs/Verilog</id><content type="html" xml:base="/blogs/verilog">&lt;h4&gt;Running Verilog code on Linux/Mac&lt;/h4&gt;
+&lt;p&gt;Step by step instructions of to setup and install tools to run and visualize verilog HDL designs on *nix systems.&lt;/p&gt;
+
+&lt;h1&gt;Install&lt;/h1&gt;
+&lt;p&gt;
+
+Note: The steps below have been tested on Ubuntu 16.04 and MacOS 10.14 &lt;br /&gt;&lt;br /&gt;
+
+
+&lt;b&gt;1. Compile from source on Linux/Mac or in Cygwin on Windows&lt;/b&gt;&lt;br /&gt;
+You will need &lt;code&gt;make, autoconf, gcc, g++, flex, bison&lt;/code&gt; to compile (and maybe more depending on your
+system). &lt;br /&gt;&lt;br /&gt;
+
+Clone the git repo. &lt;br /&gt;
+&lt;code&gt;$ git clone https://github.com/steveicarus/iverilog.git&lt;/code&gt;&lt;br /&gt;
+
+&lt;br /&gt;
+cd into the directory &lt;br /&gt;
+&lt;code&gt;$ cd iverilog&lt;/code&gt;&lt;br /&gt; &lt;br /&gt;
+Build configuration files &lt;br /&gt;
+&lt;code&gt;$ sh autoconf.sh&lt;/code&gt; &lt;br /&gt; &lt;br /&gt;
+If this gives &lt;code&gt;autoconf.sh: line 10: autoconf: command not found&lt;/code&gt; &lt;br /&gt;
+then do this on MacOS:&lt;br /&gt;
+&lt;code&gt;$ brew install autoconf automake libtool&lt;/code&gt; &amp;amp;nbsp &amp;amp;nbsp to install the needed packages &lt;br /&gt;
+and on Ubuntu do:&lt;br /&gt;
+&lt;code&gt;$ sudo apt-get install autoconf &lt;/code&gt;
+
+&lt;br /&gt;&lt;br /&gt;
+Successful run should be like: &lt;br /&gt;
+&lt;code&gt;
+Autoconf in root...&lt;br /&gt;
+Precompiling lexor_keyword.gperf&lt;br /&gt;
+Precompiling vhdlpp/lexor_keyword.gperf&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+
+Configure &lt;br /&gt;
+&lt;code&gt;$ ./configure   &amp;amp;nbsp&amp;amp;nbsp&amp;amp;nbsp&amp;amp;nbsp&amp;amp;nbsp&amp;amp;nbsp&amp;amp;nbsp&amp;amp;nbsp&amp;amp;nbsp&amp;amp;nbsp&amp;amp;nbsp&amp;amp;nbsp# for default settings - installs to /usr/local/bin&lt;/code&gt;
+&lt;br /&gt;
+&lt;code&gt;$ ./configure --prefix=&amp;amp;ltyour directory&amp;amp;gt  &amp;amp;nbsp&amp;amp;nbsp#installs to specific directory provided&lt;/code&gt;
+
+&lt;br /&gt;&lt;br /&gt;
+Compile the source &lt;br /&gt;
+&lt;code&gt;$ make&lt;/code&gt; &lt;br /&gt;
+This command will require gcc, g++, bison and flex. &lt;br /&gt;
+You can install them using Homebrew or apt-get on Mac and Ubuntu respectively.&lt;br /&gt;
+&lt;br /&gt;
+Get into superuser mode and install&lt;br /&gt;
+&lt;code&gt;$ sudo su&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;$ make install&lt;/code&gt;&lt;br /&gt;
+&lt;br /&gt;
+
+
+&lt;b&gt;2. Install on MacOS using Homebrew&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;code&gt;$ brew install icarus-verilog&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+(Optional) Install iverilog waveform dumpfile viewer - &lt;code&gt;gtkwave&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;$ sudo port -v install gtkwave &lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+If gtkwave installation gives
+&lt;code&gt;Error: Failed to configure gtk-osx-application-common-gtk2: gtk2 +quartz not installed.&lt;/code&gt; Do:&lt;br /&gt;
+&lt;code&gt;$ sudo port install gtk2 +quartz&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;3. Install on Ubuntu using aptitude&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;code&gt;$ sudo add-apt-repository ppa:team-electronics/ppa&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;$ sudo apt-get update&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;$ sudo apt-get install verilog&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;$ sudo apt-get install gtkwave&lt;/code&gt; &amp;amp;nbsp &amp;amp;nbsp (Optional) &lt;br /&gt;
+&lt;br /&gt;
+
+Note: Windows binaries are avialable at &lt;a href=&quot;http://bleyer.org/icarus/&quot;&gt;http://bleyer.org/icarus/&lt;/a&gt; &lt;br /&gt;
+For more details on installation, visit &lt;a href=&quot;https://iverilog.fandom.com/wiki/Installation_Guide&quot;&gt;https://iverilog.fandom.com/wiki/Installation_Guide&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;h1&gt;Run&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;b&gt;Example 1&lt;/b&gt;&lt;br /&gt;
+Save this verilog code as hello.v &lt;br /&gt;
+&lt;script src=&quot;https://gist.github.com/axayjha/53ae51dd5f4199b5cecab5f2445fe8bb.js&quot;&gt;&lt;/script&gt;
+&lt;br /&gt;
+&lt;p&gt;
+Compile using &lt;br /&gt;
+&lt;code&gt;$ iverilog -o hello hello.v &lt;/code&gt;
+&lt;br /&gt;&lt;br /&gt;Run the compiled executable&lt;br /&gt;
+&lt;code&gt;$ vvp hello&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;Hello World!&lt;/code&gt; &lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;Example 2&lt;/b&gt; &lt;br /&gt;
+Save the code below as alu.v &lt;br /&gt;
+&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/axayjha/f82d99b905303e1ede13b03f672fb5cb.js&quot;&gt;&lt;/script&gt;&lt;br /&gt;
+Save the code below as alu_tb.v &lt;br /&gt;
+&lt;script src=&quot;https://gist.github.com/axayjha/4e3fdba295c860bc7018267371eb421a.js&quot;&gt;&lt;/script&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;p&gt;
+Compile using &lt;br /&gt;
+&lt;code&gt;$ iverilog -o alu alu_tb.v alu.v &lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;$ vvp alu +a=3 +b=2 +s=0 &lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;y= 5&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+Here s=0 selects addition operation which is performed over a=3 and b=2. &lt;br /&gt;
+So the output y is 3+2=5.&lt;br /&gt;
+&lt;/p&gt;
+&lt;h1&gt;Show timing diagram using gtkwave (Optional)&lt;/h1&gt;&lt;br /&gt;
+Save this code as counter.v&lt;br /&gt;
+&lt;script src=&quot;https://gist.github.com/axayjha/a244054cb3081749802763ba7afc6780.js&quot;&gt;&lt;/script&gt;&lt;br /&gt;
+Save this code as counter_tb.v&lt;br /&gt;
+&lt;script src=&quot;https://gist.github.com/axayjha/2152ac7d8fad2729a3f9b97798dd65ee.js&quot;&gt;&lt;/script&gt;&lt;br /&gt;
+
+&lt;br /&gt;
+Compile using&lt;br /&gt;
+&lt;code&gt;$ iverilog -o counter counter_tb.v counter.v&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+Run the executable&lt;br /&gt;
+&lt;code&gt;$ vvp counter&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+Show the timing diagram&lt;br /&gt;
+&lt;code&gt;$ gtkwave test.vcd &amp;amp;&lt;code&gt;&lt;br /&gt;&lt;br /&gt;
+Expand &apos;test&apos; in the left sidebar and click on &apos;c1&apos;. Then drag and drop &apos;out&apos; reg on the signal viewing area.&lt;br /&gt;
+&lt;br /&gt;&lt;b&gt;Output&lt;/b&gt;&lt;br /&gt; 
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/screenshots/gtkwave.png&quot; style=&quot;width:700px;height:400px;&quot; /&gt;
+
+
+&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Running Verilog code on Linux/Mac Step by step instructions of to setup and install tools to run and visualize verilog HDL designs on *nix systems.</summary></entry><entry><title type="html">Smart India Hackathon</title><link href="/projects/Smart-India-Hackathon" rel="alternate" type="text/html" title="Smart India Hackathon" /><published>2019-04-04T08:32:41+05:30</published><updated>2019-04-04T08:32:41+05:30</updated><id>/projects/Smart-India-Hackathon</id><content type="html" xml:base="/projects/Smart-India-Hackathon">&lt;p&gt;SIH project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">SIH project</summary></entry><entry><title type="html">MASM</title><link href="/blogs/masm" rel="alternate" type="text/html" title="MASM" /><published>2019-04-03T08:32:41+05:30</published><updated>2019-04-03T08:32:41+05:30</updated><id>/blogs/MASM</id><content type="html" xml:base="/blogs/masm">&lt;h4&gt;Getting started with MASM 8086 assembly&lt;/h4&gt;
+&lt;p&gt;&lt;b&gt;Why suddenly 8086 assembly using MASM? &lt;/b&gt;&lt;br /&gt;
+Well, partly because I love exploring random legacy system programming
+and partly because I stumbled upon this book called “C using Assembly Language” 
+by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler
+to demonstrate use cases. So here I am, experimenting with stuffs.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;main&quot;&gt;
+
+&lt;article class=&quot;articlecolumn&quot;&gt;
+
+&lt;p class=&quot;article&quot;&gt;
+
+
+&lt;b&gt;Setup&lt;/b&gt;&lt;br /&gt;
+To get started with MASM, we need to have DOSBOX (an IBM PC compatible DOS emulator)
+    and MASM 8086 assembler files to go along with it. &lt;br /&gt;&lt;br /&gt;
+
+I use a Mac, so my instructions will be for MacOS. However, these steps
+    are same for the most part for other platforms too, as our tool of choice, 
+    DOSBOX, is available for other OSes too.&lt;br /&gt;&lt;br /&gt;
+
+Download DOSBOX from &lt;a href=&quot;http://www.dosbox.com&quot;&gt;here&lt;/a&gt;.&lt;br /&gt;
+Download 8086 assembler from &lt;a href=&quot;http://www.mediafire.com/file/mm7cjztce9efj4w/8086.zip&quot;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;
+
+Copy DOSBOX to Applications from the disk image file.&lt;br /&gt;
+Then make a folder named “dosbox” in your home directory. &lt;br /&gt;
+Extract 8086.zip files to ~/dosbox. &lt;br /&gt;&lt;br /&gt;
+
+Now start DOSBOX. You should see the prompt to be z:\&amp;gt;&lt;br /&gt;
+Type “mount c ~/dosbox/8086”&lt;br /&gt;
+&lt;code&gt; Z:\&amp;gt; mount c ~/dosbox/8086&lt;/code&gt; &lt;br /&gt;
+Then type “c:” to change drive.&lt;br /&gt;
+&lt;code&gt;Z:\&amp;gt; C:&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;C:\&amp;gt;&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+
+Now you are ready to go. You can use “edit” utility to create and edit new asm files.&lt;br /&gt;
+For example: “edit hello.asm”&lt;br /&gt;
+Once you are done writing the code (You can try the code snippet from below),
+    you need to assemble and link before executing.&lt;br /&gt;&lt;br /&gt;
+
+Type “masm hello.asm”&lt;br /&gt;
+(Keep pressing Enter to bypass the prompts and to use default values for other filenames)&lt;br /&gt;
+Then “link hello”&lt;br /&gt;
+(Again press Enter a couple of times)&lt;br /&gt;
+Then type “hello.exe” and press Enter to execute the program.&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/screenshots/masm.png&quot; style=&quot;width:576px;height:400px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;Now coming to the assembly code.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+MASM programs usually contains two segments: CODE and DATA.&lt;br /&gt;
+CODE segment contains the opcodes. DATA segment contains the variables.&lt;br /&gt;&lt;br /&gt;
+
+In this code, we are going to define a variable named MSG which will store 
+the string to be printed. DB (Define Byte) is a directive that is used to 
+reserve byte(s) of memory locations in available memory. “$” at the end of
+the variable declaration is used to signify termination of the string.&lt;br /&gt;&lt;br /&gt;
+
+In the code segment, the following two statements (line12, 13) are used to initialise DATA segment:&lt;br /&gt;&lt;br /&gt;
+&lt;code&gt;
+MOV AX, DATA&lt;br /&gt;
+MOV DS, AX&lt;br /&gt;&lt;br /&gt;
+&lt;/code&gt;
+
+These two statements must be used in all the MASM codes.&lt;br /&gt;&lt;br /&gt;
+
+Lines 15 to 17 are used to print the string.&lt;br /&gt;
+To output a string in 8086 assembly, we load the address of a &apos;$&apos;-terminated string
+    into DX and then call the interrupt with function code 09h in AH. MS-DOS provides
+    many interrupt services through INT 21H. Function code 09h is just one of them
+    (i.e., to output a string).&lt;br /&gt;&lt;br /&gt;
+
+
+Lines 20, 21 are used to exit the program. In MS-DOS on 8086, we save the return 
+code for a program in AL register. Then we call the interrupt with
+    function code 4Ch in AH. In line 20 we are directly moving 4C00h into AX, signifying normal exit.&lt;br /&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;script src=&quot;https://gist.github.com/axayjha/c592499d033ba4a70014311c67ebe9ec.js&quot;&gt;&lt;/script&gt; &lt;br /&gt;&lt;br /&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;a href=&quot;http://www.shsu.edu/~csc_tjm/fall2002/cs272/intro_to_asm.html&quot;&gt;http://www.shsu.edu/~csc_tjm/fall2002/cs272/intro_to_asm.html&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.csc.depauw.edu/~bhoward/asmtut/asmtut12.html#topic11&quot;&gt;https://www.csc.depauw.edu/~bhoward/asmtut/asmtut12.html#topic11&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://alpbyrs.blogspot.com/2015/06/assembly-language-programming.html&quot;&gt;http://alpbyrs.blogspot.com/2015/06/assembly-language-programming.html&lt;/a&gt;&lt;br /&gt;
+
+&lt;/article&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Getting started with MASM 8086 assembly Why suddenly 8086 assembly using MASM? Well, partly because I love exploring random legacy system programming and partly because I stumbled upon this book called “C using Assembly Language” by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler to demonstrate use cases. So here I am, experimenting with stuffs.</summary></entry><entry><title type="html">FSM in HDL</title><link href="/blogs/mul-fsm-in-hdl" rel="alternate" type="text/html" title="FSM in HDL" /><published>2019-04-03T08:32:41+05:30</published><updated>2019-04-03T08:32:41+05:30</updated><id>/blogs/Mul-FSM</id><content type="html" xml:base="/blogs/mul-fsm-in-hdl">&lt;h4&gt;Implementing an algorithm by modelling an FSM in an HDL &lt;/h4&gt;
+&lt;p&gt;We are going to use Verilog for this project. So, any verilog compiler and simulator should do. 
+Xilinx and ModelSim are really good tools. But since I’m a *nix guy, I’m going to use 
+&lt;b&gt;Icarus Verilog&lt;/b&gt; to compile code and &lt;b&gt;gtkwave&lt;/b&gt; to view the signal timing diagrams.
+They are free to use, easy to learn and much more light-weight than other full-fledged options. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;article&quot;&gt;
+    
+&lt;h1&gt;Required tools&lt;/h1&gt;
+&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+
+Steps to install, setup and use these two tools (iverilog and gtkwave) are explained in another of my 
+&lt;a href=&quot;iverilog.html&quot;&gt;article&lt;/a&gt;.
+        &lt;/p&gt;
+&lt;h1&gt;Concepts&lt;/h1&gt;
+&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+
+In a complex digital system, the hardware is typically partitioned into two parts:&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify; padding-left:40px&quot;&gt; a) &lt;b&gt;Data Path&lt;/b&gt;, which consists of the functional units where all 
+        computations are carried out. Typically consists of registers, multiplexers,
+            bus, adders, multipliers, counters and other functional blocks.&lt;/p&gt;&lt;br /&gt;
+
+&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify; padding-left:40px&quot;&gt;  b) &lt;b&gt;Control Path&lt;/b&gt;, which implements a finite-state machine and provides 
+            control signals to the data path in proper sequence. In response to the 
+            control signals, various operations are carried out by the data path. Also, 
+            it takes inputs from the data path regarding various status information.&lt;/p&gt;
+        &lt;br /&gt;&lt;br /&gt;		 
+&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+The state transition is controlled by control path or control unit or controller. 
+The control unit (CU) send all the signals necessary to trigger any operation in data path. 
+The data path consists of elements that process data and addresses. Usually there’s also a clock 
+signal and a data bus that go to both data path and control path. By specifying a particular sequence of 
+operations, the control unit can implement a given algorithm.&lt;br /&gt;&lt;br /&gt;
+
+The following block diagram shows the idea of separating a system into a data path and a control path:&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+        &lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/dig_system.png&quot; style=&quot;width:500px;height:300px; padding-left: 20%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;h1&gt;The problem to model&lt;/h1&gt;&lt;br /&gt;
+&lt;p style=&quot;font-family: Helvetica; font-size: 18px;&quot;&gt;&lt;b&gt;Multiplication by repeated addition&lt;/b&gt;&lt;/p&gt;&lt;br /&gt;
+&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify; padding-left: 20% &quot;&gt;
+
+&lt;code&gt;
+        Algorithm: Multiply (a, b)&lt;br /&gt;
+        &lt;b&gt;Step 1.&lt;/b&gt;&amp;nbsp; Get the values for a and b.&lt;br /&gt;
+        &lt;b&gt;Step 2.&lt;/b&gt;&amp;nbsp; If (either a = 0  or b = 0) then&lt;br /&gt;
+        &lt;b&gt;Step 3.&lt;/b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Set the value of the product to be 0&lt;br /&gt;
+        &lt;b&gt;Step 4.&lt;/b&gt;&amp;nbsp;  Else&lt;br /&gt;
+        &lt;b&gt;Step 5.&lt;/b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Set the value of product to 0&lt;br /&gt;
+        &lt;b&gt;Step 6.&lt;/b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;While (b &amp;gt; 0)&lt;br /&gt;
+        &lt;b&gt;Step 7.&lt;/b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Set the value of product to (product + a)&lt;br /&gt;
+        &lt;b&gt;Step 8.&lt;/b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Set the value of b to (b - 1)&lt;br /&gt;
+        &lt;b&gt;Step 9.&lt;/b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;End while loop&lt;br /&gt;
+        &lt;b&gt;Step 10.&lt;/b&gt;&amp;nbsp; End if&lt;br /&gt;
+        &lt;b&gt;Step 11.&lt;/b&gt;&amp;nbsp; Print the value of product&lt;br /&gt;
+        &lt;b&gt;Step 12.&lt;/b&gt;&amp;nbsp; Stop &lt;br /&gt;
+        
+&lt;/code&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;b&gt;Flowchart&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/mul_flowchart.png&quot; style=&quot;width:250px;height:500px; padding-left: 20%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;h1&gt;Data path and control path design &lt;/h1&gt;&lt;br /&gt;
+
+
+
+
+        
+
+
+        &lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+Our data path consists of three registers: A, B and P, one adder unit and one comparator unit.
+    Moreover, these components are connected to data bus (through which input data comes) and different 
+    incoming signals (LdA, LdP, clrP, LdB, decB, clk) from control unit and clock frequency generator.
+    Also, there is an outgoing status signal eqz. Moreover there are 3 wires: wire x connecting 
+    register A to adder, wire y connecting register P to adder and wire z that puts the sum of A and P back into P. 
+
+&lt;/p&gt;&lt;br /&gt;
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/data_path.png&quot; style=&quot;width:550px;height:300px; padding-left: 20%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+
+If we see the overall system, 1 data line (data_in) and 2 signals (start and clk) are going in
+    and one status signal (done) is coming out. These 4 parameters are what we we will use in test 
+    bench also to test our design. Other than that, 5 control signals are going to data path unit 
+    from control unit apart from a clock signal. And data path is returning eqz (equal to zero) 
+    status signal from comparator to CU.
+    &lt;/p&gt;&lt;br /&gt;
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/mul_system.png&quot; style=&quot;width:550px;height:300px; padding-left: 20%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+The control unit and its signals help specify the transitions to different states for different 
+operations and conditions. The following diagram shows how the algorithm flow chart is mapped to finite state diagram:
+
+&lt;/p&gt;
+&lt;br /&gt;
+
+
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/control_path.png&quot; style=&quot;width:550px;height:300px; padding-left: 20%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;h1&gt;Implementation in Verilog&lt;/h1&gt;&lt;br /&gt;
+
+&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+&lt;b&gt;Module for parallel in parallel out register A&lt;/b&gt;&lt;br /&gt;
+This PIPO register saves 16-bit data till load signal (ld) is not set again. Once ld is set, 
+new data is loaded on the next positive clock edge. 
+&lt;/p&gt;
+
+&lt;br /&gt;&lt;script src=&quot;https://gist.github.com/axayjha/1e3435275362bdc8b10da88358e73be3.js&quot;&gt;&lt;/script&gt;
+
+&lt;br /&gt;&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;		
+&lt;b&gt;Module for parallel in parallel out register P&lt;/b&gt;&lt;br /&gt;
+This PIPO register saves 16 bit data till load (ld) or clear (clr) signal is not set again.
+    Once ld is set, new data is loaded on the next positive clock edge. When clr signal is set, 
+    then all data is erased to 0.
+&lt;/p&gt;
+
+&lt;br /&gt;&lt;script src=&quot;https://gist.github.com/axayjha/a58c7c5763052dde33997b992a382f08.js&quot;&gt;&lt;/script&gt;
+
+&lt;br /&gt;&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;		
+
+&lt;b&gt; Module for adder unit&lt;/b&gt;&lt;br /&gt;
+Takes two 16 bit data and adds and returns back 16 bit sum. Doesn’t care for overflow.
+&lt;/p&gt;
+
+&lt;br /&gt;&lt;script src=&quot;https://gist.github.com/axayjha/a56e786962b486f1283a8043c71b9c91.js&quot;&gt;&lt;/script&gt;
+
+&lt;br /&gt;&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+        &lt;b&gt;Module for comparator unit&lt;/b&gt;&lt;br /&gt;
+        Checks if the data is equal to 0 or not.
+        
+&lt;/p&gt;
+
+&lt;br /&gt;&lt;script src=&quot;https://gist.github.com/axayjha/962bdbb2aa8f3d94c42ae06ba9c0aa5d.js&quot;&gt;&lt;/script&gt;
+
+&lt;br /&gt;&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+        &lt;b&gt;Module for PIPO register B and counter (to decrement register B value)&lt;/b&gt;&lt;br /&gt;
+        PIPO register B loads new data if ld signal is on. It decrements the content of B by 1 if dec signal is on.
+        
+    &lt;/p&gt;
+&lt;br /&gt;&lt;script src=&quot;https://gist.github.com/axayjha/fb5190638f59249d31c4bfc63043d90f.js&quot;&gt;&lt;/script&gt;
+
+&lt;br /&gt;&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+
+        &lt;b&gt;Module for data path&lt;/b&gt;&lt;br /&gt;
+        It implements the data path design. 
+        
+    &lt;/p&gt;
+&lt;br /&gt;&lt;script src=&quot;https://gist.github.com/axayjha/da8da00b1c8a3005c489daf530cfc92e.js&quot;&gt;&lt;/script&gt;	
+
+
+&lt;br /&gt;&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+        &lt;b&gt;Module for controller&lt;/b&gt;&lt;br /&gt;
+        Implements the control path design as shown in figure 6. The data path
+            performs the actual processing on the input data, and the control path 
+            determines which operation should be performed by the data path using the 
+            signals LdA, LdB, LdP, clrP, decB and done. The CU also implements the FSM.
+        
+&lt;/p&gt;
+&lt;br /&gt;&lt;script src=&quot;https://gist.github.com/axayjha/69165fc7078339131169dc7e24186911.js&quot;&gt;&lt;/script&gt;
+
+&lt;br /&gt;&lt;p style=&quot;font-family: Helvetica; font-size: 18px; text-align:justify&quot;&gt;
+        &lt;b&gt;Test Bench&lt;/b&gt;&lt;br /&gt;
+        Implements test bench to test the modules by multiplying 5 with 6 using 
+        repetitive addition. The waveform dump file is saved in mul.vcd which can be 
+        used to visualize the signal waveforms for each time instant. It will also print
+            each product value and done status signal value with their time instant value.
+            
+&lt;/p&gt;
+&lt;br /&gt;&lt;script src=&quot;https://gist.github.com/axayjha/fb64b345c0ae81ebc2414b27d699675b.js&quot;&gt;&lt;/script&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;h1&gt;Output&lt;/h1&gt;&lt;br /&gt;
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/output.png&quot; style=&quot;width:700px;height:450px; padding-left: 10%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/mul_system/gtkwave.png&quot; style=&quot;width:900px;height:550px; padding-left: 4%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+
+&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Implementing an algorithm by modelling an FSM in an HDL We are going to use Verilog for this project. So, any verilog compiler and simulator should do. Xilinx and ModelSim are really good tools. But since I’m a *nix guy, I’m going to use Icarus Verilog to compile code and gtkwave to view the signal timing diagrams. They are free to use, easy to learn and much more light-weight than other full-fledged options.</summary></entry></feed>
