@@ -6,4 +6,4 @@ permalink: /projects/dht11
 ---
 
 
-DHT11 project
+A project to show current temperature and humidity on a 16X2 display using Arduino and DHT11 sensor

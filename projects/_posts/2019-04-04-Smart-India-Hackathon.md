@@ -6,4 +6,4 @@ permalink: /projects/Smart-India-Hackathon
 ---
 
 
-SIH project
+Provides a platform (Android app and USSD code program) for electricity consumers to report power outages in their area with simple UI. This data gets stored in a centralised data store which can be accessed by Electricity corporation and Ministry of Power via a dashboard with analytical tools.

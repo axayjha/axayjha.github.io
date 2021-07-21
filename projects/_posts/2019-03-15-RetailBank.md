@@ -6,4 +6,4 @@ permalink: /projects/retail-bank
 ---
 
 
-Retail Bank project
+A single page web application to provide role-based simple banking features and real-time interest update. Developed using Angular, SpringBoot and MySQL.

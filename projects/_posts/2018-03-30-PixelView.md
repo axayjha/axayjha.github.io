@@ -6,4 +6,4 @@ permalink: /projects/pixelview
 ---
 
 
-PixelView project
+PixelView is a scientific digital image processing tool containing some of the most popular image processing and ML algorithms with a simple UI to test on images with ease.

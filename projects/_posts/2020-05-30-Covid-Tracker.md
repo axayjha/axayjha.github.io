@@ -6,4 +6,4 @@ permalink: /projects/covid-tracker
 ---
 
 
-Covid tracker Project
+A cross platform (Android and iOS) application to show state-wise and district-wise covid19 reports and casualties in India.
