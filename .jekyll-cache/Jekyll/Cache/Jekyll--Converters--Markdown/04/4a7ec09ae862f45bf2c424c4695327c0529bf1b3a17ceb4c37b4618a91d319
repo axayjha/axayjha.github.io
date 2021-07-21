@@ -1,0 +1,6 @@
+I"½<p>Encrypto is a little Python script which encrypts plain text into ciphers using a modified version of Vignere algorithm. It uses tkinter to paint GUI for the application.</p>
+
+<p>The encryption algorithm used is a very simple extension to normal vignere encryption, where instead of 26 rows and columns in vignere table, we have 94 X 94 table which includes all characters from a standard US keyboard.</p>
+
+<p>Coded in and for Python 3.x</p>
+:ET
