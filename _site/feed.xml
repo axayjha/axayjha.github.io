@@ -1,92 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-22T01:19:49+05:30</updated><id>/feed.xml</id><title type="html">Akshay Anand</title><subtitle>Full Stack Developer</subtitle><entry><title type="html">Featured Repositories</title><link href="/projects/featured" rel="alternate" type="text/html" title="Featured Repositories" /><published>2021-03-26T08:32:41+05:30</published><updated>2021-03-26T08:32:41+05:30</updated><id>/projects/Featured-Repos</id><content type="html" xml:base="/projects/featured">&lt;p&gt;Featured project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">Featured project</summary></entry><entry><title type="html">ToDo HandsOff App</title><link href="/projects/todo" rel="alternate" type="text/html" title="ToDo HandsOff App" /><published>2020-08-01T08:32:41+05:30</published><updated>2020-08-01T08:32:41+05:30</updated><id>/projects/ToDo</id><content type="html" xml:base="/projects/todo">&lt;p&gt;PixelView project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">PixelView project</summary></entry><entry><title type="html">CodeComm</title><link href="/projects/CodeComm" rel="alternate" type="text/html" title="CodeComm" /><published>2020-07-04T08:32:41+05:30</published><updated>2020-07-04T08:32:41+05:30</updated><id>/projects/CodeComm</id><content type="html" xml:base="/projects/CodeComm">&lt;p&gt;CodeComm project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">CodeComm project</summary></entry><entry><title type="html">iCast</title><link href="/projects/iCast" rel="alternate" type="text/html" title="iCast" /><published>2020-06-30T08:32:41+05:30</published><updated>2020-06-30T08:32:41+05:30</updated><id>/projects/iCast</id><content type="html" xml:base="/projects/iCast">&lt;p&gt;iCast Project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">iCast Project</summary></entry><entry><title type="html">Covid-19 Tracker</title><link href="/projects/covid-tracker" rel="alternate" type="text/html" title="Covid-19 Tracker" /><published>2020-06-30T08:32:41+05:30</published><updated>2020-06-30T08:32:41+05:30</updated><id>/projects/Covid-Tracker</id><content type="html" xml:base="/projects/covid-tracker">&lt;p&gt;Covid tracker Project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">Covid tracker Project</summary></entry><entry><title type="html">You Have Graduated</title><link href="/blogs/you-have-graduated" rel="alternate" type="text/html" title="You Have Graduated" /><published>2019-08-01T08:32:41+05:30</published><updated>2019-08-01T08:32:41+05:30</updated><id>/blogs/You-have-graduated</id><content type="html" xml:base="/blogs/you-have-graduated">&lt;div&gt;
-&lt;p class=&quot;article&quot; style=&quot;font-family: Garamond; font-size: 18px;&quot;&gt;
-&lt;span style=&quot;font-size: 40px; font-style: bold&quot;&gt;S&lt;/span&gt;o, you have graduated. The results are out and you got the passing grades.
-It has been a tough journey, I know. Exhausting and dispiriting at times, I can
-relate.
-The numerous and frequent exams, the lengthy and boring assignments, gruelling
-long lectures
-and compulsory attendance in 3/4 of them. &lt;br /&gt;&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-22T01:29:13+05:30</updated><id>/feed.xml</id><title type="html">Akshay Anand</title><subtitle>Full Stack Developer</subtitle><entry><title type="html">MASM</title><link href="/blogs/masm" rel="alternate" type="text/html" title="MASM" /><published>2021-04-03T08:32:41+05:30</published><updated>2021-04-03T08:32:41+05:30</updated><id>/blogs/MASM</id><content type="html" xml:base="/blogs/masm">&lt;h4&gt;Getting started with MASM 8086 assembly&lt;/h4&gt;
+&lt;p&gt;&lt;b&gt;Why suddenly 8086 assembly using MASM? &lt;/b&gt;&lt;br /&gt;
+Well, partly because I love exploring random legacy system programming
+and partly because I stumbled upon this book called “C using Assembly Language” 
+by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler
+to demonstrate use cases. So here I am, experimenting with stuffs.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-But as if all of this wasn’t enough, we are laid down with another burden.
-The burden of &lt;span style=&quot;font-style: italic&quot;&gt;judgement&lt;/span&gt;. A grade is assigned to you; you are put into a
-category.
-Based on how much you could recall from the mugging of previous couple of days
-before exam,
-maybe on how perfect curves can you bring into your writing, and also possibly
-on the condition that your examiner had no fight with his wife on the morning of
-paper checking.&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;main&quot;&gt;
 
-Now once you are assigned a number, you’re all set to be judged. Not just
-academically, but for &lt;span style=&quot;font-style: italic&quot;&gt;all your self-worth&lt;/span&gt;. If your pets had some scores
-for
-their playfulness, you’d be compared to them too.&lt;br /&gt;&lt;br /&gt;
+&lt;article class=&quot;articlecolumn&quot;&gt;
 
-A good category gives you the ability to grow unicorn horns! No, just kidding.
-But it does come with lots of perks. For instance, you get to have
-&lt;span style=&quot;font-style: italic&quot;&gt;reservation&lt;/span&gt; in elective subject lottery. You get to have your way when it
-comes
-to nominations for any volunteering work in the institution. Everyone loves and
-adores you. Professors would probably take you out for lunch (if they
-could).&lt;br /&gt;&lt;br /&gt;
+&lt;p class=&quot;article&quot;&gt;
 
-But if your stars turn out as playful as your pets and don’t agree to align, and
-you somehow fall into a less fortunate category, then all the best to you. It
-could be so that people forget that you even exist. You won’t make it to
-probably top 20 of considerations for even non-academic works. People would come
-to you though, &lt;span style=&quot;font-style: italic&quot;&gt;after&lt;/span&gt; the results, to take a measure of how good
-&lt;span style=&quot;font-style: italic&quot;&gt;they&lt;/span&gt; have done.&lt;br /&gt;&lt;br /&gt;
 
-I hold no grudges against the top-scorers, and have no particular love for the
-low-graders. All I have, in plenty, is a loathe for the system. A system where a
-decimal number represents your capability. The first relevant data on any resume
-after your name is most likely to be that number. This isn’t even the most
-troubling part. The more troubling fact is that this system can be hacked. 
-&lt;span style=&quot;font-style: italic&quot;&gt;Easily&lt;/span&gt;. Anyone can rig this grading scheme. All it takes is a strong will
-and
-directed dedication to score good on a particular set of questions.&lt;br /&gt;&lt;br /&gt;
+&lt;b&gt;Setup&lt;/b&gt;&lt;br /&gt;
+To get started with MASM, we need to have DOSBOX (an IBM PC compatible DOS emulator)
+    and MASM 8086 assembler files to go along with it. &lt;br /&gt;&lt;br /&gt;
 
-I am no one to judge anyone and I don’t intend to be guilty of a crime that I
-mean to outface. However, I have seen the most vacuous of heads with full grown
-unicorn horns. They dally with a certain ebullience, flaunting that horn of
-theirs. And everyone notices them, admires and idolises them.
-Again, I have no complaint against the admiration anyone gets. It just happens
-so that almost everyone is admired and known for wrong reasons in this system.
-It’s like a person who’s a great swordsman gets the certificate of being called
-the top-archer at the end. Or a person who knows nothing about conjuring magic
-gets to become the sorcerer supreme based on their rote knowledge of the
-spells.&lt;br /&gt;&lt;br /&gt;
+I use a Mac, so my instructions will be for MacOS. However, these steps
+    are same for the most part for other platforms too, as our tool of choice, 
+    DOSBOX, is available for other OSes too.&lt;br /&gt;&lt;br /&gt;
 
-So, what is the solution to this unfairness? It’s simpler than you can imagine.
-Just don’t pay heed to it! Don’t believe in this flawed system. At the end of
-the day, no one actually does. In fact, in 3-tier colleges like ours, even
-recruiters take separate examinations to filter out some of those fake unicorn
-horns. So do post-grad universities everywhere. Then why should we fall for it?&lt;br /&gt;
-Have faith in yourself, believe in your self-worth. Don’t let your numbers and
-tags tell you otherwise. If you have been lagging behind till now, it means you
-have been in the wrong race all this while. Even a champion cyclist can’t beat
-an F1 racer in their track, doesn’t mean he/she is any less.&lt;br /&gt;
-I would also plead you to try and recognize the talent where it lies. Don’t make
-beef-witted people famous. The people who I admire the most in my circle are
-some of those who are hardly popular otherwise or are popular for all the
-wrong reasons.&lt;br /&gt;
-I know people who are great singers, dancers, poets, ones who can conjure magic
-with keyboards and guitars, those who bring sketches to life using pencil and
-paper, those who can paint what is hard to even imagine for others, those who are winning
-tournaments for their football and cricket teams, those who eat up books like
-cookies, those who write engrossing stories, and articles so clever they force
-you to think, and those who can actually make computers work at their will – &lt;span style=&quot;font-style: italic&quot;&gt;the
-real computer science engineers&lt;/span&gt;. And people hardly know these 7-point, 8-point
-something in their academic circle for what they are.&lt;br /&gt;
-Grades mean nothing. Grades take you nowhere. Your children won’t know you for
-your grades. Grades give you a false sense of judgment that will make no sense
-when the person without a horn outdoes you one day in life.
-&lt;br /&gt;&lt;br /&gt;
+Download DOSBOX from &lt;a href=&quot;http://www.dosbox.com&quot;&gt;here&lt;/a&gt;.&lt;br /&gt;
+Download 8086 assembler from &lt;a href=&quot;http://www.mediafire.com/file/mm7cjztce9efj4w/8086.zip&quot;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;
 
-Move on and appreciate people for what they are; &lt;span style=&quot;font-style: italic&quot;&gt;value yourself for what you are&lt;/span&gt;, for you are out of that
-corroded system now. &lt;br /&gt;&lt;b&gt;&lt;span style=&quot;font-style: italic&quot;&gt;You have graduated.&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+Copy DOSBOX to Applications from the disk image file.&lt;br /&gt;
+Then make a folder named “dosbox” in your home directory. &lt;br /&gt;
+Extract 8086.zip files to ~/dosbox. &lt;br /&gt;&lt;br /&gt;
 
+Now start DOSBOX. You should see the prompt to be z:\&amp;gt;&lt;br /&gt;
+Type “mount c ~/dosbox/8086”&lt;br /&gt;
+&lt;code&gt; Z:\&amp;gt; mount c ~/dosbox/8086&lt;/code&gt; &lt;br /&gt;
+Then type “c:” to change drive.&lt;br /&gt;
+&lt;code&gt;Z:\&amp;gt; C:&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;C:\&amp;gt;&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+
+Now you are ready to go. You can use “edit” utility to create and edit new asm files.&lt;br /&gt;
+For example: “edit hello.asm”&lt;br /&gt;
+Once you are done writing the code (You can try the code snippet from below),
+    you need to assemble and link before executing.&lt;br /&gt;&lt;br /&gt;
+
+Type “masm hello.asm”&lt;br /&gt;
+(Keep pressing Enter to bypass the prompts and to use default values for other filenames)&lt;br /&gt;
+Then “link hello”&lt;br /&gt;
+(Again press Enter a couple of times)&lt;br /&gt;
+Then type “hello.exe” and press Enter to execute the program.&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/screenshots/masm.png&quot; style=&quot;width:576px;height:400px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;b&gt;Now coming to the assembly code.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+MASM programs usually contains two segments: CODE and DATA.&lt;br /&gt;
+CODE segment contains the opcodes. DATA segment contains the variables.&lt;br /&gt;&lt;br /&gt;
+
+In this code, we are going to define a variable named MSG which will store 
+the string to be printed. DB (Define Byte) is a directive that is used to 
+reserve byte(s) of memory locations in available memory. “$” at the end of
+the variable declaration is used to signify termination of the string.&lt;br /&gt;&lt;br /&gt;
+
+In the code segment, the following two statements (line12, 13) are used to initialise DATA segment:&lt;br /&gt;&lt;br /&gt;
+&lt;code&gt;
+MOV AX, DATA&lt;br /&gt;
+MOV DS, AX&lt;br /&gt;&lt;br /&gt;
+&lt;/code&gt;
+
+These two statements must be used in all the MASM codes.&lt;br /&gt;&lt;br /&gt;
+
+Lines 15 to 17 are used to print the string.&lt;br /&gt;
+To output a string in 8086 assembly, we load the address of a &apos;$&apos;-terminated string
+    into DX and then call the interrupt with function code 09h in AH. MS-DOS provides
+    many interrupt services through INT 21H. Function code 09h is just one of them
+    (i.e., to output a string).&lt;br /&gt;&lt;br /&gt;
+
+
+Lines 20, 21 are used to exit the program. In MS-DOS on 8086, we save the return 
+code for a program in AL register. Then we call the interrupt with
+    function code 4Ch in AH. In line 20 we are directly moving 4C00h into AX, signifying normal exit.&lt;br /&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">So, you have graduated. The results are out and you got the passing grades. It has been a tough journey, I know. Exhausting and dispiriting at times, I can relate. The numerous and frequent exams, the lengthy and boring assignments, gruelling long lectures and compulsory attendance in 3/4 of them.</summary></entry><entry><title type="html">Verilog</title><link href="/blogs/verilog" rel="alternate" type="text/html" title="Verilog" /><published>2019-05-20T08:32:41+05:30</published><updated>2019-05-20T08:32:41+05:30</updated><id>/blogs/Verilog</id><content type="html" xml:base="/blogs/verilog">&lt;h4&gt;Running Verilog code on Linux/Mac&lt;/h4&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;script src=&quot;https://gist.github.com/axayjha/c592499d033ba4a70014311c67ebe9ec.js&quot;&gt;&lt;/script&gt; &lt;br /&gt;&lt;br /&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;a href=&quot;http://www.shsu.edu/~csc_tjm/fall2002/cs272/intro_to_asm.html&quot;&gt;http://www.shsu.edu/~csc_tjm/fall2002/cs272/intro_to_asm.html&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.csc.depauw.edu/~bhoward/asmtut/asmtut12.html#topic11&quot;&gt;https://www.csc.depauw.edu/~bhoward/asmtut/asmtut12.html#topic11&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://alpbyrs.blogspot.com/2015/06/assembly-language-programming.html&quot;&gt;http://alpbyrs.blogspot.com/2015/06/assembly-language-programming.html&lt;/a&gt;&lt;br /&gt;
+
+&lt;/article&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Getting started with MASM 8086 assembly Why suddenly 8086 assembly using MASM? Well, partly because I love exploring random legacy system programming and partly because I stumbled upon this book called “C using Assembly Language” by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler to demonstrate use cases. So here I am, experimenting with stuffs.</summary></entry><entry><title type="html">Featured Repositories</title><link href="/projects/featured" rel="alternate" type="text/html" title="Featured Repositories" /><published>2021-03-26T08:32:41+05:30</published><updated>2021-03-26T08:32:41+05:30</updated><id>/projects/Featured-Repos</id><content type="html" xml:base="/projects/featured">&lt;p&gt;Featured project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">Featured project</summary></entry><entry><title type="html">ToDo HandsOff App</title><link href="/projects/todo" rel="alternate" type="text/html" title="ToDo HandsOff App" /><published>2020-08-01T08:32:41+05:30</published><updated>2020-08-01T08:32:41+05:30</updated><id>/projects/ToDo</id><content type="html" xml:base="/projects/todo">&lt;p&gt;PixelView project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">PixelView project</summary></entry><entry><title type="html">CodeComm</title><link href="/projects/CodeComm" rel="alternate" type="text/html" title="CodeComm" /><published>2020-07-04T08:32:41+05:30</published><updated>2020-07-04T08:32:41+05:30</updated><id>/projects/CodeComm</id><content type="html" xml:base="/projects/CodeComm">&lt;p&gt;CodeComm project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">CodeComm project</summary></entry><entry><title type="html">iCast</title><link href="/projects/iCast" rel="alternate" type="text/html" title="iCast" /><published>2020-06-30T08:32:41+05:30</published><updated>2020-06-30T08:32:41+05:30</updated><id>/projects/iCast</id><content type="html" xml:base="/projects/iCast">&lt;p&gt;iCast Project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">iCast Project</summary></entry><entry><title type="html">Covid-19 Tracker</title><link href="/projects/covid-tracker" rel="alternate" type="text/html" title="Covid-19 Tracker" /><published>2020-06-30T08:32:41+05:30</published><updated>2020-06-30T08:32:41+05:30</updated><id>/projects/Covid-Tracker</id><content type="html" xml:base="/projects/covid-tracker">&lt;p&gt;Covid tracker Project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">Covid tracker Project</summary></entry><entry><title type="html">Verilog</title><link href="/blogs/verilog" rel="alternate" type="text/html" title="Verilog" /><published>2019-10-20T08:32:41+05:30</published><updated>2019-10-20T08:32:41+05:30</updated><id>/blogs/Verilog</id><content type="html" xml:base="/blogs/verilog">&lt;h4&gt;Running Verilog code on Linux/Mac&lt;/h4&gt;
 &lt;p&gt;Step by step instructions of to setup and install tools to run and visualize verilog HDL designs on *nix systems.&lt;/p&gt;
 
 &lt;h1&gt;Install&lt;/h1&gt;
@@ -202,95 +202,7 @@ Expand &apos;test&apos; in the left sidebar and click on &apos;c1&apos;. Then dr
 &lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/screenshots/gtkwave.png&quot; style=&quot;width:700px;height:400px;&quot; /&gt;
 
 
-&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Running Verilog code on Linux/Mac Step by step instructions of to setup and install tools to run and visualize verilog HDL designs on *nix systems.</summary></entry><entry><title type="html">Smart India Hackathon</title><link href="/projects/Smart-India-Hackathon" rel="alternate" type="text/html" title="Smart India Hackathon" /><published>2019-04-04T08:32:41+05:30</published><updated>2019-04-04T08:32:41+05:30</updated><id>/projects/Smart-India-Hackathon</id><content type="html" xml:base="/projects/Smart-India-Hackathon">&lt;p&gt;SIH project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">SIH project</summary></entry><entry><title type="html">MASM</title><link href="/blogs/masm" rel="alternate" type="text/html" title="MASM" /><published>2019-04-03T08:32:41+05:30</published><updated>2019-04-03T08:32:41+05:30</updated><id>/blogs/MASM</id><content type="html" xml:base="/blogs/masm">&lt;h4&gt;Getting started with MASM 8086 assembly&lt;/h4&gt;
-&lt;p&gt;&lt;b&gt;Why suddenly 8086 assembly using MASM? &lt;/b&gt;&lt;br /&gt;
-Well, partly because I love exploring random legacy system programming
-and partly because I stumbled upon this book called “C using Assembly Language” 
-by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler
-to demonstrate use cases. So here I am, experimenting with stuffs.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;main&quot;&gt;
-
-&lt;article class=&quot;articlecolumn&quot;&gt;
-
-&lt;p class=&quot;article&quot;&gt;
-
-
-&lt;b&gt;Setup&lt;/b&gt;&lt;br /&gt;
-To get started with MASM, we need to have DOSBOX (an IBM PC compatible DOS emulator)
-    and MASM 8086 assembler files to go along with it. &lt;br /&gt;&lt;br /&gt;
-
-I use a Mac, so my instructions will be for MacOS. However, these steps
-    are same for the most part for other platforms too, as our tool of choice, 
-    DOSBOX, is available for other OSes too.&lt;br /&gt;&lt;br /&gt;
-
-Download DOSBOX from &lt;a href=&quot;http://www.dosbox.com&quot;&gt;here&lt;/a&gt;.&lt;br /&gt;
-Download 8086 assembler from &lt;a href=&quot;http://www.mediafire.com/file/mm7cjztce9efj4w/8086.zip&quot;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;
-
-Copy DOSBOX to Applications from the disk image file.&lt;br /&gt;
-Then make a folder named “dosbox” in your home directory. &lt;br /&gt;
-Extract 8086.zip files to ~/dosbox. &lt;br /&gt;&lt;br /&gt;
-
-Now start DOSBOX. You should see the prompt to be z:\&amp;gt;&lt;br /&gt;
-Type “mount c ~/dosbox/8086”&lt;br /&gt;
-&lt;code&gt; Z:\&amp;gt; mount c ~/dosbox/8086&lt;/code&gt; &lt;br /&gt;
-Then type “c:” to change drive.&lt;br /&gt;
-&lt;code&gt;Z:\&amp;gt; C:&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;C:\&amp;gt;&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
-
-Now you are ready to go. You can use “edit” utility to create and edit new asm files.&lt;br /&gt;
-For example: “edit hello.asm”&lt;br /&gt;
-Once you are done writing the code (You can try the code snippet from below),
-    you need to assemble and link before executing.&lt;br /&gt;&lt;br /&gt;
-
-Type “masm hello.asm”&lt;br /&gt;
-(Keep pressing Enter to bypass the prompts and to use default values for other filenames)&lt;br /&gt;
-Then “link hello”&lt;br /&gt;
-(Again press Enter a couple of times)&lt;br /&gt;
-Then type “hello.exe” and press Enter to execute the program.&lt;br /&gt;&lt;br /&gt;
-
-&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/screenshots/masm.png&quot; style=&quot;width:576px;height:400px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
-
-&lt;b&gt;Now coming to the assembly code.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
-
-MASM programs usually contains two segments: CODE and DATA.&lt;br /&gt;
-CODE segment contains the opcodes. DATA segment contains the variables.&lt;br /&gt;&lt;br /&gt;
-
-In this code, we are going to define a variable named MSG which will store 
-the string to be printed. DB (Define Byte) is a directive that is used to 
-reserve byte(s) of memory locations in available memory. “$” at the end of
-the variable declaration is used to signify termination of the string.&lt;br /&gt;&lt;br /&gt;
-
-In the code segment, the following two statements (line12, 13) are used to initialise DATA segment:&lt;br /&gt;&lt;br /&gt;
-&lt;code&gt;
-MOV AX, DATA&lt;br /&gt;
-MOV DS, AX&lt;br /&gt;&lt;br /&gt;
-&lt;/code&gt;
-
-These two statements must be used in all the MASM codes.&lt;br /&gt;&lt;br /&gt;
-
-Lines 15 to 17 are used to print the string.&lt;br /&gt;
-To output a string in 8086 assembly, we load the address of a &apos;$&apos;-terminated string
-    into DX and then call the interrupt with function code 09h in AH. MS-DOS provides
-    many interrupt services through INT 21H. Function code 09h is just one of them
-    (i.e., to output a string).&lt;br /&gt;&lt;br /&gt;
-
-
-Lines 20, 21 are used to exit the program. In MS-DOS on 8086, we save the return 
-code for a program in AL register. Then we call the interrupt with
-    function code 4Ch in AH. In line 20 we are directly moving 4C00h into AX, signifying normal exit.&lt;br /&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;script src=&quot;https://gist.github.com/axayjha/c592499d033ba4a70014311c67ebe9ec.js&quot;&gt;&lt;/script&gt; &lt;br /&gt;&lt;br /&gt;
-&lt;h2&gt;Resources&lt;/h2&gt;
-&lt;a href=&quot;http://www.shsu.edu/~csc_tjm/fall2002/cs272/intro_to_asm.html&quot;&gt;http://www.shsu.edu/~csc_tjm/fall2002/cs272/intro_to_asm.html&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.csc.depauw.edu/~bhoward/asmtut/asmtut12.html#topic11&quot;&gt;https://www.csc.depauw.edu/~bhoward/asmtut/asmtut12.html#topic11&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://alpbyrs.blogspot.com/2015/06/assembly-language-programming.html&quot;&gt;http://alpbyrs.blogspot.com/2015/06/assembly-language-programming.html&lt;/a&gt;&lt;br /&gt;
-
-&lt;/article&gt;
-
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Getting started with MASM 8086 assembly Why suddenly 8086 assembly using MASM? Well, partly because I love exploring random legacy system programming and partly because I stumbled upon this book called “C using Assembly Language” by Steven Holzner (1989). Author has used Quick C and Microsoft Micro Assembler to demonstrate use cases. So here I am, experimenting with stuffs.</summary></entry><entry><title type="html">FSM in HDL</title><link href="/blogs/mul-fsm-in-hdl" rel="alternate" type="text/html" title="FSM in HDL" /><published>2019-04-03T08:32:41+05:30</published><updated>2019-04-03T08:32:41+05:30</updated><id>/blogs/Mul-FSM</id><content type="html" xml:base="/blogs/mul-fsm-in-hdl">&lt;h4&gt;Implementing an algorithm by modelling an FSM in an HDL &lt;/h4&gt;
+&lt;/code&gt;&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Running Verilog code on Linux/Mac Step by step instructions of to setup and install tools to run and visualize verilog HDL designs on *nix systems.</summary></entry><entry><title type="html">FSM in HDL</title><link href="/blogs/mul-fsm-in-hdl" rel="alternate" type="text/html" title="FSM in HDL" /><published>2019-09-03T08:32:41+05:30</published><updated>2019-09-03T08:32:41+05:30</updated><id>/blogs/Mul-FSM</id><content type="html" xml:base="/blogs/mul-fsm-in-hdl">&lt;h4&gt;Implementing an algorithm by modelling an FSM in an HDL &lt;/h4&gt;
 &lt;p&gt;We are going to use Verilog for this project. So, any verilog compiler and simulator should do. 
 Xilinx and ModelSim are really good tools. But since I’m a *nix guy, I’m going to use 
 &lt;b&gt;Icarus Verilog&lt;/b&gt; to compile code and &lt;b&gt;gtkwave&lt;/b&gt; to view the signal timing diagrams.
@@ -464,4 +376,92 @@ Takes two 16 bit data and adds and returns back 16 bit sum. Doesn’t care for o
 
 
 
-&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Implementing an algorithm by modelling an FSM in an HDL We are going to use Verilog for this project. So, any verilog compiler and simulator should do. Xilinx and ModelSim are really good tools. But since I’m a *nix guy, I’m going to use Icarus Verilog to compile code and gtkwave to view the signal timing diagrams. They are free to use, easy to learn and much more light-weight than other full-fledged options.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Implementing an algorithm by modelling an FSM in an HDL We are going to use Verilog for this project. So, any verilog compiler and simulator should do. Xilinx and ModelSim are really good tools. But since I’m a *nix guy, I’m going to use Icarus Verilog to compile code and gtkwave to view the signal timing diagrams. They are free to use, easy to learn and much more light-weight than other full-fledged options.</summary></entry><entry><title type="html">You Have Graduated</title><link href="/blogs/you-have-graduated" rel="alternate" type="text/html" title="You Have Graduated" /><published>2019-08-01T08:32:41+05:30</published><updated>2019-08-01T08:32:41+05:30</updated><id>/blogs/You-have-graduated</id><content type="html" xml:base="/blogs/you-have-graduated">&lt;div&gt;
+&lt;p class=&quot;article&quot; style=&quot;font-family: Garamond; font-size: 18px;&quot;&gt;
+&lt;span style=&quot;font-size: 40px; font-style: bold&quot;&gt;S&lt;/span&gt;o, you have graduated. The results are out and you got the passing grades.
+It has been a tough journey, I know. Exhausting and dispiriting at times, I can
+relate.
+The numerous and frequent exams, the lengthy and boring assignments, gruelling
+long lectures
+and compulsory attendance in 3/4 of them. &lt;br /&gt;&lt;br /&gt;
+
+But as if all of this wasn’t enough, we are laid down with another burden.
+The burden of &lt;span style=&quot;font-style: italic&quot;&gt;judgement&lt;/span&gt;. A grade is assigned to you; you are put into a
+category.
+Based on how much you could recall from the mugging of previous couple of days
+before exam,
+maybe on how perfect curves can you bring into your writing, and also possibly
+on the condition that your examiner had no fight with his wife on the morning of
+paper checking.&lt;br /&gt;&lt;br /&gt;
+
+Now once you are assigned a number, you’re all set to be judged. Not just
+academically, but for &lt;span style=&quot;font-style: italic&quot;&gt;all your self-worth&lt;/span&gt;. If your pets had some scores
+for
+their playfulness, you’d be compared to them too.&lt;br /&gt;&lt;br /&gt;
+
+A good category gives you the ability to grow unicorn horns! No, just kidding.
+But it does come with lots of perks. For instance, you get to have
+&lt;span style=&quot;font-style: italic&quot;&gt;reservation&lt;/span&gt; in elective subject lottery. You get to have your way when it
+comes
+to nominations for any volunteering work in the institution. Everyone loves and
+adores you. Professors would probably take you out for lunch (if they
+could).&lt;br /&gt;&lt;br /&gt;
+
+But if your stars turn out as playful as your pets and don’t agree to align, and
+you somehow fall into a less fortunate category, then all the best to you. It
+could be so that people forget that you even exist. You won’t make it to
+probably top 20 of considerations for even non-academic works. People would come
+to you though, &lt;span style=&quot;font-style: italic&quot;&gt;after&lt;/span&gt; the results, to take a measure of how good
+&lt;span style=&quot;font-style: italic&quot;&gt;they&lt;/span&gt; have done.&lt;br /&gt;&lt;br /&gt;
+
+I hold no grudges against the top-scorers, and have no particular love for the
+low-graders. All I have, in plenty, is a loathe for the system. A system where a
+decimal number represents your capability. The first relevant data on any resume
+after your name is most likely to be that number. This isn’t even the most
+troubling part. The more troubling fact is that this system can be hacked. 
+&lt;span style=&quot;font-style: italic&quot;&gt;Easily&lt;/span&gt;. Anyone can rig this grading scheme. All it takes is a strong will
+and
+directed dedication to score good on a particular set of questions.&lt;br /&gt;&lt;br /&gt;
+
+I am no one to judge anyone and I don’t intend to be guilty of a crime that I
+mean to outface. However, I have seen the most vacuous of heads with full grown
+unicorn horns. They dally with a certain ebullience, flaunting that horn of
+theirs. And everyone notices them, admires and idolises them.
+Again, I have no complaint against the admiration anyone gets. It just happens
+so that almost everyone is admired and known for wrong reasons in this system.
+It’s like a person who’s a great swordsman gets the certificate of being called
+the top-archer at the end. Or a person who knows nothing about conjuring magic
+gets to become the sorcerer supreme based on their rote knowledge of the
+spells.&lt;br /&gt;&lt;br /&gt;
+
+So, what is the solution to this unfairness? It’s simpler than you can imagine.
+Just don’t pay heed to it! Don’t believe in this flawed system. At the end of
+the day, no one actually does. In fact, in 3-tier colleges like ours, even
+recruiters take separate examinations to filter out some of those fake unicorn
+horns. So do post-grad universities everywhere. Then why should we fall for it?&lt;br /&gt;
+Have faith in yourself, believe in your self-worth. Don’t let your numbers and
+tags tell you otherwise. If you have been lagging behind till now, it means you
+have been in the wrong race all this while. Even a champion cyclist can’t beat
+an F1 racer in their track, doesn’t mean he/she is any less.&lt;br /&gt;
+I would also plead you to try and recognize the talent where it lies. Don’t make
+beef-witted people famous. The people who I admire the most in my circle are
+some of those who are hardly popular otherwise or are popular for all the
+wrong reasons.&lt;br /&gt;
+I know people who are great singers, dancers, poets, ones who can conjure magic
+with keyboards and guitars, those who bring sketches to life using pencil and
+paper, those who can paint what is hard to even imagine for others, those who are winning
+tournaments for their football and cricket teams, those who eat up books like
+cookies, those who write engrossing stories, and articles so clever they force
+you to think, and those who can actually make computers work at their will – &lt;span style=&quot;font-style: italic&quot;&gt;the
+real computer science engineers&lt;/span&gt;. And people hardly know these 7-point, 8-point
+something in their academic circle for what they are.&lt;br /&gt;
+Grades mean nothing. Grades take you nowhere. Your children won’t know you for
+your grades. Grades give you a false sense of judgment that will make no sense
+when the person without a horn outdoes you one day in life.
+&lt;br /&gt;&lt;br /&gt;
+
+Move on and appreciate people for what they are; &lt;span style=&quot;font-style: italic&quot;&gt;value yourself for what you are&lt;/span&gt;, for you are out of that
+corroded system now. &lt;br /&gt;&lt;b&gt;&lt;span style=&quot;font-style: italic&quot;&gt;You have graduated.&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">So, you have graduated. The results are out and you got the passing grades. It has been a tough journey, I know. Exhausting and dispiriting at times, I can relate. The numerous and frequent exams, the lengthy and boring assignments, gruelling long lectures and compulsory attendance in 3/4 of them.</summary></entry><entry><title type="html">Smart India Hackathon</title><link href="/projects/Smart-India-Hackathon" rel="alternate" type="text/html" title="Smart India Hackathon" /><published>2019-04-04T08:32:41+05:30</published><updated>2019-04-04T08:32:41+05:30</updated><id>/projects/Smart-India-Hackathon</id><content type="html" xml:base="/projects/Smart-India-Hackathon">&lt;p&gt;SIH project&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">SIH project</summary></entry></feed>
