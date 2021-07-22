@@ -1,0 +1,10 @@
+I"*<h2 id="a-simple-podcast-player-for-macos-supports-apple-silicon">A Simple Podcast Player for MacOS <em>(Supports Apple Silicon)</em></h2>
+<p>This first alpha release of iCast supports adding new podcasts via RSS url. You can add multiple podcasts and view and play their episodes. Whatever podcast you add will be saved for you, although you can delete them as well.</p>
+
+<p>Check it out on  <a href="https://github.com/axayjha/iCast"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png" width="60px" /></a></p>
+
+<h4>Screenshots</h4>
+<p><img width="800" alt="iCast screenshot" src="https://user-images.githubusercontent.com/10881563/86213012-a66ef700-bb96-11ea-9206-cb5fdd0b82ae.png" /></p>
+
+<p>Download the latest alpha release from https://github.com/axayjha/iCast/releases</p>
+:ET
