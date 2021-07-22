@@ -8,7 +8,7 @@ permalink: /projects/pixelview
 
 PixelView is a scientific digital image processing tool containing some of the most popular image processing and ML algorithms with a simple UI to test on images with ease.
 
-Check it out on  <a href="https://github.com/axayjha/pixelview"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png" width="60px"></a>
+Check it out on  <a href="https://github.com/axayjha/pixelview" target="_blank"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png" width="60px"></a>
 
 <h4>Screenshots</h4>
 

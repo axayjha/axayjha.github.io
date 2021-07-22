@@ -9,7 +9,7 @@ permalink: /projects/retail-bank
 A single page web application to provide role-based simple banking features and real-time interest update. Developed using Angular, SpringBoot and MySQL.
 
 
-Check it out on  <a href="https://github.com/axayjha/retailbank"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png" width="60px"></a>
+Check it out on  <a href="https://github.com/axayjha/retailbank" target="_blank"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png" width="60px"></a>
 
 It is also deployed on Heroku at: <a href="http://test-retail-bank.herokuapp.com/" target="_blank">http://test-retail-bank.herokuapp.com/</a>
 

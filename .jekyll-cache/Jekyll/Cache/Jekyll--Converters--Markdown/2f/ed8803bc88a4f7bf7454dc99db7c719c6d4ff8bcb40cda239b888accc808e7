@@ -1,0 +1,20 @@
+I"Ã<p>A single page web application to provide role-based simple banking features and real-time interest update. Developed using Angular, SpringBoot and MySQL.</p>
+
+<p>Check it out on  <a href="https://github.com/axayjha/retailbank" target="_blank"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png" width="60px" /></a></p>
+
+<p>It is also deployed on Heroku at: <a href="http://test-retail-bank.herokuapp.com/" target="_blank">http://test-retail-bank.herokuapp.com/</a></p>
+
+<h4>Screenshots</h4>
+<p><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/retailbank/scr1.png" />
+<br />
+<br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/retailbank/scr2.png" />
+<br />
+<br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/retailbank/scr3.png" />
+<br />
+<br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/retailbank/scr4.png" />
+<br />
+<br /></p>
+:ET
