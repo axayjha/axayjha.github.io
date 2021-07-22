@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-23T02:29:01+05:30</updated><id>/feed.xml</id><title type="html">Akshay Anand</title><subtitle>Full Stack Developer</subtitle><entry><title type="html">Shopcart</title><link href="/projects/iCast" rel="alternate" type="text/html" title="Shopcart" /><published>2021-07-01T08:32:41+05:30</published><updated>2021-07-01T08:32:41+05:30</updated><id>/projects/Shopcart</id><content type="html" xml:base="/projects/iCast">&lt;p&gt;A Flipkart/Amazon clone. An e-commerce platform dveleoped with scalable, robust and secure microservices architecture.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-23T03:03:59+05:30</updated><id>/feed.xml</id><title type="html">Akshay Anand</title><subtitle>Full Stack Developer</subtitle><entry><title type="html">Shopcart</title><link href="/projects/iCast" rel="alternate" type="text/html" title="Shopcart" /><published>2021-07-01T08:32:41+05:30</published><updated>2021-07-01T08:32:41+05:30</updated><id>/projects/Shopcart</id><content type="html" xml:base="/projects/iCast">&lt;p&gt;A Flipkart/Amazon clone. An e-commerce platform dveleoped with scalable, robust and secure microservices architecture.&lt;/p&gt;
 
 &lt;p&gt;Provides role-based authenticated services for consumers and sellers to browse the listing, make purchases or add items to listing and sell them. Developed with Spring Microservices - Spring Cloud, Spring Security (JWT), Ribbon, Eureka, Zuul, Zipkin, Sleuth, OpenFeign.&lt;/p&gt;
 
@@ -507,4 +507,33 @@ Move on and appreciate people for what they are; &lt;span style=&quot;font-style
 corroded system now. &lt;br /&gt;&lt;b&gt;&lt;span style=&quot;font-style: italic&quot;&gt;You have graduated.&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
 
 &lt;/p&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">So, you have graduated. The results are out and you got the passing grades. It has been a tough journey, I know. Exhausting and dispiriting at times, I can relate. The numerous and frequent exams, the lengthy and boring assignments, gruelling long lectures and compulsory attendance in 3/4 of them.</summary></entry><entry><title type="html">Smart India Hackathon</title><link href="/projects/Smart-India-Hackathon" rel="alternate" type="text/html" title="Smart India Hackathon" /><published>2019-04-04T08:32:41+05:30</published><updated>2019-04-04T08:32:41+05:30</updated><id>/projects/Smart-India-Hackathon</id><content type="html" xml:base="/projects/Smart-India-Hackathon">&lt;p&gt;Provides a platform (Android app and USSD code program) for electricity consumers to report power outages in their area with simple UI. This data gets stored in a centralised data store which can be accessed by Electricity corporation and Ministry of Power via a dashboard with analytical tools.&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">Provides a platform (Android app and USSD code program) for electricity consumers to report power outages in their area with simple UI. This data gets stored in a centralised data store which can be accessed by Electricity corporation and Ministry of Power via a dashboard with analytical tools.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">So, you have graduated. The results are out and you got the passing grades. It has been a tough journey, I know. Exhausting and dispiriting at times, I can relate. The numerous and frequent exams, the lengthy and boring assignments, gruelling long lectures and compulsory attendance in 3/4 of them.</summary></entry><entry><title type="html">Smart India Hackathon</title><link href="/projects/Smart-India-Hackathon" rel="alternate" type="text/html" title="Smart India Hackathon" /><published>2019-04-04T08:32:41+05:30</published><updated>2019-04-04T08:32:41+05:30</updated><id>/projects/Smart-India-Hackathon</id><content type="html" xml:base="/projects/Smart-India-Hackathon">&lt;p&gt;Provides a platform (Android app and USSD code program) for electricity consumers to report power outages in their area with simple UI. This data gets stored in a centralised data store which can be accessed by Electricity corporation and Ministry of Power via a dashboard with analytical tools.&lt;/p&gt;
+
+&lt;p&gt;Check it out on  &lt;a href=&quot;https://github.com/axayjha/vidyutsaathi&quot;&gt;&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png&quot; width=&quot;60px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/vidyutsathi/scr1.png&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;container_24&quot;&gt;
+    &lt;div class=&quot;grid_10&quot;&gt;
+        &lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/vidyutsathi/scr2.png&quot; width=&quot;300px&quot; /&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&quot;grid_10&quot;&gt;
+        &lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/vidyutsathi/scr3.png&quot; width=&quot;300px&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;container_24&quot;&gt;
+    &lt;div class=&quot;grid_10&quot;&gt;
+        &lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/vidyutsathi/scr4.png&quot; width=&quot;300px&quot; /&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&quot;grid_10&quot;&gt;
+        &lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/vidyutsathi/scr5.png&quot; width=&quot;300px&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="projects" /><summary type="html">Provides a platform (Android app and USSD code program) for electricity consumers to report power outages in their area with simple UI. This data gets stored in a centralised data store which can be accessed by Electricity corporation and Ministry of Power via a dashboard with analytical tools.</summary></entry></feed>

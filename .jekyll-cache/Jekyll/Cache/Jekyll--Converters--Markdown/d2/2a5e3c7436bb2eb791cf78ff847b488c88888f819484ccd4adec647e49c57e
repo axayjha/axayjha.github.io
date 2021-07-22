@@ -1,0 +1,29 @@
+I",<p>A trivial file system (emulating unix FS) simulation that can create directories and files on a simulated disk block</p>
+
+<p>Check it out on  <a href="https://github.com/axayjha/fs"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png" width="60px" /></a></p>
+
+<h4>Screenshots</h4>
+
+<p>Debug to get information about the disk
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr1.png" />
+<br />
+<br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr2.png" />
+<br />
+<br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr3.png" />
+<br />
+<br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr4.png" />
+<br />
+<br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr5.png" />
+<br />
+<br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr6.png" />
+<br />
+<br />
+<img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr7.png" />
+<br />
+<br /></p>
+:ET
