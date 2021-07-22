@@ -9,7 +9,8 @@ permalink: /contact/
 <div class="container_24">
     <div class="grid_9">
         <h3>Akshay Anand </h3>
-        <b>SDE-1, Amazon</b><br><br>
+        <i>Software Development Engineer</i>, <b>Amazon</b><br>
+        <hr/>
         I am currently working with the Alexa team at Amazon on Alexa Data Services helping proper labelling of data to imrove Alexa's natural language understanding.
         <br>
         <br>
@@ -26,19 +27,23 @@ permalink: /contact/
                 alt="Profile photo" src="https://github.com/axayjha/axayjha.github.io/raw/master/img/whatsapp.png"
                 width="20px"></a>
         <br><br>
-        <em>Write to me at </em>📧 <a href="mailto:akshayjha@live.in">akshayjha@live.in</a>
 
     </div>
     <div class="grid_1">&nbsp;&nbsp;</div>
     <div class="grid_12">
         <!-- <img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/dp.jpeg" width="300px" /> -->
         <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="axayjha"><a class="LI-simple-link" href='https://in.linkedin.com/in/axayjha?trk=profile-badge'></a></div>
+        <br>
+        <br>
+        <h4>More Information 📜 </h4>
+        <br>
+        <a href="https://github.com/axayjha/axayjha.github.io/raw/master/resume.pdf"> <button class="btn"><em
+                    class="fa fa-download"></em> Download Résumé</button></a> <br>
+                    <br><br><br>
+        <em>Write to me at </em>📧 <a href="mailto:akshayjha@live.in">akshayjha@live.in</a>
+
     </div>
 </div>
 <br>
 <br>
 
-### More Information 📜
-<br>
-<a href="https://github.com/axayjha/axayjha.github.io/raw/master/resume.pdf"> <button class="btn"><em
-            class="fa fa-download"></em> Download Résumé</button></a>
