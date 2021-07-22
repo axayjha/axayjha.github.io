@@ -8,8 +8,14 @@ permalink: /contact/
 <br>
 <div class="container_24">
     <div class="grid_9">
-        I am a full stack developer with 2+ years professional work experience in developing and maintaining live
-        business applications. I have working knowledge of developing web applications and restful web services using
+        <h3>Akshay Anand </h3>
+        <b>SDE-1, Amazon</b><br><br>
+        I am currently working with the Alexa team at Amazon on Alexa Data Services helping proper labelling of data to imrove Alexa's natural language understanding.
+        <br>
+        <br>
+        <br>
+        I have 2+ years professional work experience in full-stack development, and maintaining live
+        business applications. I have working knowledge of developing web applications and microservices using
         SpringBoot, JPA, Angular, Node and Python among other
         technologies. I am actively looking for opportunities to solve challenging problems in a nourishing
         environment with like-minded people. 
