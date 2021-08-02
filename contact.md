@@ -11,7 +11,7 @@ permalink: /contact/
         <h3>Akshay Anand </h3>
         <i>Software Development Engineer</i>, <b>Amazon</b><br>
         <hr/>
-        I am currently working with the Alexa team at Amazon on Alexa Data Services helping proper labelling of data to imrove Alexa's natural language understanding.
+        I am currently working with the Alexa team at Amazon on Alexa Data Services helping proper labelling of data to improve Alexa's natural language understanding.
         <br>
         <br>
         <br>
