@@ -19,10 +19,8 @@ permalink: /archives/
         Sketches
     </div>
     <br>
-
     <div class="container_24">
         <div class="grid_10">
-
             <div class="polaroid">
                 <a href="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2018.jpg" target="_blank"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2018.jpg"
                     alt="Stephen Hawking" width="400px"> </a>
@@ -30,9 +28,7 @@ permalink: /archives/
                     <p>Stephen Hawking</p>
                 </div>
             </div>
-
         </div>
-
         <div class="grid_10">
             <div class="polaroid">
                 <a href="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2017.jpg" target="_blank"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2017.jpg"
@@ -62,7 +58,21 @@ permalink: /archives/
     </div>
     <br>
     <div>
-        <h5>🏔 Mount Kanchenjunga</h5>
+        <h5>🏔 Darjeeling Trip 4K | September '21</h5>
+        <p>A travel montage from my trip to Mirik, Darjeeling and Kalimpong in September of 2021.</p>
+        <iframe width="711" height="400" src="https://www.youtube.com/embed/vv16I9gLy-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h5>🏔 Mount Kanchenjunga | Darjeeling</h5>
+        <p>Timelapse video of the Queen of Hills and third highest peak in the world!</p>
+        <iframe width="711" height="400" src="https://www.youtube.com/embed/KeYw3z3DZtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h5>🏔 Mount Kanchenjunga | Pelling, Sikkim</h5>
         <p>Telephoto timelapse of the third highest peak in the world!</p>
         <iframe width="711" height="400" src="https://www.youtube.com/embed/VS4EJxzBQg0" title="YouTube video player"
             frameborder="0"
@@ -81,8 +91,6 @@ permalink: /archives/
     </div>
     <br>
     <br>
-
-
     <div>
         <h5> 🛣 Darjeeling Vlog </h5>
         <p>Road trip to the picturesque northern district of Bengal</p>
@@ -91,7 +99,6 @@ permalink: /archives/
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
-
     <br>
     <br>
     <div class="centered">
@@ -112,7 +119,6 @@ permalink: /archives/
 
 <div class="container_24">
     <div class="grid_10">
-
         <blockquote class="instagram-media"
             data-instgrm-permalink="https://www.instagram.com/p/CLzCwuvg3dX/?utm_source=ig_embed&amp;utm_campaign=loading"
             data-instgrm-version="13"
