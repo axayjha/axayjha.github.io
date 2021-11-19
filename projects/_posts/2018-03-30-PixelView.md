@@ -21,3 +21,5 @@ Check it out on  <a href="https://github.com/axayjha/pixelview" target="_blank">
 
 ### Windows
 ![Windows Screenshot 2 low](https://user-images.githubusercontent.com/10881563/122894228-a26a5500-d364-11eb-9eb6-633a292e3a55.png)
+
+###
