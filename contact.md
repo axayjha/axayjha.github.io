@@ -11,15 +11,16 @@ permalink: /contact/
         <h3>Akshay Anand </h3>
         <i>Software Development Engineer</i>, <b>Amazon</b><br>
         <hr/>
-        I am currently working with the Alexa team at Amazon on Alexa Data Services helping proper labelling of data to improve Alexa's natural language understanding.
+        I am currently working with the Alexa Data Services team at Amazon helping improve accuracy of Alexa devices' voice and video data labelling to improve Alexa's natural language understanding.
         <br>
         <br>
         <br>
         I have 2+ years professional work experience in full-stack development, and maintaining live
-        business applications. I have working knowledge of developing web applications and microservices using
-        SpringBoot, JPA, Angular, Node and Python among other
-        technologies. I am actively looking for opportunities to solve challenging problems in a nourishing
-        environment with like-minded people. 
+        business applications. I have working knowledge of developing web applications, microservices and Native AWS applications using
+        Java, Angular, ReactJs and Python among other
+        technologies. 
+        <!--I am actively looking for opportunities to solve challenging problems in a nourishing
+        environment with like-minded people. -->
 
         <br><br>
         <em>Hit me up at </em>📱 <span style="font-size: 16px; font-weight: bold;"><a
