@@ -32,7 +32,7 @@ permalink: /contact/
     </div>
     <div class="grid_1">&nbsp;&nbsp;</div>
     <div class="grid_12">
-    <br>
+    <br><br>
         <!-- <img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/dp.jpeg" width="300px" /> -->
         <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="axayjha"><a class="LI-simple-link" href='https://in.linkedin.com/in/axayjha?trk=profile-badge'></a></div>
         <br>
