@@ -58,6 +58,13 @@ permalink: /archives/
     </div>
     <br>
     <div>
+        <h5>🏔 Up North | Himachal | December '21</h5>
+        <p>A slo-mo montage of my road-trip to Shimla, Manali, Sethan and Sissu in December of 2021.</p>
+        <iframe width="711" height="400" src="https://www.youtube.com/embed/DslpU-zx8dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <br>
+    <div>
         <h5>🏔 Darjeeling Trip 4K | September '21</h5>
         <p>A travel montage from my trip to Mirik, Darjeeling and Kalimpong in September of 2021.</p>
         <iframe width="711" height="400" src="https://www.youtube.com/embed/vv16I9gLy-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
