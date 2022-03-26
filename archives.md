@@ -58,6 +58,13 @@ permalink: /archives/
     </div>
     <br>
     <div>
+        <h5>🏔 The Silk Route | Sikkim</h5>
+        <p>A cinematic travel montage from my trip covering the Silk Route in Sikkim via Sillery, Phadamchen, Zuluk, Nathang, Reshi</p>
+        <iframe width="711" height="400" src="https://www.youtube.com/embed/aZnWRo2tcxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <br>
+    <div>
         <h5>🏔 Himachal | December '21</h5>
         <p>A cinematic travel montage of my road-trip to Shimla, Manali, Sethan and Lahaul in the December of 2021.</p>
         <iframe width="711" height="400" src="https://www.youtube.com/embed/HgrZqzPoF80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
