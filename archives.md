@@ -102,16 +102,6 @@ permalink: /archives/
     </div>
     <br>
     <br>
-     <div>
-        <h5>🎹 Blinding Lights</h5>
-        <p>An attempt at Blind Lights in GarageBand on my iPad</p>
-        <iframe width="711" height="400" src="https://www.youtube.com/embed/IolV0Y8M-mc" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-    <br>
-    <br>
     <div>
         <h5> 🛣 Darjeeling Vlog </h5>
         <p>Road trip to the picturesque northern district of Bengal</p>
