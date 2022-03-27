@@ -16,44 +16,6 @@ permalink: /archives/
 
 <div class="centered">
     <div class="pretty-header">
-        Sketches
-    </div>
-    <br>
-    <div class="container_24">
-        <div class="grid_10">
-            <div class="polaroid">
-                <a href="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2018.jpg" target="_blank"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2018.jpg"
-                    alt="Stephen Hawking" width="400px"> </a>
-                <div class="img-container">
-                    <p>Stephen Hawking</p>
-                </div>
-            </div>
-        </div>
-        <div class="grid_10">
-            <div class="polaroid">
-                <a href="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2017.jpg" target="_blank"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2017.jpg"
-                    alt="Steve Jobs" width="400px"></a>
-                <div class="img-container">
-                    <p>Steve Jobs</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-<br><br>
-
-<div class="centered">
-    <a href="{{ site.baseurl }}/sketches/"> <button class="btn"><em class="fa"></em> View More</button> </a>
-</div>
-<br>
-
-<hr>
-<br>
-
-
-<div class="centered">
-    <div class="pretty-header">
         Videos
     </div>
     <br>
@@ -519,5 +481,43 @@ permalink: /archives/
 <div class="centered">
     <a href="https://instagram.com/axayjha" target="_blank"> <button class="btn"><em class="fa"></em> View More</button> </a>
 </div>
+
 <br>
+<hr>
+<br>
+<div class="centered">
+    <div class="pretty-header">
+        Sketches
+    </div>
+    <br>
+    <div class="container_24">
+        <div class="grid_10">
+            <div class="polaroid">
+                <a href="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2018.jpg" target="_blank"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2018.jpg"
+                    alt="Stephen Hawking" width="400px"> </a>
+                <div class="img-container">
+                    <p>Stephen Hawking</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid_10">
+            <div class="polaroid">
+                <a href="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2017.jpg" target="_blank"><img src="https://github.com/axayjha/axayjha.github.io/raw/master/img/sketches/sketch%2017.jpg"
+                    alt="Steve Jobs" width="400px"></a>
+                <div class="img-container">
+                    <p>Steve Jobs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br><br>
+
+<div class="centered">
+    <a href="{{ site.baseurl }}/sketches/"> <button class="btn"><em class="fa"></em> View More</button> </a>
+</div>
+<br>
+
+
 <br>
