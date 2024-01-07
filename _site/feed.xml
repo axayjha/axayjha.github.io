@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-23T17:02:42+05:30</updated><id>/feed.xml</id><title type="html">Akshay Anand</title><subtitle>Full Stack Developer</subtitle><entry><title type="html">Shopcart</title><link href="/projects/shopcart" rel="alternate" type="text/html" title="Shopcart" /><published>2021-07-01T08:32:41+05:30</published><updated>2021-07-01T08:32:41+05:30</updated><id>/projects/Shopcart</id><content type="html" xml:base="/projects/shopcart">&lt;p&gt;A Flipkart/Amazon clone. An e-commerce platform dveleoped with scalable, robust and secure microservices architecture.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-01-07T10:53:00+05:30</updated><id>/feed.xml</id><title type="html">Akshay Anand</title><subtitle>Full Stack Developer</subtitle><entry><title type="html">Shopcart</title><link href="/projects/shopcart" rel="alternate" type="text/html" title="Shopcart" /><published>2021-07-01T08:32:41+05:30</published><updated>2021-07-01T08:32:41+05:30</updated><id>/projects/Shopcart</id><content type="html" xml:base="/projects/shopcart">&lt;p&gt;A Flipkart/Amazon clone. An e-commerce platform developed with scalable, robust and secure microservices architecture.&lt;/p&gt;
 
 &lt;p&gt;Provides role-based authenticated services for consumers and sellers to browse the listing, make purchases or add items to listing and sell them. Developed with Spring Microservices - Spring Cloud, Spring Security (JWT), Ribbon, Eureka, Zuul, Zipkin, Sleuth, OpenFeign.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Still a work in progress&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Check it out on  &lt;a href=&quot;https://github.com/axayjha/shopcart&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png&quot; width=&quot;60px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">A Flipkart/Amazon clone. An e-commerce platform dveleoped with scalable, robust and secure microservices architecture.</summary></entry><entry><title type="html">MASM</title><link href="/blogs/masm" rel="alternate" type="text/html" title="MASM" /><published>2021-04-03T08:32:41+05:30</published><updated>2021-04-03T08:32:41+05:30</updated><id>/blogs/MASM</id><content type="html" xml:base="/blogs/masm">&lt;h4&gt;Getting started with MASM 8086 assembly&lt;/h4&gt;
+&lt;p&gt;Check it out on  &lt;a href=&quot;https://github.com/axayjha/shopcart&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png&quot; width=&quot;60px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">A Flipkart/Amazon clone. An e-commerce platform developed with scalable, robust and secure microservices architecture.</summary></entry><entry><title type="html">MASM</title><link href="/blogs/masm" rel="alternate" type="text/html" title="MASM" /><published>2021-04-03T08:32:41+05:30</published><updated>2021-04-03T08:32:41+05:30</updated><id>/blogs/MASM</id><content type="html" xml:base="/blogs/masm">&lt;h4&gt;Getting started with MASM 8086 assembly&lt;/h4&gt;
 &lt;p&gt;&lt;b&gt;Why suddenly 8086 assembly using MASM? &lt;/b&gt;&lt;br /&gt;
 Well, partly because I love exploring random legacy system programming
 and partly because I stumbled upon this book called “C using Assembly Language” 
@@ -419,95 +419,7 @@ Takes two 16 bit data and adds and returns back 16 bit sum. Doesn’t care for o
 
 
 
-&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Implementing an algorithm by modelling an FSM in an HDL We are going to use Verilog for this project. So, any verilog compiler and simulator should do. Xilinx and ModelSim are really good tools. But since I’m a *nix guy, I’m going to use Icarus Verilog to compile code and gtkwave to view the signal timing diagrams. They are free to use, easy to learn and much more light-weight than other full-fledged options.</summary></entry><entry><title type="html">You Have Graduated</title><link href="/blogs/you-have-graduated" rel="alternate" type="text/html" title="You Have Graduated" /><published>2019-08-01T08:32:41+05:30</published><updated>2019-08-01T08:32:41+05:30</updated><id>/blogs/You-have-graduated</id><content type="html" xml:base="/blogs/you-have-graduated">&lt;div&gt;
-&lt;p class=&quot;article&quot; style=&quot;font-family: Garamond; font-size: 18px;&quot;&gt;
-&lt;span style=&quot;font-size: 40px; font-style: bold&quot;&gt;S&lt;/span&gt;o, you have graduated. The results are out and you got the passing grades.
-It has been a tough journey, I know. Exhausting and dispiriting at times, I can
-relate.
-The numerous and frequent exams, the lengthy and boring assignments, gruelling
-long lectures
-and compulsory attendance in 3/4 of them. &lt;br /&gt;&lt;br /&gt;
-
-But as if all of this wasn’t enough, we are laid down with another burden.
-The burden of &lt;span style=&quot;font-style: italic&quot;&gt;judgement&lt;/span&gt;. A grade is assigned to you; you are put into a
-category.
-Based on how much you could recall from the mugging of previous couple of days
-before exam,
-maybe on how perfect curves can you bring into your writing, and also possibly
-on the condition that your examiner had no fight with his wife on the morning of
-paper checking.&lt;br /&gt;&lt;br /&gt;
-
-Now once you are assigned a number, you’re all set to be judged. Not just
-academically, but for &lt;span style=&quot;font-style: italic&quot;&gt;all your self-worth&lt;/span&gt;. If your pets had some scores
-for
-their playfulness, you’d be compared to them too.&lt;br /&gt;&lt;br /&gt;
-
-A good category gives you the ability to grow unicorn horns! No, just kidding.
-But it does come with lots of perks. For instance, you get to have
-&lt;span style=&quot;font-style: italic&quot;&gt;reservation&lt;/span&gt; in elective subject lottery. You get to have your way when it
-comes
-to nominations for any volunteering work in the institution. Everyone loves and
-adores you. Professors would probably take you out for lunch (if they
-could).&lt;br /&gt;&lt;br /&gt;
-
-But if your stars turn out as playful as your pets and don’t agree to align, and
-you somehow fall into a less fortunate category, then all the best to you. It
-could be so that people forget that you even exist. You won’t make it to
-probably top 20 of considerations for even non-academic works. People would come
-to you though, &lt;span style=&quot;font-style: italic&quot;&gt;after&lt;/span&gt; the results, to take a measure of how good
-&lt;span style=&quot;font-style: italic&quot;&gt;they&lt;/span&gt; have done.&lt;br /&gt;&lt;br /&gt;
-
-I hold no grudges against the top-scorers, and have no particular love for the
-low-graders. All I have, in plenty, is a loathe for the system. A system where a
-decimal number represents your capability. The first relevant data on any resume
-after your name is most likely to be that number. This isn’t even the most
-troubling part. The more troubling fact is that this system can be hacked. 
-&lt;span style=&quot;font-style: italic&quot;&gt;Easily&lt;/span&gt;. Anyone can rig this grading scheme. All it takes is a strong will
-and
-directed dedication to score good on a particular set of questions.&lt;br /&gt;&lt;br /&gt;
-
-I am no one to judge anyone and I don’t intend to be guilty of a crime that I
-mean to outface. However, I have seen the most vacuous of heads with full grown
-unicorn horns. They dally with a certain ebullience, flaunting that horn of
-theirs. And everyone notices them, admires and idolises them.
-Again, I have no complaint against the admiration anyone gets. It just happens
-so that almost everyone is admired and known for wrong reasons in this system.
-It’s like a person who’s a great swordsman gets the certificate of being called
-the top-archer at the end. Or a person who knows nothing about conjuring magic
-gets to become the sorcerer supreme based on their rote knowledge of the
-spells.&lt;br /&gt;&lt;br /&gt;
-
-So, what is the solution to this unfairness? It’s simpler than you can imagine.
-Just don’t pay heed to it! Don’t believe in this flawed system. At the end of
-the day, no one actually does. In fact, in 3-tier colleges like ours, even
-recruiters take separate examinations to filter out some of those fake unicorn
-horns. So do post-grad universities everywhere. Then why should we fall for it?&lt;br /&gt;
-Have faith in yourself, believe in your self-worth. Don’t let your numbers and
-tags tell you otherwise. If you have been lagging behind till now, it means you
-have been in the wrong race all this while. Even a champion cyclist can’t beat
-an F1 racer in their track, doesn’t mean he/she is any less.&lt;br /&gt;
-I would also plead you to try and recognize the talent where it lies. Don’t make
-beef-witted people famous. The people who I admire the most in my circle are
-some of those who are hardly popular otherwise or are popular for all the
-wrong reasons.&lt;br /&gt;
-I know people who are great singers, dancers, poets, ones who can conjure magic
-with keyboards and guitars, those who bring sketches to life using pencil and
-paper, those who can paint what is hard to even imagine for others, those who are winning
-tournaments for their football and cricket teams, those who eat up books like
-cookies, those who write engrossing stories, and articles so clever they force
-you to think, and those who can actually make computers work at their will – &lt;span style=&quot;font-style: italic&quot;&gt;the
-real computer science engineers&lt;/span&gt;. And people hardly know these 7-point, 8-point
-something in their academic circle for what they are.&lt;br /&gt;
-Grades mean nothing. Grades take you nowhere. Your children won’t know you for
-your grades. Grades give you a false sense of judgment that will make no sense
-when the person without a horn outdoes you one day in life.
-&lt;br /&gt;&lt;br /&gt;
-
-Move on and appreciate people for what they are; &lt;span style=&quot;font-style: italic&quot;&gt;value yourself for what you are&lt;/span&gt;, for you are out of that
-corroded system now. &lt;br /&gt;&lt;b&gt;&lt;span style=&quot;font-style: italic&quot;&gt;You have graduated.&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
-
-&lt;/p&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">So, you have graduated. The results are out and you got the passing grades. It has been a tough journey, I know. Exhausting and dispiriting at times, I can relate. The numerous and frequent exams, the lengthy and boring assignments, gruelling long lectures and compulsory attendance in 3/4 of them.</summary></entry><entry><title type="html">Smart India Hackathon</title><link href="/projects/Smart-India-Hackathon" rel="alternate" type="text/html" title="Smart India Hackathon" /><published>2019-04-04T08:32:41+05:30</published><updated>2019-04-04T08:32:41+05:30</updated><id>/projects/Smart-India-Hackathon</id><content type="html" xml:base="/projects/Smart-India-Hackathon">&lt;p&gt;Provides a platform (Android app and USSD code program) for electricity consumers to report power outages in their area with simple UI. This data gets stored in a centralised data store which can be accessed by Electricity corporation and Ministry of Power via a dashboard with analytical tools.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Implementing an algorithm by modelling an FSM in an HDL We are going to use Verilog for this project. So, any verilog compiler and simulator should do. Xilinx and ModelSim are really good tools. But since I’m a *nix guy, I’m going to use Icarus Verilog to compile code and gtkwave to view the signal timing diagrams. They are free to use, easy to learn and much more light-weight than other full-fledged options.</summary></entry><entry><title type="html">Smart India Hackathon</title><link href="/projects/Smart-India-Hackathon" rel="alternate" type="text/html" title="Smart India Hackathon" /><published>2019-04-04T08:32:41+05:30</published><updated>2019-04-04T08:32:41+05:30</updated><id>/projects/Smart-India-Hackathon</id><content type="html" xml:base="/projects/Smart-India-Hackathon">&lt;p&gt;Provides a platform (Android app and USSD code program) for electricity consumers to report power outages in their area with simple UI. This data gets stored in a centralised data store which can be accessed by Electricity corporation and Ministry of Power via a dashboard with analytical tools.&lt;/p&gt;
 
 &lt;p&gt;Check it out on  &lt;a href=&quot;https://github.com/axayjha/vidyutsaathi&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png&quot; width=&quot;60px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -536,4 +448,39 @@ corroded system now. &lt;br /&gt;&lt;b&gt;&lt;span style=&quot;font-style: itali
     &lt;div class=&quot;grid_10&quot;&gt;
         &lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/vidyutsathi/scr5.png&quot; width=&quot;300px&quot; /&gt;
     &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="projects" /><summary type="html">Provides a platform (Android app and USSD code program) for electricity consumers to report power outages in their area with simple UI. This data gets stored in a centralised data store which can be accessed by Electricity corporation and Ministry of Power via a dashboard with analytical tools.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="projects" /><summary type="html">Provides a platform (Android app and USSD code program) for electricity consumers to report power outages in their area with simple UI. This data gets stored in a centralised data store which can be accessed by Electricity corporation and Ministry of Power via a dashboard with analytical tools.</summary></entry><entry><title type="html">AFS File System</title><link href="/projects/afs" rel="alternate" type="text/html" title="AFS File System" /><published>2019-03-30T08:32:41+05:30</published><updated>2019-03-30T08:32:41+05:30</updated><id>/projects/AFS</id><content type="html" xml:base="/projects/afs">&lt;p&gt;A trivial file system (emulating unix FS) simulation that can create directories and files on a simulated disk block&lt;/p&gt;
+
+&lt;p&gt;Using this system, user can manage a virtual disk image by creating a file system on it. File creation, deletion and manipulation can be simulated using this system. All the data manipulated will stay on a virtual disk image. Files from the unix/linux file system can be copied into a virtual disk image using this file system simulation and also vice versa. File system information can be viewed using the debug command. Inode information can be viewed using the stat command. General information about all commands can be viewed using help command. To exit the shell, there is a quit command.&lt;/p&gt;
+
+&lt;p&gt;Check it out on  &lt;a href=&quot;https://github.com/axayjha/fs&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/github.png&quot; width=&quot;60px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Screenshots&lt;/h4&gt;
+
+&lt;p&gt;Debug to get information about the disk
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr1.png&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Formatting and mounting a disk
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr2.png&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Creating a new inode
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr3.png&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Copy external files in and out of a inode in the virtual disk
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr4.png&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Creating another empty inode
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr5.png&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Deleting the old inode
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr6.png&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Formatting the disk
+&lt;img src=&quot;https://github.com/axayjha/axayjha.github.io/raw/master/img/afs/scr7.png&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="projects" /><summary type="html">A trivial file system (emulating unix FS) simulation that can create directories and files on a simulated disk block</summary></entry></feed>

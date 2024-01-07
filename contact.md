@@ -12,17 +12,15 @@ permalink: /contact/
         <i>Software Development Engineer - 2</i>, <b>Amazon</b><br>
         <hr/>
         I am currently working with the Amazon General Intelligence Data Services team (formerly Alexa Data Services) at Amazon helping create Generative Intelligence and LLM solutions for our customers while also building on accuracy of Alexa devices' voice and video data labelling to improve Alexa's natural language understanding.
-        <br>
-        <br>
-        <br>
+        <br/>
+        <br/>
+        <br/>
         I have 4+ years professional work experience in full-stack development, and maintaining live
         business applications. I have working knowledge of developing web applications, microservices and Native AWS applications using
         Java, Angular, ReactJs and Python among other
         technologies. 
-        <!--I am actively looking for opportunities to solve challenging problems in a nourishing
-        environment with like-minded people. -->
 
-        <br><br>
+        <br/><br/>
         <em>Hit me up at </em>📱 <span style="font-size: 16px; font-weight: bold;"><a
                 href="tel:7992383981">+91-7992383981</a></span> <a href="https://wa.me/7992383981"> <img
                 alt="Profile photo" src="https://github.com/axayjha/axayjha.github.io/raw/master/img/whatsapp.png"

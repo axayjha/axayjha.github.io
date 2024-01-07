@@ -15,6 +15,11 @@ permalink: /archives/
 <br>
 
 <div class="centered">
+<div>
+    Images
+</div>
+<br>
+{% include image-gallery.html folder="/uploads/album" %}
     <div class="pretty-header">
         Videos
     </div>
