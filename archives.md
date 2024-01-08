@@ -127,7 +127,6 @@ permalink: /archives/
     <hr>
     <br>
 
-</div>
 
 
 <div class="centered  pretty-header">
