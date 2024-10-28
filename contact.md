@@ -15,7 +15,7 @@ permalink: /contact/
         <br/>
         <br/>
         <br/>
-        I have 4+ years professional work experience in full-stack development, and maintaining live
+        I have 5+ years professional work experience in full-stack development, and maintaining live
         business applications. I have working knowledge of developing web applications, microservices and Native AWS applications using
         Java, Angular, ReactJs and Python among other
         technologies. 
