@@ -174,4 +174,30 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   }
+
+  // Style GitHub Gist iframes
+  var gistCSS = 'body{background:#111!important}.gist .gist-file{border:1px solid #222!important;border-radius:8px!important;overflow:hidden!important}.gist .gist-data{background:#111!important;border-bottom:1px solid #222!important}.gist .gist-meta{background:#1a1a1a!important;color:#555!important;padding:8px 12px!important;font-family:Menlo,Consolas,monospace!important;font-size:11px!important}.gist .gist-meta a{color:#555!important}.gist .blob-wrapper{border-radius:0!important}.gist table{font-family:Menlo,"Lucida Console",Consolas,monospace!important;font-size:13px!important;line-height:1.6!important}.gist .blob-code,.gist .blob-code-inner,.gist .js-file-line{font-family:Menlo,"Lucida Console",Consolas,monospace!important;font-size:13px!important;line-height:1.6!important;background:#111!important;color:#ccc!important;border:none!important;padding:0 16px!important}.gist .blob-num{font-family:Menlo,"Lucida Console",Consolas,monospace!important;font-size:13px!important;color:#444!important;background:#111!important;border-right:1px solid #222!important;padding:0 12px!important}.gist .pl-c{color:#555!important}.gist .pl-k{color:#cc7832!important}.gist .pl-s,.gist .pl-pds{color:#6a8759!important}.gist .pl-en{color:#ffc66d!important}.gist .pl-v,.gist .pl-smi{color:#9876aa!important}.gist .pl-c1{color:#6897bb!important}';
+
+  function styleGistFrames() {
+    var frames = document.querySelectorAll('iframe.gist-frame, .gist-file iframe');
+    frames.forEach(function(frame) {
+      try {
+        var doc = frame.contentDocument || frame.contentWindow.document;
+        if (doc && !doc.getElementById('custom-gist-style')) {
+          var style = doc.createElement('style');
+          style.id = 'custom-gist-style';
+          style.textContent = gistCSS;
+          doc.head.appendChild(style);
+        }
+      } catch(e) {}
+    });
+  }
+
+  // Gists load async; watch for new iframes
+  var gistObserver = new MutationObserver(function() {
+    styleGistFrames();
+  });
+  gistObserver.observe(document.body, { childList: true, subtree: true });
+  setTimeout(styleGistFrames, 1000);
+  setTimeout(styleGistFrames, 3000);
 });

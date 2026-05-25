@@ -187,10 +187,12 @@ img {
 }
 
 .hero-subtitle {
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 17px;
+  font-weight: 400;
   color: var(--text-secondary);
   max-width: 480px;
-  line-height: 1.6;
+  line-height: 1.7;
   margin-bottom: 32px;
 }
 
@@ -279,6 +281,7 @@ a.skill-card {
   display: block;
   color: inherit;
   text-decoration: none;
+  text-align: left;
 }
 
 a.skill-card:hover {
@@ -290,6 +293,7 @@ a.skill-card:hover {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   transition: border-color var(--transition), background var(--transition);
+  text-align: left;
 }
 
 .skill-card:hover {
@@ -310,9 +314,10 @@ a.skill-card:hover {
 }
 
 .skill-card p {
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 13px;
   color: var(--text-secondary);
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 /* Project Cards */
@@ -347,6 +352,7 @@ a.skill-card:hover {
 }
 
 .project-card p {
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 13px;
   color: var(--text-secondary);
 }
@@ -375,16 +381,63 @@ a.skill-card:hover {
   transform: translateX(4px);
 }
 
-/* Page styles */
+/* Editorial page header (used on all pages) */
+.editorial-header {
+  text-align: center;
+  padding: 40px 0 48px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.editorial-eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  display: block;
+  margin-bottom: 16px;
+}
+
+.editorial-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(36px, 6vw, 56px);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.editorial-desc {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.editorial-body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+/* Legacy page-header (kept for compatibility) */
 .page-header {
-  margin-bottom: 48px;
-  padding-bottom: 32px;
+  text-align: center;
+  padding: 40px 0 48px;
+  margin-bottom: 40px;
   border-bottom: 1px solid var(--border);
 }
 
 .page-title {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: clamp(32px, 5vw, 48px);
+  font-size: clamp(36px, 6vw, 56px);
   font-weight: 400;
   font-style: italic;
   letter-spacing: -0.5px;
@@ -392,13 +445,13 @@ a.skill-card:hover {
 }
 
 .page-subtitle {
-  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: 400;
   color: var(--text-secondary);
-  line-height: 1.6;
-}
-
-.page-header .section-title {
-  margin-bottom: 12px;
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.7;
 }
 
 /* Post page */
@@ -436,19 +489,35 @@ a.skill-card:hover {
 }
 
 .post-description {
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 16px;
+  font-weight: 400;
   color: var(--text-secondary);
   margin-top: 12px;
   max-width: 520px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .post-content {
   font-size: 16px;
   line-height: 1.8;
   margin-top: 48px;
+}
+
+/* Drop cap — first letter of first paragraph */
+.post-content > p:first-of-type::first-letter,
+.project-page-content > p:first-of-type::first-letter {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: 3.5em !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  float: left;
+  line-height: 0.8;
+  margin-right: 8px;
+  margin-top: 6px;
+  color: var(--text);
 }
 
 .post-content p,
@@ -463,7 +532,7 @@ a.skill-card:hover {
 .post-content ul,
 .post-content ol,
 .post-content article {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 16px !important;
   line-height: 1.8 !important;
 }
@@ -471,7 +540,7 @@ a.skill-card:hover {
 .post-content [style] {
   text-align: left !important;
   padding-left: 0 !important;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
 }
 
 .post-content h1,
@@ -487,9 +556,10 @@ a.skill-card:hover {
 .post-content pre,
 .post-content pre *,
 .post-content code * {
-  font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace !important;
+  font-family: Menlo, 'SF Mono', 'Fira Code', Consolas, monospace !important;
   font-size: 13px !important;
   line-height: 1.6 !important;
+  font-style: normal !important;
 }
 
 .post-content code {
@@ -555,6 +625,7 @@ a.skill-card:hover {
 .post-content h4 { font-size: 18px !important; }
 
 .post-content p {
+  font-family: Georgia, 'Times New Roman', serif !important;
   margin-bottom: 20px;
   color: var(--text-secondary);
 }
@@ -571,6 +642,7 @@ a.skill-card:hover {
 }
 
 .post-content code {
+  font-family: Menlo, 'SF Mono', Consolas, monospace !important;
   font-size: 13px;
   padding: 2px 6px;
   background: var(--bg-tertiary);
@@ -578,17 +650,21 @@ a.skill-card:hover {
 }
 
 .post-content pre {
+  font-family: Menlo, 'SF Mono', Consolas, monospace !important;
   padding: 20px;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   overflow-x: auto;
   margin: 24px 0;
+  font-size: 13px;
+  line-height: 1.6;
 }
 
 .post-content pre code {
   padding: 0;
   background: none;
+  font-family: Menlo, 'SF Mono', Consolas, monospace !important;
 }
 
 .post-content blockquote {
@@ -610,15 +686,17 @@ a.skill-card:hover {
   margin-bottom: 8px;
 }
 
-/* Project page (editorial) */
+/* Project page (editorial) — reuses editorial-header pattern */
 .project-page-header {
   text-align: center;
   padding: 40px 0 48px;
   margin-bottom: 40px;
   border-bottom: 1px solid var(--border);
+  animation: heroIn 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s both;
 }
 
 .project-page-eyebrow {
+  font-family: 'Inter', sans-serif;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -630,20 +708,22 @@ a.skill-card:hover {
 
 .project-page-title {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: clamp(32px, 5vw, 48px);
+  font-size: clamp(36px, 6vw, 56px);
   font-weight: 400;
   font-style: italic;
   letter-spacing: -0.5px;
-  line-height: 1.2;
+  line-height: 1.1;
   margin-bottom: 16px;
 }
 
 .project-page-description {
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 16px;
+  font-weight: 400;
   color: var(--text-secondary);
   max-width: 520px;
   margin: 0 auto;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .project-page-content {
@@ -667,8 +747,11 @@ a.skill-card:hover {
 .project-page-content h3 { font-size: 20px; }
 
 .project-page-content p {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
   margin-bottom: 20px;
   color: var(--text-secondary);
+  line-height: 1.8;
 }
 
 .project-page-content a {
@@ -684,6 +767,7 @@ a.skill-card:hover {
 }
 
 .project-page-content code {
+  font-family: Menlo, 'SF Mono', Consolas, monospace;
   font-size: 13px;
   padding: 2px 6px;
   background: var(--bg-tertiary);
@@ -691,17 +775,21 @@ a.skill-card:hover {
 }
 
 .project-page-content pre {
+  font-family: Menlo, 'SF Mono', Consolas, monospace;
   padding: 20px;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   overflow-x: auto;
   margin: 24px 0;
+  font-size: 13px;
+  line-height: 1.6;
 }
 
 .project-page-content pre code {
   padding: 0;
   background: none;
+  font-family: Menlo, 'SF Mono', Consolas, monospace;
 }
 
 .project-page-content blockquote {
@@ -758,6 +846,7 @@ a.skill-card:hover {
 }
 
 .project-item-info p {
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 13px;
   color: var(--text-secondary);
 }
@@ -897,6 +986,7 @@ a.skill-card:hover {
 }
 
 .video-card-info p {
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 12px;
   color: var(--text-secondary);
 }
@@ -961,10 +1051,31 @@ a.skill-card:hover {
 }
 
 .contact-info h3 {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   margin-bottom: 16px;
+  color: var(--text-tertiary);
+}
+
+.contact-bio {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15px;
   color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.contact-bio:first-of-type::first-letter {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 3.2em;
+  font-weight: 400;
+  float: left;
+  line-height: 0.8;
+  margin-right: 8px;
+  margin-top: 6px;
+  color: var(--text);
 }
 
 .contact-links {
@@ -1107,6 +1218,7 @@ a.skill-card:hover {
 }
 
 .footer-copy {
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 13px;
   color: var(--text-tertiary);
 }
@@ -1248,7 +1360,8 @@ body.loaded {
 }
 
 /* Page header entrance */
-.page-header {
+.page-header,
+.editorial-header {
   animation: heroIn 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s both;
 }
 
@@ -1351,8 +1464,83 @@ body.loaded {
   }
 }
 
+/* GitHub Gist embeds — high specificity overrides */
+body .gist {
+  margin: 24px 0 !important;
+}
+
+body .gist .gist-file {
+  border: 1px solid var(--border) !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+
+body .gist .gist-data {
+  background: #111 !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+body .gist .gist-meta {
+  background: #1a1a1a !important;
+  color: #555 !important;
+  padding: 8px 12px !important;
+  font: 11px Menlo, 'Lucida Console', Consolas, monospace !important;
+}
+
+body .gist .gist-meta a {
+  color: #555 !important;
+  font-family: Menlo, 'Lucida Console', Consolas, monospace !important;
+}
+
+body .gist * {
+  font-family: Menlo, 'Lucida Console', Consolas, monospace !important;
+}
+
+body .gist table.highlight {
+  font-size: 13px !important;
+  line-height: 1.6 !important;
+}
+
+body .gist .blob-wrapper,
+body .gist .blob-wrapper table,
+body .gist .blob-wrapper table tbody,
+body .gist .blob-wrapper table tr,
+body .gist .blob-wrapper table td {
+  background: #111 !important;
+  border: none !important;
+  font: 13px/1.6 Menlo, 'Lucida Console', Consolas, monospace !important;
+}
+
+body .gist .blob-code,
+body .gist .blob-code-inner,
+body .gist .js-file-line,
+body .gist td.blob-code {
+  font: 13px/1.6 Menlo, 'Lucida Console', Consolas, monospace !important;
+  background: #111 !important;
+  color: #ccc !important;
+  border: none !important;
+  padding: 2px 16px !important;
+}
+
+body .gist .blob-num,
+body .gist td.blob-num {
+  font: 13px/1.6 Menlo, 'Lucida Console', Consolas, monospace !important;
+  color: #444 !important;
+  background: #111 !important;
+  border-right: 1px solid #222 !important;
+  padding: 2px 12px !important;
+}
+
+body .gist .pl-c { color: #555 !important; }
+body .gist .pl-k { color: #cc7832 !important; }
+body .gist .pl-s, body .gist .pl-pds { color: #6a8759 !important; }
+body .gist .pl-en { color: #ffc66d !important; }
+body .gist .pl-v, body .gist .pl-smi, body .gist .pl-s1 { color: #9876aa !important; }
+body .gist .pl-c1 { color: #6897bb !important; }
+
 /* Syntax highlighting */
 .highlight {
+  font-family: Menlo, 'SF Mono', Consolas, monospace;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -1360,4 +1548,5 @@ body.loaded {
   overflow-x: auto;
   margin: 24px 0;
   font-size: 13px;
+  line-height: 1.6;
 }

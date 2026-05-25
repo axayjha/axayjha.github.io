@@ -161,6 +161,11 @@ function render() {
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
 
+function sendChar(ch) {
+    if (!wasm_send_key) return;
+    wasm_send_key(ch);
+}
+
 document.addEventListener('keydown', (e) => {
     if (!wasm_send_key) return;
     if (!document.getElementById('about-modal').classList.contains('hidden')) return;
@@ -182,7 +187,42 @@ document.addEventListener('keydown', (e) => {
         if (ch < 0x20 || ch > 0x5F) return;
     } else return;
 
-    wasm_send_key(ch);
+    sendChar(ch);
+});
+
+// Mobile: tap screen to focus hidden input and open keyboard
+const mobileInput = document.getElementById('mobile-input');
+
+canvas.addEventListener('click', () => {
+    mobileInput.focus();
+});
+
+document.getElementById('monitor').addEventListener('click', (e) => {
+    if (e.target.closest('#toolbar') || e.target.closest('.dropdown-content')) return;
+    mobileInput.focus();
+});
+
+mobileInput.addEventListener('input', (e) => {
+    const val = mobileInput.value;
+    if (val.length > 0) {
+        const lastChar = val[val.length - 1];
+        let ch = lastChar.charCodeAt(0);
+        if (ch >= 0x61 && ch <= 0x7A) ch -= 0x20;
+        if (ch >= 0x20 && ch <= 0x5F) sendChar(ch);
+    }
+    mobileInput.value = '';
+});
+
+mobileInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+        sendChar(0x0D);
+        mobileInput.value = '';
+    } else if (e.key === 'Backspace') {
+        e.preventDefault();
+        sendChar(0x5F);
+        mobileInput.value = '';
+    }
 });
 
 render();

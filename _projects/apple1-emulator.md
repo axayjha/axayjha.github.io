@@ -304,6 +304,7 @@ permalink: /work/apple1/
     <p class="apple1-hero-sub">
       A faithful recreation of the 1976 Apple 1 computer &mdash; the machine that started Apple. Cycle-accurate 6502 emulation, the original Woz Monitor, Integer BASIC, and an iconic green phosphor CRT display.
     </p>
+    <div class="project-tags" style="margin: 24px 0; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">C</span><span class="tag">Rust</span><span class="tag">Tauri</span><span class="tag">6502</span><span class="tag">Emulation</span></div>
     <div class="apple1-hero-links">
       <a href="https://github.com/axayjha/apple1" target="_blank" rel="noopener" class="btn-primary">Source Code &rarr;</a>
       <a href="https://github.com/axayjha/apple1/releases/tag/v1.0.0" target="_blank" rel="noopener" class="btn-secondary">Download .dmg</a>

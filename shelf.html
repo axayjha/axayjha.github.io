@@ -1,28 +1,56 @@
 ---
 layout: default
 title: Shelf
-subtitle: Books I've read and my thoughts on them.
 permalink: /shelf/
 ---
 
-<header class="page-header">
-  <h1 class="page-title">Shelf</h1>
-  <p class="page-subtitle">Books that shaped how I think. Reviews and recommendations.</p>
+<style>
+.shelf-header {
+  text-align: center;
+  padding: 40px 0 48px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 40px;
+}
+.shelf-eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-bottom: 16px;
+}
+.shelf-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(36px, 6vw, 56px);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+.shelf-desc {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  color: var(--text-secondary);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.shelf-coming {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  color: var(--text-tertiary);
+  text-align: center;
+  padding: 60px 0;
+  font-style: italic;
+}
+</style>
+
+<header class="shelf-header">
+  <p class="shelf-eyebrow">Reading</p>
+  <h1 class="shelf-title">Shelf</h1>
+  <p class="shelf-desc">Books that shaped how I think. Reviews, notes, and recommendations from my reading life.</p>
 </header>
 
-<p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 32px;">Coming soon — I'm curating my reading list and reviews. Check back later.</p>
-
-<!--
-To add book reviews, create entries below following this format:
-
-<div class="book-list">
-  <div class="book-item">
-    <div class="book-item-header">
-      <h3>Book Title</h3>
-      <span class="book-item-author">Author Name</span>
-    </div>
-    <p class="book-item-review">Your review here.</p>
-    <span class="book-rating">★★★★☆</span>
-  </div>
-</div>
--->
+<p class="shelf-coming">Coming soon &mdash; curating my reading list and reviews.</p>

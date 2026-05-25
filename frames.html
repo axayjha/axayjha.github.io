@@ -1,17 +1,62 @@
 ---
 layout: default
 title: Frames
-subtitle: Photographs, sketches, and moving pictures.
 permalink: /frames/
 ---
 
-<header class="page-header">
-  <h1 class="page-title">Frames</h1>
-  <p class="page-subtitle">Moments captured through lenses, pencils, and motion.</p>
+<style>
+.frames-header {
+  text-align: center;
+  padding: 40px 0 48px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 48px;
+}
+.frames-eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-bottom: 16px;
+}
+.frames-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(36px, 6vw, 56px);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+.frames-desc {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  color: var(--text-secondary);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.frames-section-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-bottom: 24px;
+  text-align: center;
+}
+</style>
+
+<header class="frames-header">
+  <p class="frames-eyebrow">Gallery</p>
+  <h1 class="frames-title">Frames</h1>
+  <p class="frames-desc">Landscapes, portraits, and moving pictures. Moments captured through lenses, pencils, and motion.</p>
 </header>
 
 <section class="gallery-section">
-  <h2 class="gallery-section-title">Photography</h2>
+  <p class="frames-section-label">Photography</p>
   <div class="gallery-grid">
     {% assign photos = "DSC_0020.jpg,DSC_0021.jpg,DSC_0025.jpg,DSC_0061.jpg,DSC_0150.jpg,DSC_0243.jpg,DSC_0271.jpg,DSC_0311.jpg,DSC_0313.jpg,DSC_0326.jpg,DSC_0342.jpg,DSC_0411.jpg,DSC_0466.jpg,DSC_0673-2.jpg,DSC_0686.jpg,DSC_0717.jpg,DSC_0724.jpg,DSC_0805.jpg,DSC_0817.jpg,DSC_0834.jpg,DSC_0843.jpg,DSC_0854.jpg,DSC_0860.jpg,DSC_0864.jpg,DSC_0872.jpg,DSC_0891.jpg,DSC_0921.jpg,PSX_20200621_133055.jpg,PSX_20200621_133225.jpg,PSX_20200712_221712.jpg,PSX_20200712_222236.jpg,PSX_20201008_235341.jpg,PSX_20201110_104943.jpg,PSX_20201125_223236.jpg,PSX_20210219_225229.jpg,PSX_20210220_113322.jpg,PSX_20210220_114131.jpg,PSX_20210904_232731.jpg,PSX_20221218_030354.jpg,PSX_20230612_024628.jpg,PSX_20230812_203033.jpg,PSX_20230827_195251.jpg,PSX_20231217_201128.jpg,PSX_20231229_095519.jpg,PSX_20231229_193345.jpg,PSX_20240101_175641.jpg" | split: "," %}
     {% for photo in photos %}
@@ -23,7 +68,7 @@ permalink: /frames/
 </section>
 
 <section class="gallery-section">
-  <h2 class="gallery-section-title">Sketches</h2>
+  <p class="frames-section-label">Sketches</p>
   <div class="gallery-grid">
     {% assign sketches_data = "Stephen Hawking|Stephen Hawking.jpg,Steve Jobs|Steve Jobs.jpg,Arya Stark|Arya Stark.jpg,Emma Watson|Emma Watson.jpg,Jon Snow|Jon Snow.jpg,Iron Man|Iron Man.jpg,Birdie|Birdie.jpg,Shepherd|Shepherd.jpg" | split: "," %}
     {% for sketch in sketches_data %}
@@ -37,7 +82,7 @@ permalink: /frames/
 </section>
 
 <section class="gallery-section">
-  <h2 class="gallery-section-title">Travel Films</h2>
+  <p class="frames-section-label">Travel Films</p>
   <div class="videos-grid">
     <div class="video-card">
       <iframe src="https://www.youtube.com/embed/rKxai2x00OM" title="Everest Base Camp Trek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>

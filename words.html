@@ -1,13 +1,48 @@
 ---
 layout: default
 title: Words
-subtitle: Writing about code, ideas, and everything in between.
 permalink: /words/
 ---
 
-<header class="page-header">
-  <h1 class="page-title">Words</h1>
-  <p class="page-subtitle">Technical writing, guides, and thoughts.</p>
+<style>
+.words-header {
+  text-align: center;
+  padding: 40px 0 48px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 40px;
+}
+.words-eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-bottom: 16px;
+}
+.words-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(36px, 6vw, 56px);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+.words-desc {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  color: var(--text-secondary);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+</style>
+
+<header class="words-header">
+  <p class="words-eyebrow">Writing</p>
+  <h1 class="words-title">Words</h1>
+  <p class="words-desc">Technical articles, implementation guides, and notes from the craft of building software.</p>
 </header>
 
 <div class="posts-list">

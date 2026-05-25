@@ -22,6 +22,7 @@ body {
     align-items: center;
     flex: 1;
     width: 100%;
+    padding: 8px;
 }
 
 #bezel {
@@ -38,6 +39,7 @@ body {
     align-items: center;
     gap: 12px;
     position: relative;
+    max-width: 100%;
 }
 
 #power-led {
@@ -60,6 +62,7 @@ body {
         inset 0 0 4px rgba(0,50,0,0.3);
     position: relative;
     overflow: hidden;
+    max-width: 100%;
 }
 
 #screen-reflection {
@@ -82,6 +85,9 @@ body {
 #crt {
     display: block;
     border-radius: 8px;
+    width: 100%;
+    height: auto;
+    max-width: 560px;
 }
 
 #bottom-bar {
@@ -113,6 +119,7 @@ body {
     border-top: 1px solid #333;
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #toolbar button {
@@ -196,6 +203,16 @@ body {
 .dropdown-content button:hover {
     background: #3a3a3a;
     color: #33ff33;
+}
+
+/* === Hidden input for mobile keyboard === */
+#mobile-input {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
 }
 
 /* === About Modal === */
@@ -301,4 +318,46 @@ body {
     width: 32px;
     margin-top: 16px;
     opacity: 0.8;
+}
+
+/* === Responsive === */
+@media (max-width: 620px) {
+    #bezel {
+        border-radius: 16px;
+        padding: 16px 12px 12px 12px;
+    }
+
+    #screen-container {
+        border-radius: 10px;
+        padding: 6px;
+    }
+
+    #power-led {
+        top: 10px;
+        left: 14px;
+        width: 6px;
+        height: 6px;
+    }
+
+    #bottom-bar {
+        gap: 6px;
+    }
+
+    #rainbow-logo {
+        height: 14px;
+    }
+
+    #model-text {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    #toolbar button {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .modal-content {
+        padding: 20px;
+    }
 }
