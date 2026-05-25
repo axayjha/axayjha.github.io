@@ -1,0 +1,21 @@
+---
+layout: default
+title: Words
+subtitle: Writing about code, ideas, and everything in between.
+permalink: /words/
+---
+
+<header class="page-header">
+  <h1 class="page-title">Words</h1>
+  <p class="page-subtitle">Technical writing, guides, and thoughts.</p>
+</header>
+
+<div class="posts-list">
+  {% assign posts = site.posts | where_exp: "post", "post.url contains '/blogs/'" %}
+  {% for post in posts %}
+  <a href="{{ post.url }}" class="post-item">
+    <span class="post-item-title">{{ post.title }}</span>
+    <span class="post-item-date">{{ post.date | date: "%b %Y" }}</span>
+  </a>
+  {% endfor %}
+</div>

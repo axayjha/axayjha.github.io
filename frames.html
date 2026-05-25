@@ -1,0 +1,99 @@
+---
+layout: default
+title: Frames
+subtitle: Photographs, sketches, and moving pictures.
+permalink: /frames/
+---
+
+<header class="page-header">
+  <h1 class="page-title">Frames</h1>
+  <p class="page-subtitle">Moments captured through lenses, pencils, and motion.</p>
+</header>
+
+<section class="gallery-section">
+  <h2 class="gallery-section-title">Photography</h2>
+  <div class="gallery-grid">
+    {% assign photos = "DSC_0020.jpg,DSC_0021.jpg,DSC_0025.jpg,DSC_0061.jpg,DSC_0150.jpg,DSC_0243.jpg,DSC_0271.jpg,DSC_0311.jpg,DSC_0313.jpg,DSC_0326.jpg,DSC_0342.jpg,DSC_0411.jpg,DSC_0466.jpg,DSC_0673-2.jpg,DSC_0686.jpg,DSC_0717.jpg,DSC_0724.jpg,DSC_0805.jpg,DSC_0817.jpg,DSC_0834.jpg,DSC_0843.jpg,DSC_0854.jpg,DSC_0860.jpg,DSC_0864.jpg,DSC_0872.jpg,DSC_0891.jpg,DSC_0921.jpg,PSX_20200621_133055.jpg,PSX_20200621_133225.jpg,PSX_20200712_221712.jpg,PSX_20200712_222236.jpg,PSX_20201008_235341.jpg,PSX_20201110_104943.jpg,PSX_20201125_223236.jpg,PSX_20210219_225229.jpg,PSX_20210220_113322.jpg,PSX_20210220_114131.jpg,PSX_20210904_232731.jpg,PSX_20221218_030354.jpg,PSX_20230612_024628.jpg,PSX_20230812_203033.jpg,PSX_20230827_195251.jpg,PSX_20231217_201128.jpg,PSX_20231229_095519.jpg,PSX_20231229_193345.jpg,PSX_20240101_175641.jpg" | split: "," %}
+    {% for photo in photos %}
+    <div class="gallery-item">
+      <img src="/uploads/album/{{ photo }}" data-full="/uploads/album/{{ photo }}" alt="Photo" loading="lazy">
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="gallery-section">
+  <h2 class="gallery-section-title">Sketches</h2>
+  <div class="gallery-grid">
+    {% assign sketches_data = "Stephen Hawking|Stephen Hawking.jpg,Steve Jobs|Steve Jobs.jpg,Arya Stark|Arya Stark.jpg,Emma Watson|Emma Watson.jpg,Jon Snow|Jon Snow.jpg,Iron Man|Iron Man.jpg,Birdie|Birdie.jpg,Shepherd|Shepherd.jpg" | split: "," %}
+    {% for sketch in sketches_data %}
+    {% assign parts = sketch | split: "|" %}
+    <div class="gallery-item">
+      <img src="/uploads/sketches/{{ parts[1] }}" data-full="/uploads/sketches/{{ parts[1] }}" alt="{{ parts[0] }}" loading="lazy">
+      <span class="gallery-item-caption">{{ parts[0] }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="gallery-section">
+  <h2 class="gallery-section-title">Travel Films</h2>
+  <div class="videos-grid">
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/rKxai2x00OM" title="Everest Base Camp Trek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video-card-info">
+        <h3>Mt. Everest Base Camp Trek</h3>
+      </div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/dqfojXdDKAw" title="Goa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video-card-info">
+        <h3>Goa</h3>
+      </div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/TnSRw8C-mBE" title="Darjeeling" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video-card-info">
+        <h3>Darjeeling — The Queen of Hills</h3>
+      </div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/aZnWRo2tcxw" title="Silk Route" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video-card-info">
+        <h3>The Silk Route — Sikkim</h3>
+      </div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/HgrZqzPoF80" title="Himachal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video-card-info">
+        <h3>Himachal — December '21</h3>
+      </div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/vv16I9gLy-g" title="Darjeeling Trip" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video-card-info">
+        <h3>Darjeeling Trip 4K — September '21</h3>
+      </div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/VS4EJxzBQg0" title="Mt Kanchenjunga" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video-card-info">
+        <h3>Mt. Kanchenjunga — Pelling, Sikkim</h3>
+      </div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/DAvbUUD9iG0" title="Darjeeling Vlog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video-card-info">
+        <h3>Darjeeling Road Trip</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <button class="lightbox-prev" aria-label="Previous">&lsaquo;</button>
+  <img src="" alt="Full size">
+  <button class="lightbox-next" aria-label="Next">&rsaquo;</button>
+  <span class="lightbox-counter"></span>
+</div>

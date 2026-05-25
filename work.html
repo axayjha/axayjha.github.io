@@ -1,0 +1,24 @@
+---
+layout: default
+title: Work
+subtitle: Things I've built over the years.
+permalink: /work/
+---
+
+<header class="page-header">
+  <h1 class="page-title">Work</h1>
+  <p class="page-subtitle">Software I've built — from side projects to production systems.</p>
+</header>
+
+<div class="projects-list">
+  {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+  {% for project in sorted_projects %}
+  <a href="{{ project.url }}" class="project-item">
+    <div class="project-item-info">
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description | default: project.excerpt | strip_html | truncate: 120 }}</p>
+    </div>
+    <span class="project-item-meta">{{ project.date | date: "%Y" }}</span>
+  </a>
+  {% endfor %}
+</div>

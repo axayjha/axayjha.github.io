@@ -1,63 +1,59 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-    {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="stylesheet" href="/css/lightbox.css">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/960_24_col.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
-
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/"> Home </a>
-            <a href="{{ site.baseurl }}/blogs"> Blogs </a>
-            <a href="{{ site.baseurl }}/archives"> Archives </a>
-            <a href="{{ site.baseurl }}/projects"> Projects </a>
-            <a href="{{ site.baseurl }}/contact"><span class="round-border">&nbsp;Contact&nbsp;</span></a>
-            
-          </nav>
-        </header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.name }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  {% feed_meta %}
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">A.</a>
+      <div class="nav-links">
+        <a href="/work" {% if page.url contains '/work' %}class="active"{% endif %}>Work</a>
+        <a href="/words" {% if page.url contains '/words' or page.url contains '/blogs' %}class="active"{% endif %}>Words</a>
+        <a href="/frames" {% if page.url contains '/frames' %}class="active"{% endif %}>Frames</a>
+        <a href="/shelf" {% if page.url contains '/shelf' %}class="active"{% endif %}>Shelf</a>
+        <a href="/hello" {% if page.url contains '/hello' %}class="active"{% endif %}>Hello</a>
       </div>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+      </button>
     </div>
+  </nav>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+  <div class="mobile-menu">
+    <a href="/work">Work</a>
+    <a href="/words">Words</a>
+    <a href="/frames">Frames</a>
+    <a href="/shelf">Shelf</a>
+    <a href="/hello">Hello</a>
+  </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-          <hr>
-          <span>@axayjha</span>&nbsp;<span style="font-size: 10px; font-style: italic;">on all platforms</span>
-        </footer>
+  <main class="main">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="https://github.com/axayjha" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/axayjha" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://instagram.com/axayjha" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://youtube.com/channel/UCJY97Jho8umvhFeb-Qk-4jg" target="_blank" rel="noopener">YouTube</a>
       </div>
+      <p class="footer-copy">&copy; {{ 'now' | date: '%Y' }} Akshay Anand</p>
     </div>
+  </footer>
 
-    {% include analytics.html %}
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    <script type="text/javascript" src="/js/lightbox.js"></script>
-
-  </body>
-  </html>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
