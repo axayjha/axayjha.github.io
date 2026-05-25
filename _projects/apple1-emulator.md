@@ -200,6 +200,27 @@ permalink: /work/apple1/
   margin: 0;
 }
 
+.apple1-embed {
+  margin: 32px -24px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #111;
+}
+
+.apple1-embed iframe {
+  width: 100%;
+  height: 620px;
+  border: none;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .apple1-embed iframe {
+    height: 520px;
+  }
+}
+
 .apple1-thumb {
   cursor: pointer;
   position: relative;
@@ -289,9 +310,19 @@ permalink: /work/apple1/
     </div>
   </div>
 
-  <div class="apple1-showcase">
+  <div class="apple1-section" style="border-top: none; padding-top: 0;">
+    <p class="apple1-section-label">Try it</p>
+    <h2>Run it in your browser</h2>
+    <p>The full emulator running live via WebAssembly. Type commands at the <code>\</code> prompt, or click BASIC to start programming.</p>
+  </div>
+
+  <div class="apple1-embed">
+    <iframe src="/assets/wasm/index.html" title="Apple 1 Emulator" allowfullscreen></iframe>
+  </div>
+
+  <div class="apple1-showcase" style="margin-top: 60px;">
     <img src="/img/apple1_basic.png" alt="Apple 1 Monitor — Desktop App running Integer BASIC">
-    <p class="apple1-showcase-caption">The Apple 1 Monitor desktop app running Integer BASIC with CRT phosphor rendering and bezel styling.</p>
+    <p class="apple1-showcase-caption">The native macOS desktop app with CRT phosphor rendering and bezel styling.</p>
   </div>
 
   <div class="apple1-section">

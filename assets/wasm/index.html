@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Apple 1 Emulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="monitor">
+        <div id="bezel">
+            <div id="power-led"></div>
+            <div id="screen-container">
+                <canvas id="crt" width="560" height="384"></canvas>
+                <div id="screen-reflection"></div>
+            </div>
+            <div id="bottom-bar">
+                <img src="assets/apple_rainbow.png" id="rainbow-logo" alt="Apple">
+                <span id="model-text">apple 1</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="toolbar">
+        <button id="btn-basic" title="Enter BASIC">BASIC</button>
+        <div class="dropdown">
+            <button id="btn-demos">PROGRAMS ▾</button>
+            <div id="demo-menu" class="dropdown-content"></div>
+        </div>
+        <button id="btn-reset" title="Reset (Ctrl+R)">RESET</button>
+        <button id="btn-about" title="About">ABOUT</button>
+    </div>
+
+    <div id="about-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="modal-close" id="about-close">&times;</button>
+            <img src="assets/apple1_logo.png" id="about-logo" alt="Apple Computer Co.">
+            <h1>Apple 1 Emulator</h1>
+            <p class="version">Version 1.0.0 — Web Edition</p>
+            <p class="tagline">A faithful emulation of the 1976 Apple 1 personal computer</p>
+            <hr>
+            <div class="specs">
+                <p><strong>CPU:</strong> MOS Technology 6502 @ 1.022 MHz</p>
+                <p><strong>RAM:</strong> 32 KB</p>
+                <p><strong>Display:</strong> 40 x 24 characters (green phosphor)</p>
+                <p><strong>ROM:</strong> Woz Monitor (256 bytes)</p>
+                <p><strong>Languages:</strong> Integer BASIC, 6502 Assembly</p>
+            </div>
+            <hr>
+            <p class="credits">
+                Original Apple 1 designed by Steve Wozniak, 1976<br>
+                Emulator by Akshay Anand, 2026<br>
+                Running in your browser via WebAssembly
+            </p>
+            <img src="assets/apple_rainbow.png" id="about-rainbow" alt="Apple">
+        </div>
+    </div>
+
+    <script src="apple1.js"></script>
+    <script src="emulator.js"></script>
+</body>
+</html>
