@@ -2,26 +2,28 @@
 layout: default
 ---
 
-<article class="post-page">
-  <header class="post-header">
-    <time class="post-date">{{ page.date | date: "%Y" }}</time>
-    <h1 class="post-title">{{ page.title }}</h1>
+<article class="project-page">
+  <header class="project-page-header">
+    <span class="project-page-eyebrow">Project &mdash; {{ page.date | date: "%Y" }}</span>
+    <h1 class="project-page-title">{{ page.title }}</h1>
     {% if page.description %}
-    <p class="post-description">{{ page.description }}</p>
+    <p class="project-page-description">{{ page.description }}</p>
     {% endif %}
     {% if page.tags %}
-    <div class="project-tags" style="margin-top: 16px;">
+    <div class="project-tags" style="margin-top: 20px;">
       {% for tag in page.tags %}
       <span class="tag">{{ tag }}</span>
       {% endfor %}
     </div>
     {% endif %}
     {% if page.github %}
-    <a href="{{ page.github }}" target="_blank" rel="noopener" class="btn-secondary" style="margin-top: 20px;">View on GitHub &rarr;</a>
+    <div style="margin-top: 24px;">
+      <a href="{{ page.github }}" target="_blank" rel="noopener" class="btn-secondary">View on GitHub &rarr;</a>
+    </div>
     {% endif %}
   </header>
 
-  <div class="post-content">
+  <div class="project-page-content">
     {{ content }}
   </div>
 </article>
