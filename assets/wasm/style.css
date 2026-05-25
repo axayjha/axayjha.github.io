@@ -227,6 +227,9 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    padding: 20px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .modal.hidden {
@@ -239,21 +242,28 @@ body {
     border-radius: 16px;
     padding: 32px;
     max-width: 400px;
-    width: 90%;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
     text-align: center;
     position: relative;
     box-shadow: 0 20px 60px rgba(0,0,0,0.8);
+    margin: auto;
 }
 
 .modal-close {
-    position: absolute;
-    top: 12px;
-    right: 16px;
-    background: none;
+    position: sticky;
+    top: 0;
+    float: right;
+    background: #1a1a1a;
     border: none;
     color: #888;
     font-size: 24px;
     cursor: pointer;
+    z-index: 10;
+    padding: 4px 8px;
+    margin: -16px -16px 0 0;
+    border-radius: 8px;
 }
 
 .modal-close:hover {
@@ -357,7 +367,25 @@ body {
         font-size: 10px;
     }
 
+    .modal {
+        padding: 12px;
+        align-items: flex-start;
+    }
+
     .modal-content {
         padding: 20px;
+        max-height: 85vh;
+        margin-top: 20px;
+        border-radius: 12px;
+    }
+
+    .modal-close {
+        font-size: 28px;
+        padding: 8px 12px;
+        margin: -12px -12px 0 0;
+    }
+
+    #about-logo {
+        width: 80px;
     }
 }
