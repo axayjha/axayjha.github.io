@@ -873,9 +873,6 @@ a.skill-card:hover {
   transition: opacity var(--transition);
 }
 
-.post-item:first-child {
-  border-top: 1px solid var(--border);
-}
 
 .post-item:hover {
   opacity: 0.7;
