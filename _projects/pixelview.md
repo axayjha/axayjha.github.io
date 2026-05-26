@@ -31,24 +31,24 @@ permalink: /work/pixelview/
 <article>
 
   <div class="proj-header">
-    <p class="proj-eyebrow">Project &mdash; 2018</p>
+    <p class="proj-eyebrow">Project - 2018</p>
     <h1 class="proj-title">PixelView</h1>
     <p class="proj-desc">
-      A scientific image processing tool with popular ML and computer vision algorithms &mdash; load an image, apply transformations, see results instantly.
+      A scientific image processing tool with popular ML and computer vision algorithms - load an image, apply transformations, see results instantly.
     </p>
     <div class="project-tags" style="margin-top: 16px; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">Python</span><span class="tag">Image Processing</span><span class="tag">ML</span></div>
   </div>
 
   <div class="proj-showcase">
     <img src="/img/pixelview/Mac%20OS%20Screenshot%201%20low.png" alt="PixelView running on macOS">
-    <p class="proj-showcase-caption">PixelView on macOS &mdash; applying image processing algorithms with a visual interface.</p>
+    <p class="proj-showcase-caption">PixelView on macOS - applying image processing algorithms with a visual interface.</p>
   </div>
 
   <div class="proj-section">
     <p class="proj-section-label">Overview</p>
     <h2>Image processing algorithms<br>made accessible</h2>
     <p>
-      PixelView is a desktop application that brings scientific image processing algorithms out of textbooks and into a usable tool. Load any image, select an algorithm from the menu, and see the result immediately &mdash; no coding required, no command-line arguments to remember.
+      PixelView is a desktop application that brings scientific image processing algorithms out of textbooks and into a usable tool. Load any image, select an algorithm from the menu, and see the result immediately - no coding required, no command-line arguments to remember.
     </p>
     <p>
       The tool includes implementations of classic image processing operations (edge detection, thresholding, histogram equalization) alongside machine learning algorithms for classification and segmentation. It serves as both a practical tool and a learning aid for understanding how these algorithms transform pixel data.
@@ -86,16 +86,16 @@ permalink: /work/pixelview/
     <img src="/img/pixelview/Mac%20OS%20Screenshot%201%20low.png" alt="PixelView on macOS">
     <img src="/img/pixelview/Linux%20Screenshot%201%20low.png" alt="PixelView on Linux">
   </div>
-  <p style="text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 13px; color: var(--text-tertiary); margin-top: -20px;">Cross-platform &mdash; running natively on macOS (left) and Linux (right).</p>
+  <p style="text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 13px; color: var(--text-tertiary); margin-top: -20px;">Cross-platform - running natively on macOS (left) and Linux (right).</p>
 
   <div class="proj-section">
     <p class="proj-section-label">Technical</p>
     <h2>From pixels to understanding</h2>
     <p>
-      Built in Python, PixelView leverages NumPy for efficient array operations on image data, with algorithm implementations that operate directly on pixel matrices. The GUI provides immediate visual feedback &mdash; select an algorithm, adjust parameters, and watch the output image update.
+      Built in Python, PixelView leverages NumPy for efficient array operations on image data, with algorithm implementations that operate directly on pixel matrices. The GUI provides immediate visual feedback - select an algorithm, adjust parameters, and watch the output image update.
     </p>
     <p>
-      The tool runs cross-platform on macOS and Linux, adapting its interface to each platform's windowing system. Algorithms are modular &mdash; each is a self-contained function that takes an image array and returns a transformed array, making it straightforward to add new operations.
+      The tool runs cross-platform on macOS and Linux, adapting its interface to each platform's windowing system. Algorithms are modular - each is a self-contained function that takes an image array and returns a transformed array, making it straightforward to add new operations.
     </p>
   </div>
 

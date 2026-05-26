@@ -31,10 +31,10 @@ permalink: /work/codecomm/
 <article>
 
   <div class="proj-header">
-    <p class="proj-eyebrow">Project &mdash; 2020</p>
+    <p class="proj-eyebrow">Project - 2020</p>
     <h1 class="proj-title">CodeComm</h1>
     <p class="proj-desc">
-      A real-time channel-based messaging platform for developer communities &mdash; create channels, join conversations, and collaborate instantly.
+      A real-time channel-based messaging platform for developer communities - create channels, join conversations, and collaborate instantly.
     </p>
     <div class="project-tags" style="margin-top: 16px; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">Real-time</span><span class="tag">Chat</span><span class="tag">Full-stack</span></div>
   </div>
@@ -84,7 +84,7 @@ permalink: /work/codecomm/
       The application uses WebSocket connections to deliver messages in real-time without polling. When a user sends a message, it is broadcast to all members of the channel instantly, creating a seamless conversational experience.
     </p>
     <p>
-      The backend handles channel creation, user authentication, message persistence, and connection management. The frontend renders a responsive interface with a channel sidebar, message thread, and input area &mdash; the familiar layout that makes team communication effortless.
+      The backend handles channel creation, user authentication, message persistence, and connection management. The frontend renders a responsive interface with a channel sidebar, message thread, and input area - the familiar layout that makes team communication effortless.
     </p>
   </div>
 
@@ -92,10 +92,10 @@ permalink: /work/codecomm/
     <p class="proj-section-label">Features</p>
     <h2>Everything a team needs</h2>
     <p>
-      Create channels around any topic &mdash; a project, a technology, a team. Join existing channels to participate in ongoing discussions. Messages are delivered instantly and stored persistently, so you never miss context even when you join late.
+      Create channels around any topic - a project, a technology, a team. Join existing channels to participate in ongoing discussions. Messages are delivered instantly and stored persistently, so you never miss context even when you join late.
     </p>
     <p>
-      The platform handles user presence, channel membership, and message ordering &mdash; the foundational pieces that make real-time collaboration work reliably at scale.
+      The platform handles user presence, channel membership, and message ordering - the foundational pieces that make real-time collaboration work reliably at scale.
     </p>
   </div>
 

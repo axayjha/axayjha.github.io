@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Shopcart
-description: A Flipkart/Amazon clone — an e-commerce platform built with scalable microservices architecture.
+description: A Flipkart/Amazon clone - an e-commerce platform built with scalable microservices architecture.
 date: 2021-07-01
 tags: [Microservices, E-commerce, Full-stack]
 permalink: /work/shopcart/
@@ -31,10 +31,10 @@ permalink: /work/shopcart/
 <article>
 
   <div class="proj-header">
-    <p class="proj-eyebrow">Project &mdash; 2021</p>
+    <p class="proj-eyebrow">Project - 2021</p>
     <h1 class="proj-title">Shopcart</h1>
     <p class="proj-desc">
-      A full-featured e-commerce platform built on scalable microservices &mdash; product browsing, cart management, checkout, and order tracking.
+      A full-featured e-commerce platform built on scalable microservices - product browsing, cart management, checkout, and order tracking.
     </p>
     <div class="project-tags" style="margin-top: 16px; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">Microservices</span><span class="tag">E-commerce</span><span class="tag">Full-stack</span></div>
   </div>
@@ -43,7 +43,7 @@ permalink: /work/shopcart/
     <p class="proj-section-label">Overview</p>
     <h2>E-commerce done right,<br>from the architecture up</h2>
     <p>
-      Shopcart is a production-grade e-commerce platform inspired by Flipkart and Amazon. Rather than building a monolith, it embraces a microservices architecture where each domain &mdash; products, cart, orders, users &mdash; is an independent service that can be developed, deployed, and scaled individually.
+      Shopcart is a production-grade e-commerce platform inspired by Flipkart and Amazon. Rather than building a monolith, it embraces a microservices architecture where each domain - products, cart, orders, users - is an independent service that can be developed, deployed, and scaled individually.
     </p>
     <p>
       The platform covers the complete shopping experience: browsing product catalogs, managing a shopping cart, processing checkout with payment integration, and tracking orders from placement to delivery. Each service communicates through well-defined APIs, making the system robust and maintainable.
@@ -95,7 +95,7 @@ permalink: /work/shopcart/
       Product browsing with search and filtering. A persistent shopping cart that survives sessions. Secure checkout with payment processing. Order tracking from confirmation to delivery. User accounts with order history and saved addresses.
     </p>
     <p>
-      On the operational side: each service can be deployed independently, scaled horizontally based on demand, and monitored individually. A failure in one service doesn't bring down the entire platform &mdash; graceful degradation is built into the architecture.
+      On the operational side: each service can be deployed independently, scaled horizontally based on demand, and monitored individually. A failure in one service doesn't bring down the entire platform - graceful degradation is built into the architecture.
     </p>
   </div>
 

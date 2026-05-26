@@ -31,27 +31,27 @@ permalink: /work/encrypto/
 <article>
 
   <div class="proj-header">
-    <p class="proj-eyebrow">Project &mdash; 2014</p>
+    <p class="proj-eyebrow">Project - 2014</p>
     <h1 class="proj-title">Encrypto</h1>
     <p class="proj-desc">
-      A Python encryption tool that transforms plaintext into ciphertext using a modified Vigenere algorithm &mdash; with a tkinter GUI for easy interaction.
+      A Python encryption tool that transforms plaintext into ciphertext using a modified Vigenere algorithm - with a tkinter GUI for easy interaction.
     </p>
     <div class="project-tags" style="margin-top: 16px; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">Python</span><span class="tag">Cryptography</span><span class="tag">GUI</span></div>
   </div>
 
   <div class="proj-showcase">
     <img src="/img/encrypto/scr1.png" alt="Encrypto GUI showing encryption interface">
-    <p class="proj-showcase-caption">The Encrypto interface &mdash; enter your message, provide a key, and encrypt.</p>
+    <p class="proj-showcase-caption">The Encrypto interface - enter your message, provide a key, and encrypt.</p>
   </div>
 
   <div class="proj-section">
     <p class="proj-section-label">Overview</p>
     <h2>Classical cryptography<br>with a modern interface</h2>
     <p>
-      Encrypto implements a modified version of the Vigenere cipher &mdash; one of history's most famous polyalphabetic substitution ciphers. Rather than a simple character shift like Caesar's cipher, the Vigenere uses a keyword to vary the substitution at each position, making frequency analysis significantly harder.
+      Encrypto implements a modified version of the Vigenere cipher - one of history's most famous polyalphabetic substitution ciphers. Rather than a simple character shift like Caesar's cipher, the Vigenere uses a keyword to vary the substitution at each position, making frequency analysis significantly harder.
     </p>
     <p>
-      The modification extends the classical algorithm to handle a broader character set and adds additional transformation steps. A tkinter GUI wraps the algorithm, providing text fields for input, key entry, and output display &mdash; making encryption and decryption accessible without touching the command line.
+      The modification extends the classical algorithm to handle a broader character set and adds additional transformation steps. A tkinter GUI wraps the algorithm, providing text fields for input, key entry, and output display - making encryption and decryption accessible without touching the command line.
     </p>
   </div>
 
@@ -86,7 +86,7 @@ permalink: /work/encrypto/
     <img src="/img/encrypto/scr1.png" alt="Encrypto encryption view">
     <img src="/img/encrypto/scr2.png" alt="Encrypto decryption view">
   </div>
-  <p style="text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 13px; color: var(--text-tertiary); margin-top: -20px;">Encryption (left) and decryption (right) &mdash; symmetric key operations.</p>
+  <p style="text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 13px; color: var(--text-tertiary); margin-top: -20px;">Encryption (left) and decryption (right) - symmetric key operations.</p>
 
   <div class="proj-section">
     <p class="proj-section-label">Technical</p>
@@ -95,7 +95,7 @@ permalink: /work/encrypto/
       The classical Vigenere cipher works by shifting each plaintext character by the corresponding character in a repeating keyword. If the keyword is "KEY" and the plaintext is "HELLO", H is shifted by K(10), E by E(4), L by Y(24), and so on. This creates a polyalphabetic cipher where the same plaintext letter can map to different ciphertext letters depending on its position.
     </p>
     <p>
-      Encrypto's modification extends this concept beyond the 26-letter alphabet, handles mixed case, and applies additional transformations that make the output more resistant to casual analysis. The symmetric nature means the same key encrypts and decrypts &mdash; enter the ciphertext with the original key to recover the plaintext.
+      Encrypto's modification extends this concept beyond the 26-letter alphabet, handles mixed case, and applies additional transformations that make the output more resistant to casual analysis. The symmetric nature means the same key encrypts and decrypts - enter the ciphertext with the original key to recover the plaintext.
     </p>
   </div>
 
@@ -103,7 +103,7 @@ permalink: /work/encrypto/
     <p class="proj-section-label">Context</p>
     <h2>An early exploration of algorithms</h2>
     <p>
-      Built in 2014, Encrypto represents an early exploration of algorithm implementation and GUI programming. The Vigenere cipher provides a perfect learning exercise &mdash; simple enough to implement cleanly, complex enough to require careful thought about character mapping, key cycling, and edge cases.
+      Built in 2014, Encrypto represents an early exploration of algorithm implementation and GUI programming. The Vigenere cipher provides a perfect learning exercise - simple enough to implement cleanly, complex enough to require careful thought about character mapping, key cycling, and edge cases.
     </p>
   </div>
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Apple 1 Emulator
-description: A faithful emulator of the 1976 Apple 1 — the machine that started it all.
+description: A faithful emulator of the 1976 Apple 1 - the machine that started it all.
 date: 2026-05-01
 tags: [C, Rust, Tauri, 6502, Emulation]
 github: https://github.com/axayjha/apple1
@@ -299,10 +299,10 @@ permalink: /work/apple1/
 <article class="apple1-page">
 
   <div class="apple1-hero">
-    <p class="apple1-hero-eyebrow">Personal Project &mdash; 2026</p>
+    <p class="apple1-hero-eyebrow">Personal Project - 2026</p>
     <h1>Apple 1 Emulator</h1>
     <p class="apple1-hero-sub">
-      A faithful recreation of the 1976 Apple 1 computer &mdash; the machine that started Apple. Cycle-accurate 6502 emulation, the original Woz Monitor, Integer BASIC, and an iconic green phosphor CRT display.
+      A faithful recreation of the 1976 Apple 1 computer - the machine that started Apple. Cycle-accurate 6502 emulation, the original Woz Monitor, Integer BASIC, and an iconic green phosphor CRT display.
     </p>
     <div class="project-tags" style="margin: 24px 0; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">C</span><span class="tag">Rust</span><span class="tag">Tauri</span><span class="tag">6502</span><span class="tag">Emulation</span></div>
     <div class="apple1-hero-links">
@@ -322,7 +322,7 @@ permalink: /work/apple1/
   </div>
 
   <div class="apple1-showcase" style="margin-top: 60px;">
-    <img src="/img/apple1_basic.png" alt="Apple 1 Monitor — Desktop App running Integer BASIC">
+    <img src="/img/apple1_basic.png" alt="Apple 1 Monitor - Desktop App running Integer BASIC">
     <p class="apple1-showcase-caption">The native macOS desktop app with CRT phosphor rendering and bezel styling.</p>
   </div>
 
@@ -330,7 +330,7 @@ permalink: /work/apple1/
     <p class="apple1-section-label">Overview</p>
     <h2>The machine that started a revolution,<br>faithfully rebuilt in code.</h2>
     <p>
-      Only ~200 Apple 1 computers were ever built. This emulator recreates the experience of using one &mdash; from the blinking cursor of the Woz Monitor to the warmth of a green phosphor CRT &mdash; with a native macOS desktop app built on Tauri and a terminal interface for purists.
+      Only ~200 Apple 1 computers were ever built. This emulator recreates the experience of using one - from the blinking cursor of the Woz Monitor to the warmth of a green phosphor CRT - with a native macOS desktop app built on Tauri and a terminal interface for purists.
     </p>
     <p>
       The emulator core is written entirely in C with zero external dependencies. Every one of the 151 official MOS 6502 opcodes is implemented with correct cycle timing. A custom Integer BASIC interpreter provides the same BASIC programming experience users had in 1976.
@@ -371,17 +371,17 @@ permalink: /work/apple1/
   <div class="apple1-gallery">
     <div class="apple1-thumb" onclick="this.classList.toggle('expanded')">
       <img src="/img/apple1_programs.png" alt="Programs dropdown with 11 built-in demos">
-      <p class="apple1-thumb-caption">Programs menu — 11 built-in demos from Wumpus to Star Trek</p>
+      <p class="apple1-thumb-caption">Programs menu - 11 built-in demos from Wumpus to Star Trek</p>
     </div>
     <div class="apple1-thumb" onclick="this.classList.toggle('expanded')">
       <img src="/img/apple1_about.png" alt="About dialog with emulator specifications">
-      <p class="apple1-thumb-caption">About dialog — MOS 6502 @ 1.022 MHz, 32KB RAM</p>
+      <p class="apple1-thumb-caption">About dialog - MOS 6502 @ 1.022 MHz, 32KB RAM</p>
     </div>
   </div>
 
   <div class="apple1-showcase" style="margin-top: 40px;">
     <img src="/img/apple1_dmg.png" alt="macOS DMG installer with drag-to-Applications">
-    <p class="apple1-showcase-caption">macOS DMG installer — drag to Applications and go.</p>
+    <p class="apple1-showcase-caption">macOS DMG installer - drag to Applications and go.</p>
   </div>
 
   <div class="apple1-section">
@@ -418,7 +418,7 @@ permalink: /work/apple1/
 
   <div class="apple1-section">
     <p class="apple1-section-label">Features</p>
-    <h2>Everything you'd expect &mdash;<br>and things you wouldn't.</h2>
+    <h2>Everything you'd expect -<br>and things you wouldn't.</h2>
     <div class="apple1-features">
       <div class="apple1-feature">
         <h3>Cycle-Accurate CPU</h3>
@@ -426,11 +426,11 @@ permalink: /work/apple1/
       </div>
       <div class="apple1-feature">
         <h3>Integer BASIC</h3>
-        <p>Variables, arrays, strings, FOR/NEXT, GOSUB, IF/THEN, PEEK/POKE — the same BASIC from 1976.</p>
+        <p>Variables, arrays, strings, FOR/NEXT, GOSUB, IF/THEN, PEEK/POKE - the same BASIC from 1976.</p>
       </div>
       <div class="apple1-feature">
         <h3>CRT Phosphor Display</h3>
-        <p>Green glow, scanlines, vignette, and character fade — just like the Apple Monitor II.</p>
+        <p>Green glow, scanlines, vignette, and character fade - just like the Apple Monitor II.</p>
       </div>
       <div class="apple1-feature">
         <h3>Native macOS App</h3>
@@ -438,7 +438,7 @@ permalink: /work/apple1/
       </div>
       <div class="apple1-feature">
         <h3>15 Demo Programs</h3>
-        <p>Wumpus, Star Trek, Lunar Lander, Nim, Calendar, Fibonacci, and more — loaded with one click.</p>
+        <p>Wumpus, Star Trek, Lunar Lander, Nim, Calendar, Fibonacci, and more - loaded with one click.</p>
       </div>
       <div class="apple1-feature">
         <h3>Mini-Assembler</h3>
@@ -449,23 +449,23 @@ permalink: /work/apple1/
 
   <div class="apple1-showcase">
     <img src="/img/apple1_terminal.png" alt="Terminal emulator boot screen">
-    <p class="apple1-showcase-caption">The terminal emulator — 32K RAM, MOS 6502 @ 1.022 MHz. Press any key.</p>
+    <p class="apple1-showcase-caption">The terminal emulator - 32K RAM, MOS 6502 @ 1.022 MHz. Press any key.</p>
   </div>
 
   <div class="apple1-section">
     <p class="apple1-section-label">Decisions</p>
     <h2>Key technical choices</h2>
     <p>
-      <strong>BASIC as C interpreter, not 6502 code</strong> &mdash; Rather than disassemble the original 8KB ROM (legal gray area), a compatible BASIC interpreter was written in C that traps when PC hits $E000. Identical user-facing behavior, fully original code.
+      <strong>BASIC as C interpreter, not 6502 code</strong> - Rather than disassemble the original 8KB ROM (legal gray area), a compatible BASIC interpreter was written in C that traps when PC hits $E000. Identical user-facing behavior, fully original code.
     </p>
     <p>
-      <strong>Function pointer dispatch</strong> &mdash; Each opcode has a function pointer in a 256-entry table. No giant switch statement. Benchmarks faster on modern CPUs due to branch prediction patterns.
+      <strong>Function pointer dispatch</strong> - Each opcode has a function pointer in a 256-entry table. No giant switch statement. Benchmarks faster on modern CPUs due to branch prediction patterns.
     </p>
     <p>
-      <strong>PIA display callback</strong> &mdash; The PIA triggers a callback on character write to $D012, cleanly separating emulation core from rendering.
+      <strong>PIA display callback</strong> - The PIA triggers a callback on character write to $D012, cleanly separating emulation core from rendering.
     </p>
     <p>
-      <strong>Cooperative BASIC execution</strong> &mdash; One statement per frame keeps the UI responsive without threading.
+      <strong>Cooperative BASIC execution</strong> - One statement per frame keeps the UI responsive without threading.
     </p>
   </div>
 

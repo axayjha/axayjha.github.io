@@ -32,24 +32,24 @@ permalink: /work/afs/
 <article>
 
   <div class="proj-header">
-    <p class="proj-eyebrow">Project &mdash; 2019</p>
+    <p class="proj-eyebrow">Project - 2019</p>
     <h1 class="proj-title">AFS File System</h1>
     <p class="proj-desc">
-      A Unix file system simulation in C &mdash; directories, files, and disk block allocation on a virtual disk.
+      A Unix file system simulation in C - directories, files, and disk block allocation on a virtual disk.
     </p>
     <div class="project-tags" style="margin-top: 16px; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">Systems</span><span class="tag">C</span><span class="tag">File Systems</span></div>
   </div>
 
   <div class="proj-showcase">
     <img src="/img/afs/scr1.png" alt="AFS file system terminal output">
-    <p class="proj-showcase-caption">AFS in action &mdash; creating directories and files on a simulated disk.</p>
+    <p class="proj-showcase-caption">AFS in action - creating directories and files on a simulated disk.</p>
   </div>
 
   <div class="proj-section">
     <p class="proj-section-label">Overview</p>
     <h2>Understanding file systems<br>by building one from scratch</h2>
     <p>
-      AFS is a trivial file system implementation that emulates the core concepts of Unix file systems. It operates on a simulated disk composed of fixed-size blocks, implementing directory trees, file creation, and block allocation &mdash; the fundamental operations that underpin every modern operating system.
+      AFS is a trivial file system implementation that emulates the core concepts of Unix file systems. It operates on a simulated disk composed of fixed-size blocks, implementing directory trees, file creation, and block allocation - the fundamental operations that underpin every modern operating system.
     </p>
     <p>
       The project strips away the complexity of real kernel-level file systems to expose the essential algorithms: how directories map names to inodes, how inodes track block pointers, and how free space is managed across a block device.
@@ -125,7 +125,7 @@ permalink: /work/afs/
       The simulated disk is divided into fixed-size blocks. A superblock tracks file system metadata. Inodes store file attributes and block pointers. Directories are special files that map names to inode numbers. Free space tracking uses a bitmap or free list to allocate and reclaim blocks.
     </p>
     <p>
-      Operations like <code>mkdir</code>, <code>touch</code>, and <code>ls</code> traverse this structure just like their real Unix counterparts &mdash; resolving paths component by component, reading directory entries, and following inode pointers to data blocks.
+      Operations like <code>mkdir</code>, <code>touch</code>, and <code>ls</code> traverse this structure just like their real Unix counterparts - resolving paths component by component, reading directory entries, and following inode pointers to data blocks.
     </p>
   </div>
 

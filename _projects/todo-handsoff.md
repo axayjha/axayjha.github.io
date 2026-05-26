@@ -31,10 +31,10 @@ permalink: /work/todo-handsoff/
 <article>
 
   <div class="proj-header">
-    <p class="proj-eyebrow">Project &mdash; 2020</p>
+    <p class="proj-eyebrow">Project - 2020</p>
     <h1 class="proj-title">ToDo HandsOff</h1>
     <p class="proj-desc">
-      A task manager that moves with you &mdash; start on your iPhone, pick up exactly where you left off on your Mac.
+      A task manager that moves with you - start on your iPhone, pick up exactly where you left off on your Mac.
     </p>
     <div class="project-tags" style="margin-top: 16px; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">iOS</span><span class="tag">macOS</span><span class="tag">Swift</span><span class="tag">HandsOff</span></div>
   </div>
@@ -43,7 +43,7 @@ permalink: /work/todo-handsoff/
     <p class="proj-section-label">Overview</p>
     <h2>Your tasks follow you<br>across devices</h2>
     <p>
-      ToDo HandsOff is a cross-platform task management app for iOS and macOS that leverages Apple's Handoff technology to create a seamless multi-device experience. Add a task on your iPhone during your commute, then pick it up on your Mac when you sit down at your desk &mdash; no manual syncing, no cloud accounts, just continuity.
+      ToDo HandsOff is a cross-platform task management app for iOS and macOS that leverages Apple's Handoff technology to create a seamless multi-device experience. Add a task on your iPhone during your commute, then pick it up on your Mac when you sit down at your desk - no manual syncing, no cloud accounts, just continuity.
     </p>
     <p>
       Beyond device handoff, the app provides task prioritization, letting you organize your responsibilities by urgency and importance. The interface adapts naturally to each platform while maintaining the same underlying data model and workflow.
@@ -81,10 +81,10 @@ permalink: /work/todo-handsoff/
     <p class="proj-section-label">Technical</p>
     <h2>Built on Apple's continuity stack</h2>
     <p>
-      The app uses NSUserActivity to advertise the current task context to nearby devices. When you switch from iPhone to Mac (or vice versa), the receiving device picks up the activity and restores the exact state &mdash; which task you were viewing, what you were editing, where you were in the app.
+      The app uses NSUserActivity to advertise the current task context to nearby devices. When you switch from iPhone to Mac (or vice versa), the receiving device picks up the activity and restores the exact state - which task you were viewing, what you were editing, where you were in the app.
     </p>
     <p>
-      Both the iOS and macOS targets share a common Swift package for data models and business logic. The UI layer is platform-specific, following each platform's design language &mdash; tab bars and navigation stacks on iOS, sidebar and split views on macOS.
+      Both the iOS and macOS targets share a common Swift package for data models and business logic. The UI layer is platform-specific, following each platform's design language - tab bars and navigation stacks on iOS, sidebar and split views on macOS.
     </p>
   </div>
 
@@ -92,7 +92,7 @@ permalink: /work/todo-handsoff/
     <p class="proj-section-label">Features</p>
     <h2>Simple but complete</h2>
     <p>
-      Create tasks with titles, descriptions, and priority levels. Organize by urgency to focus on what matters most. Mark tasks complete and watch your progress grow. The Handoff feature means your workflow is never interrupted by a device change &mdash; your context travels with you automatically.
+      Create tasks with titles, descriptions, and priority levels. Organize by urgency to focus on what matters most. Mark tasks complete and watch your progress grow. The Handoff feature means your workflow is never interrupted by a device change - your context travels with you automatically.
     </p>
   </div>
 

@@ -31,7 +31,7 @@ permalink: /work/retail-bank/
 <article>
 
   <div class="proj-header">
-    <p class="proj-eyebrow">Project &mdash; 2019</p>
+    <p class="proj-eyebrow">Project - 2019</p>
     <h1 class="proj-title">Retail Bank</h1>
     <p class="proj-desc">
       A single-page banking application with role-based access, real-time interest calculations, and a modern Angular frontend backed by Spring Boot.
@@ -41,14 +41,14 @@ permalink: /work/retail-bank/
 
   <div class="proj-showcase">
     <img src="/img/retailbank/scr1.png" alt="Retail Bank dashboard">
-    <p class="proj-showcase-caption">The banking dashboard &mdash; account overview with real-time balance and interest data.</p>
+    <p class="proj-showcase-caption">The banking dashboard - account overview with real-time balance and interest data.</p>
   </div>
 
   <div class="proj-section">
     <p class="proj-section-label">Overview</p>
     <h2>Banking features in a<br>single-page experience</h2>
     <p>
-      Retail Bank is a web-based banking application that provides core financial operations through a clean, responsive single-page interface. Different user roles &mdash; customers, tellers, and administrators &mdash; see different capabilities, enforced both in the UI and at the API level.
+      Retail Bank is a web-based banking application that provides core financial operations through a clean, responsive single-page interface. Different user roles - customers, tellers, and administrators - see different capabilities, enforced both in the UI and at the API level.
     </p>
     <p>
       Customers can view balances, transfer funds, and track transaction history. Administrators manage accounts, set interest rates, and monitor system activity. Interest calculations update in real-time, reflecting rate changes immediately across all affected accounts.
@@ -94,7 +94,7 @@ permalink: /work/retail-bank/
       The Angular frontend handles routing, form validation, and state management client-side, communicating with the Spring Boot backend through RESTful endpoints. Spring Security provides authentication and role-based authorization, ensuring users can only access operations appropriate to their role.
     </p>
     <p>
-      The MySQL database stores account data, transaction logs, and user credentials. Spring Data JPA handles object-relational mapping, while transaction management ensures that financial operations are atomic &mdash; a transfer either completes fully or rolls back entirely.
+      The MySQL database stores account data, transaction logs, and user credentials. Spring Data JPA handles object-relational mapping, while transaction management ensures that financial operations are atomic - a transfer either completes fully or rolls back entirely.
     </p>
     <p>
       Real-time interest updates are computed server-side whenever rates change, with the results pushed to connected clients. The SPA architecture means these updates appear instantly without page reloads, creating a responsive banking experience.

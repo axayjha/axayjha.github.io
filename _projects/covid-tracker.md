@@ -31,10 +31,10 @@ permalink: /work/covid-tracker/
 <article>
 
   <div class="proj-header">
-    <p class="proj-eyebrow">Project &mdash; 2020</p>
+    <p class="proj-eyebrow">Project - 2020</p>
     <h1 class="proj-title">Covid-19 Tracker</h1>
     <p class="proj-desc">
-      A cross-platform mobile app delivering state-wise Covid-19 statistics for India &mdash; built from scratch in just six hours.
+      A cross-platform mobile app delivering state-wise Covid-19 statistics for India - built from scratch in just six hours.
     </p>
     <div class="project-tags" style="margin-top: 16px; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">Flutter</span><span class="tag">Dart</span><span class="tag">Mobile</span></div>
   </div>
@@ -43,7 +43,7 @@ permalink: /work/covid-tracker/
     <p class="proj-section-label">Overview</p>
     <h2>Real-time pandemic data,<br>built in a single sitting</h2>
     <p>
-      When India's Covid-19 numbers were climbing rapidly in 2020, accessible state-level data was hard to come by in a clean, mobile-friendly format. This app was built in six hours from scratch to fill that gap &mdash; pulling live data from public APIs and presenting it in a clear, scannable interface organized by state.
+      When India's Covid-19 numbers were climbing rapidly in 2020, accessible state-level data was hard to come by in a clean, mobile-friendly format. This app was built in six hours from scratch to fill that gap - pulling live data from public APIs and presenting it in a clear, scannable interface organized by state.
     </p>
     <p>
       The app shows confirmed cases, recoveries, and casualties for each Indian state, with national totals at a glance. Built with Flutter, it runs natively on both Android and iOS from a single codebase, ensuring broad accessibility during a time when people needed information fast.
@@ -92,7 +92,7 @@ permalink: /work/covid-tracker/
     <p class="proj-section-label">Context</p>
     <h2>Built for a moment that mattered</h2>
     <p>
-      This project was a response to a real need during the early months of the pandemic in India. The six-hour constraint wasn't artificial &mdash; it was about getting useful information into people's hands as quickly as possible. Sometimes the best software is the software that ships fast when people need it most.
+      This project was a response to a real need during the early months of the pandemic in India. The six-hour constraint wasn't artificial - it was about getting useful information into people's hands as quickly as possible. Sometimes the best software is the software that ships fast when people need it most.
     </p>
   </div>
 

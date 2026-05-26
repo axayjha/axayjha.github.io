@@ -31,17 +31,17 @@ permalink: /work/icast/
 <article>
 
   <div class="proj-header">
-    <p class="proj-eyebrow">Project &mdash; 2020</p>
+    <p class="proj-eyebrow">Project - 2020</p>
     <h1 class="proj-title">iCast</h1>
     <p class="proj-desc">
-      A native macOS podcast player built for Apple Silicon &mdash; subscribe via RSS, manage your library, and listen with a minimal, focused interface.
+      A native macOS podcast player built for Apple Silicon - subscribe via RSS, manage your library, and listen with a minimal, focused interface.
     </p>
     <div class="project-tags" style="margin-top: 16px; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">macOS</span><span class="tag">Swift</span><span class="tag">Podcasts</span></div>
   </div>
 
   <div class="proj-showcase">
     <img src="/img/icast.png" alt="iCast podcast player on macOS">
-    <p class="proj-showcase-caption">iCast running on macOS &mdash; a clean, native podcast experience.</p>
+    <p class="proj-showcase-caption">iCast running on macOS - a clean, native podcast experience.</p>
   </div>
 
   <div class="proj-section">
@@ -51,7 +51,7 @@ permalink: /work/icast/
       iCast is a lightweight podcast player designed specifically for macOS. In a world of bloated, cross-platform Electron apps, iCast takes a different approach: a native Swift application that feels at home on your Mac and runs natively on Apple Silicon.
     </p>
     <p>
-      Add podcasts via their RSS feed URL, browse episodes, and play them instantly. Your subscriptions persist between sessions, and you can remove shows you no longer follow. The first alpha release focuses on doing the basics well &mdash; subscribe, browse, play.
+      Add podcasts via their RSS feed URL, browse episodes, and play them instantly. Your subscriptions persist between sessions, and you can remove shows you no longer follow. The first alpha release focuses on doing the basics well - subscribe, browse, play.
     </p>
   </div>
 
@@ -89,7 +89,7 @@ permalink: /work/icast/
       Built with Swift and AppKit, iCast parses RSS feeds to extract episode metadata, handles audio playback through AVFoundation, and persists subscription data locally. The app is compiled as a Universal Binary, running natively on both Intel and Apple Silicon Macs without Rosetta translation.
     </p>
     <p>
-      The interface follows macOS design conventions &mdash; sidebar navigation, proper window management, and system-native controls. No web views, no JavaScript runtime, just compiled Swift code talking directly to macOS frameworks.
+      The interface follows macOS design conventions - sidebar navigation, proper window management, and system-native controls. No web views, no JavaScript runtime, just compiled Swift code talking directly to macOS frameworks.
     </p>
   </div>
 

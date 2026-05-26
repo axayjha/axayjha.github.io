@@ -1,7 +1,7 @@
 ---
 layout: default
 title: VidyutSathi
-description: Platform for reporting power outages — built at Smart India Hackathon 2019.
+description: Platform for reporting power outages - built at Smart India Hackathon 2019.
 date: 2019-04-04
 tags: [Android, USSD, Hackathon]
 permalink: /work/vidyutsathi/
@@ -31,17 +31,17 @@ permalink: /work/vidyutsathi/
 <article>
 
   <div class="proj-header">
-    <p class="proj-eyebrow">Project &mdash; 2019</p>
+    <p class="proj-eyebrow">Project - 2019</p>
     <h1 class="proj-title">VidyutSathi</h1>
     <p class="proj-desc">
-      A dual-channel platform for reporting power outages &mdash; Android app for smartphones, USSD codes for feature phones. Built at Smart India Hackathon 2019.
+      A dual-channel platform for reporting power outages - Android app for smartphones, USSD codes for feature phones. Built at Smart India Hackathon 2019.
     </p>
     <div class="project-tags" style="margin-top: 16px; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">Android</span><span class="tag">USSD</span><span class="tag">Hackathon</span></div>
   </div>
 
   <div class="proj-showcase">
     <img src="/img/vidyutsathi/scr1.png" alt="VidyutSathi Android app main screen">
-    <p class="proj-showcase-caption">The VidyutSathi Android app &mdash; report outages with location data in seconds.</p>
+    <p class="proj-showcase-caption">The VidyutSathi Android app - report outages with location data in seconds.</p>
   </div>
 
   <div class="proj-section">
@@ -51,7 +51,7 @@ permalink: /work/vidyutsathi/
       Power outages in India often go unreported because consumers lack an easy way to notify their electricity corporation. VidyutSathi solves this with a dual-channel approach: an Android application for smartphone users and a USSD code program for feature phone users in rural areas.
     </p>
     <p>
-      When a consumer reports an outage, the data &mdash; including location, timestamp, and area details &mdash; is stored in a centralized database. Electricity corporations and the Ministry of Power can then access this data through an analytical dashboard, identifying patterns, prioritizing repairs, and tracking resolution times.
+      When a consumer reports an outage, the data - including location, timestamp, and area details - is stored in a centralized database. Electricity corporations and the Ministry of Power can then access this data through an analytical dashboard, identifying patterns, prioritizing repairs, and tracking resolution times.
     </p>
   </div>
 
@@ -91,10 +91,10 @@ permalink: /work/vidyutsathi/
     <p class="proj-section-label">Technical</p>
     <h2>Two interfaces, one data pipeline</h2>
     <p>
-      The Android app uses GPS to automatically capture the user's location when reporting an outage, reducing friction to a single tap. For feature phone users, a USSD menu-driven interface (like *123#) guides them through reporting with just their keypad &mdash; no internet connection required.
+      The Android app uses GPS to automatically capture the user's location when reporting an outage, reducing friction to a single tap. For feature phone users, a USSD menu-driven interface (like *123#) guides them through reporting with just their keypad - no internet connection required.
     </p>
     <p>
-      Both channels feed into the same centralized data store. The analytics dashboard provides electricity corporations with real-time heatmaps of outage clusters, historical trend analysis, and response time metrics &mdash; turning crowd-sourced reports into actionable intelligence for grid maintenance.
+      Both channels feed into the same centralized data store. The analytics dashboard provides electricity corporations with real-time heatmaps of outage clusters, historical trend analysis, and response time metrics - turning crowd-sourced reports into actionable intelligence for grid maintenance.
     </p>
   </div>
 
@@ -102,7 +102,7 @@ permalink: /work/vidyutsathi/
     <p class="proj-section-label">Context</p>
     <h2>Built at India's largest hackathon</h2>
     <p>
-      Smart India Hackathon 2019 is a nationwide competition where student teams solve real problems posed by government ministries and industry. VidyutSathi was built in response to a challenge from the power sector &mdash; designing the system, building both interfaces, and presenting a working demo within the hackathon timeline.
+      Smart India Hackathon 2019 is a nationwide competition where student teams solve real problems posed by government ministries and industry. VidyutSathi was built in response to a challenge from the power sector - designing the system, building both interfaces, and presenting a working demo within the hackathon timeline.
     </p>
   </div>
 

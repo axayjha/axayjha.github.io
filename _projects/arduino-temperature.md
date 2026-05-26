@@ -32,24 +32,24 @@ permalink: /work/temperature-display/
 <article>
 
   <div class="proj-header">
-    <p class="proj-eyebrow">Project &mdash; 2018</p>
+    <p class="proj-eyebrow">Project - 2018</p>
     <h1 class="proj-title">Temperature Display</h1>
     <p class="proj-desc">
-      A hardware project that reads ambient temperature and humidity from a DHT11 sensor and displays the data on a 16x2 LCD &mdash; powered by Arduino.
+      A hardware project that reads ambient temperature and humidity from a DHT11 sensor and displays the data on a 16x2 LCD - powered by Arduino.
     </p>
     <div class="project-tags" style="margin-top: 16px; justify-content: center; display: flex; flex-wrap: wrap; gap: 6px;"><span class="tag">Arduino</span><span class="tag">IoT</span><span class="tag">Hardware</span></div>
   </div>
 
   <div class="proj-showcase">
     <img src="/img/tempondis/scr1.jpeg" alt="Arduino temperature display with LCD showing readings">
-    <p class="proj-showcase-caption">The assembled circuit &mdash; DHT11 sensor feeding live readings to a 16x2 character LCD.</p>
+    <p class="proj-showcase-caption">The assembled circuit - DHT11 sensor feeding live readings to a 16x2 character LCD.</p>
   </div>
 
   <div class="proj-section">
     <p class="proj-section-label">Overview</p>
     <h2>Atoms meet bits</h2>
     <p>
-      This project bridges the physical and digital worlds. A DHT11 temperature and humidity sensor continuously samples the environment, sending digital readings to an Arduino microcontroller. The Arduino processes this data and renders it on a 16x2 character LCD in real-time &mdash; a self-contained weather station on a breadboard.
+      This project bridges the physical and digital worlds. A DHT11 temperature and humidity sensor continuously samples the environment, sending digital readings to an Arduino microcontroller. The Arduino processes this data and renders it on a 16x2 character LCD in real-time - a self-contained weather station on a breadboard.
     </p>
     <p>
       The 16x2 LCD provides a clear, always-on display showing both temperature (in Celsius) and relative humidity percentage. The system updates continuously, reflecting environmental changes as they happen.
@@ -104,7 +104,7 @@ permalink: /work/temperature-display/
     <p class="proj-section-label">Technical</p>
     <h2>Reading the physical world</h2>
     <p>
-      The DHT11 communicates via a single-wire digital protocol. The Arduino sends a start signal, then reads 40 bits of data: 16 bits for humidity, 16 bits for temperature, and 8 bits for a checksum. The timing of high/low signals encodes binary ones and zeros &mdash; a protocol that requires precise microsecond-level timing in the firmware.
+      The DHT11 communicates via a single-wire digital protocol. The Arduino sends a start signal, then reads 40 bits of data: 16 bits for humidity, 16 bits for temperature, and 8 bits for a checksum. The timing of high/low signals encodes binary ones and zeros - a protocol that requires precise microsecond-level timing in the firmware.
     </p>
     <p>
       The LCD is driven via the LiquidCrystal library, using 4-bit parallel mode to minimize pin usage. Custom formatting ensures the readings are clearly labeled and easy to read at a glance from across a room.
