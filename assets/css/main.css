@@ -34,6 +34,25 @@ body {
   font-size: 15px;
   line-height: 1.7;
   min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(ellipse at 0% 0%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.02) 15%, rgba(255, 255, 255, 0.008) 35%, transparent 65%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.15) 75%, rgba(0, 0, 0, 0.4) 100%);
+  pointer-events: none;
+  z-index: -1;
 }
 
 a {
@@ -59,10 +78,11 @@ img {
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(10, 10, 10, 0.8);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
+  background: rgba(10, 10, 10, 0.25);
+  backdrop-filter: blur(32px) saturate(200%) brightness(1.1);
+  -webkit-backdrop-filter: blur(32px) saturate(200%) brightness(1.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 1px 16px rgba(0, 0, 0, 0.15);
 }
 
 .nav-inner {
@@ -1282,8 +1302,9 @@ body.loaded {
 }
 
 .nav.scrolled {
-  background: rgba(10, 10, 10, 0.95);
-  border-bottom-color: var(--border-hover);
+  background: rgba(10, 10, 10, 0.35);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.2);
 }
 
 /* Enhanced hover states */
