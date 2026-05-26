@@ -137,8 +137,131 @@ permalink: /hello/
   opacity: 0.6;
 }
 
+.exp-timeline {
+  position: relative;
+  padding-left: 32px;
+  margin-top: 28px;
+}
+
+.exp-timeline::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  bottom: 6px;
+  width: 1px;
+  background: linear-gradient(to bottom, var(--text-tertiary), var(--border));
+}
+
+.exp-item {
+  position: relative;
+  padding-bottom: 36px;
+}
+
+.exp-item:last-child {
+  padding-bottom: 0;
+}
+
+.exp-dot {
+  position: absolute;
+  left: -32px;
+  top: 6px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--border);
+  transition: border-color 0.2s ease;
+}
+
+.exp-item:first-child .exp-dot {
+  border-color: var(--text);
+  background: var(--text);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
+}
+
+.exp-content {
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-secondary);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.exp-content:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-tertiary);
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.exp-role {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text);
+  margin: 0;
+  letter-spacing: -0.2px;
+}
+
+.exp-company {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin: 4px 0 0 0;
+  letter-spacing: 0.2px;
+}
+
+.exp-date {
+  font-family: Menlo, 'Lucida Console', Consolas, monospace;
+  font-size: 11px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding: 3px 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.exp-location {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-tertiary);
+  margin: 8px 0 0 0;
+}
+
+.exp-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 12px 0 0 0;
+}
+
+.exp-stack span {
+  font-family: Menlo, 'Lucida Console', Consolas, monospace;
+  font-size: 10px;
+  color: var(--text-tertiary);
+  padding: 2px 7px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  line-height: 1.4;
+}
+
 @media (max-width: 640px) {
   .hello-grid { grid-template-columns: 1fr; gap: 32px; }
+  .exp-header { flex-direction: column; gap: 6px; }
+  .exp-content { padding: 14px 16px; }
 }
 </style>
 
@@ -157,6 +280,88 @@ permalink: /hello/
   <p class="hello-body">
     Outside of work, I run, cycle, photograph, travel, sketch, and write. I've completed the Berlin Marathon (2025), run numerous half marathons, and done endurance cycling. I've trekked to Everest Base Camp and Machu Picchu, and travelled across 15 countries. I photograph landscapes and stars, sketch portraits in graphite, and produce travel films.
   </p>
+</div>
+
+<div class="hello-section">
+  <p class="hello-section-label">Experience</p>
+  <h2>Where I've worked</h2>
+  <div class="exp-timeline">
+    <div class="exp-item">
+      <div class="exp-dot"></div>
+      <div class="exp-content">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-role">Software Dev Engineer 2</h3>
+            <p class="exp-company">Amazon - FireTV Experience</p>
+          </div>
+          <span class="exp-date">Aug 2025 - Present</span>
+        </div>
+        <p class="exp-location">Berlin, Germany</p>
+        <div class="exp-stack"><span>Android</span><span>Rust</span><span>TIF</span><span>AgentSkills</span><span>React</span><span>Java</span><span>AWS</span></div>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-dot"></div>
+      <div class="exp-content">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-role">Software Dev Engineer 2</h3>
+            <p class="exp-company">Amazon - Alexa Data Services (AGI)</p>
+          </div>
+          <span class="exp-date">Dec 2023 - Jul 2025</span>
+        </div>
+        <p class="exp-location">Hyderabad, India</p>
+        <div class="exp-stack"><span>React</span><span>Java</span><span>Python</span><span>SpringBoot</span><span>Guice</span><span>Dagger</span><span>AWS</span></div>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-dot"></div>
+      <div class="exp-content">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-role">Software Dev Engineer 1</h3>
+            <p class="exp-company">Amazon - Alexa Data Services (AGI)</p>
+          </div>
+          <span class="exp-date">Jul 2021 - Nov 2023</span>
+        </div>
+        <p class="exp-location">Hyderabad, India</p>
+        <div class="exp-stack"><span>React</span><span>Java</span><span>Python</span><span>SpringBoot</span><span>Guice</span><span>Dagger</span><span>AWS</span></div>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-dot"></div>
+      <div class="exp-content">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-role">Systems Engineer - Specialist</h3>
+            <p class="exp-company">Infosys Ltd</p>
+          </div>
+          <span class="exp-date">Jul 2019 - Jul 2021</span>
+        </div>
+        <p class="exp-location">Pune, India</p>
+        <div class="exp-stack"><span>AngularJS</span><span>JAXRS</span><span>EJB</span><span>SpringBoot</span><span>Angular</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hello-section">
+  <p class="hello-section-label">Education</p>
+  <div class="exp-timeline">
+    <div class="exp-item" style="padding-bottom: 0;">
+      <div class="exp-dot"></div>
+      <div class="exp-content">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-role">B.Tech in Computer Science and Engineering</h3>
+            <p class="exp-company">St. Thomas' College of Engineering and Technology, Kolkata</p>
+          </div>
+          <span class="exp-date">2015 - 2019</span>
+        </div>
+        <p class="exp-location">CGPA: 8.93</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="hello-grid">
